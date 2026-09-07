@@ -1,0 +1,79 @@
+stats:
+  title: 'Conoce el <span class="stats-highlight">monitoreo participativo</span> de peces amazónicos.'
+  lastUpdated: "30/07/2026"
+  cta:
+    - text: Más información
+      href: /resources/protocols
+  features:
+    - title: "164.000"
+      description: Registros validados de peces
+      background: http://localhost:4000/assets/images/icons/stats_registries_icon.svg
+      href: /occurrence/search
+      blankTarget: false
+    - title: '<span class="stat-title-compound">34 | +730</span>'
+      description: '<span class="stat-desc-compound">Organizaciones | Ciudadanos científicos publicadores</span>'
+      background: http://localhost:4000/assets/images/icons/stats_publishers_icon.svg
+      href: /occurrence/search?hasCoordinate=true
+      blankTarget: false
+    - title: "+120"
+      description: Especies registradas
+      background: http://localhost:4000/assets/images/icons/stats_species_icon.svg
+      href: /dataset/search
+      blankTarget: false
+    - title: 153
+      description: Subcuentas con registros
+      background: http://localhost:4000/assets/images/icons/stats_basins_icon.svg
+      href: /dataset/search
+      blankTarget: false
+    - title: 77%
+      description: Coberturas de subcuencas
+      background: http://localhost:4000/assets/images/icons/stats_basinlevel_icon.svg
+      href: /collection/search
+      blankTarget: false
+
+welcome:
+  reverse: false
+  title: Descubre la vida de los ríos
+  description: |
+      Conoce algunas de las especies que habitan en los ríos amazónicos.
+  background: https://aguasamazonicas.org/wp-content/uploads/2026/03/portada-web.jpg
+  imageLicense: |
+    CC BY 4.0 - Aguas Amazónicas. 2026. Via Observatorio Aguas Amazónicas.
+  cta: 
+    - text: Más información
+      href: /resources/protocols
+
+explore:
+  klass: features--explore
+  title: Explora los datos
+  description: |
+    Accede a visualizaciones y herramientas que permiten comprender la distribución territorial de los registros y el crecimiento de la información disponible en el Observatorio.
+  features:
+    - title: Guía de uso # required
+      description: |      # required
+        Aprende cómo utilizar las herramientas de búsqueda, filtros y visualización disponibles en el Observatorio.
+      href: /resources/usage-guide
+      cta:  
+      - text: Más información
+        href: /resources/usage-guide
+        isPrimary: true      
+      # img required
+      background: http://localhost:4000/assets/images/icons/explora_guia_de_uso.png
+    - title: Territorio amazónico # required
+      description: |      # required
+        Explora los registros desde diferentes escalas territoriales de la cuenca amazónica.
+      href: /resources/usage-guide
+      cta:
+      - text: Más información
+        href: https://eml.ecoinformatics.org/
+        isPrimary: true  
+      background: http://localhost:4000/assets/images/icons/explora_territorio_amazonico.png
+    - title: El observatorio en cifras # required
+      description: |      # required
+        Consulta indicadores del Sistema Ictio  sobre monitoreo, participación y construcción colaborativa de conocimiento.
+      href: /resources/usage-guide
+      cta:
+      - text: Más información
+        href: /resources/usage-guide
+        isPrimary: true  
+      background: http://localhost:4000/assets/images/icons/explora_obs_cifras.png

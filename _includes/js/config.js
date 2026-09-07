@@ -44,11 +44,11 @@ var siteConfig = {
     "LITERATURE"
   ],
   "dataHeader": {
-    "enableApiPopup": false,
-    "enableInfoPopup": false
+    "enableApiPopup": true,
+    "enableInfoPopup": true
   },
   "theme": {
-    "primary": themeStyle.colors.primary,
+    "primary": "#001972",
     "borderRadius": 3,
     "stickyOffset": "0px"
   },
@@ -66,27 +66,38 @@ var siteConfig = {
   },
   "languages": [
     {
-      "code": "en",
-      "localeCode": "en",
-      "label": "English",
+      "code": "es",
+      "localeCode": "es",
+      "label": "Español",
       "default": true,
       "textDirection": "ltr",
-      "iso3LetterCode": "eng",
-      "cmsLocale": "en-GB",
+      "iso3LetterCode": "esp",
+      "cmsLocale": "es-PE",
       "gbifOrgLocalePrefix": "",
-      "mapTileLocale": "en"
+      "mapTileLocale": "es"
     },
-    {
-      "code": "da",
-      "localeCode": "da",
-      "label": "Dansk",
-      "default": false,
-      "textDirection": "ltr",
-      "iso3LetterCode": "dan",
-      "cmsLocale": "en-GB",
-      "gbifOrgLocalePrefix": "",
-      "mapTileLocale": "en"
-    }
+      {
+        "code": "en",
+        "localeCode": "en",
+        "label": "English",
+        "default": false,
+        "textDirection": "ltr",
+        "iso3LetterCode": "eng",
+        "cmsLocale": "en-US",
+        "gbifOrgLocalePrefix": "",
+        "mapTileLocale": "en"
+      },
+      {
+        "code": "pt",
+        "localeCode": "pt",
+        "label": "Português",
+        "default": false,
+        "textDirection": "ltr",
+        "iso3LetterCode": "por",
+        "cmsLocale": "pt-BR",
+        "gbifOrgLocalePrefix": "",
+        "mapTileLocale": "pt"
+      }
   ],
   "messages": {},
   "occurrenceSearch": {
@@ -136,8 +147,8 @@ var siteConfig = {
       "download"
     ],
     "mapSettings": {
-      "lat": 52,
-      "lng": 12,
+      "lat": -0.2932720882165326,
+      "lng": -67.9335677449268,
       "zoom": 4.911544076366507
     }
   },

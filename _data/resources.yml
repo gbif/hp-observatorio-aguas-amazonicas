@@ -1,0 +1,84 @@
+standards:
+  title: Estándares usados en el observatorio
+  features:
+    - title: Darwin Core (DwC) # required
+      description: |      # required
+        Es el estándar utilizado para estructurar y publicar registros biológicos. Permite documentar información relacionada con especies, observaciones, eventos de muestreo, ubicación geográfica, fechas, personas e instituciones asociadas a los registros, facilitando el intercambio de datos sobre biodiversidad entre diferentes plataformas y organizaciones.
+      href: https://dwc.tdwg.org/es/
+      cta:
+      - text: Más información
+        href: https://dwc.tdwg.org/es/
+        isPrimary: true      
+      # img required
+      background: http://localhost:4000/assets/images/icons/estandar_dwc.png
+    - title: Ecological Metadata Language (EML) # required
+      description: |      # required
+        Es el estándar utilizado para documentar los metadatos asociados a los conjuntos de datos. Proporciona información sobre el origen de los datos, métodos de recopilación, cobertura geográfica y temporal, responsables, licencias y otros elementos necesarios para comprender el contexto en que la información fue generada.
+      href: https://eml.ecoinformatics.org/
+      cta:
+      - text: Más información
+        href: https://eml.ecoinformatics.org/
+        isPrimary: true  
+      background: http://localhost:4000/assets/images/icons/estandar_eml.png
+    - title: Plinian Core (PliC) # required
+      description: |      # required
+        Es el estándar utilizado para estructurar fichas de especies y otros contenidos taxonómicos. Permite organizar información descriptiva relacionada con taxonomía, distribución, ecología, conservación, usos y otros atributos asociados a especies o grupos biológicos.
+      href: https://www.tdwg.org/community/species/plinian-core/
+      cta:
+      - text: Más información
+        href: https://www.tdwg.org/community/species/plinian-core/
+        isPrimary: true  
+      background: http://localhost:4000/assets/images/icons/estandar_plic.png
+
+standards-after:
+  markdownContent: |
+    ## ¿Por qué son importantes los estándares?
+
+    Los estándares permiten que la información generada por múltiples actores pueda integrarse en una infraestructura común, facilitando su consulta y reutilización. Gracias a este lenguaje compartido, el Observatorio puede conectar registros biológicos, fichas taxonómicas, conjuntos de datos, recursos multimedia y otros contenidos provenientes de diferentes fuentes, fortaleciendo la gestión del conocimiento sobre la cuenca amazónica y promoviendo el acceso abierto a la información.
+
+protocols:
+  description: |
+    Cada protocolo responde a un contexto específico de observación y registro, permitiendo complementar la información obtenida desde diferentes puntos de la cadena pesquera:
+  features:
+    - title: Durante la faena - P76 # required
+      description: |      # required
+        Registra peces observados o capturados directamente durante la actividad de pesca. Este protocolo permite documentar información asociada al momento de captura, incluyendo datos sobre la ubicación, fecha y características del evento cuando se encuentran disponibles.     
+      # img required
+      background: http://localhost:4000/assets/images/icons/protocolo_p76.png
+    - title: Después de la faena - P77 # required
+      description: |      # required
+        Permite registrar información reportada después de finalizar la actividad de pesca. Los datos son aportados por personas pescadoras, monitoras o equipos locales y complementan la información obtenida durante las jornadas de monitoreo.
+      background: http://localhost:4000/assets/images/icons/protocolo_p77.png
+    - title: Mercado - P78 # required
+      description: |      # required
+        Corresponde a registros realizados en mercados de peces, donde se documentan especies observadas o comercializadas. Este tipo de información permite conocer la diversidad de especies presentes en los circuitos de comercialización, aunque no siempre es posible determinar con precisión el lugar de captura.
+      background: http://localhost:4000/assets/images/icons/protocolo_p78.png
+    - title: Puerto - P79 # required
+      description: |      # required
+        Incluye registros obtenidos durante actividades de monitoreo en puertos y desembarques pesqueros. Dependiendo de la información disponible, estos registros pueden aportar datos sobre el origen de las capturas, las especies desembarcadas y otros aspectos relacionados con la actividad pesquera.
+      background: http://localhost:4000/assets/images/icons/protocolo_p79.png
+
+protocols-after:
+  markdownContent: |
+    La integración de estos protocolos permite construir una visión más amplia de la diversidad de peces presentes en la cuenca amazónica y fortalecer los procesos de monitoreo participativo impulsados por organizaciones, comunidades y equipos técnicos vinculados a la conservación de los ecosistemas acuáticos.
+
+data-quality:
+  markdownContent: |
+    <img class="center" src="http://localhost:4000/assets/images/icons/calidad_datos.png" alt="Calidad de datos">  
+    A continuación, encontrarás los documentos y orientaciones relacionadas con los procesos de revisión y fortalecimiento de calidad de datos implementados dentro del Observatorio.
+    <br>
+    [Mas información](/about){:.button}
+
+publishing:
+  markdownContent: |
+    <img class="center" src="http://localhost:4000/assets/images/icons/icono_ipt.png" alt="Guía de publicación">  
+    En la siguiente guía encontrarás el paso a paso y las orientaciones técnicas necesarias para el proceso de publicación de datos dentro del Observatorio.
+    <br>
+    [Mas información](/about){:.button}
+
+api:
+  markdownContent: |
+    <img class="center" src="http://localhost:4000/assets/images/icons/icono_api.png" alt="Api para desarrolladores">  
+    A continuación se presenta la documentación técnica donde encontraran endpoints, ejemplos de consulta y lineamientos necesarios para el uso e integración de la API dentro de desarrollos y proyectos asociados al ecosistema de datos del Observatorio.
+    <br>
+    [Mas información](/about){:.button}

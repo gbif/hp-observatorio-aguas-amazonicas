@@ -1,8 +1,8 @@
 ---
 lang-ref: archive
 layout: archive
-title: News
-description: News and events
+title: Noticias
+description: Noticias y eventos
 permalink: /news/
 ---
 {% comment %}

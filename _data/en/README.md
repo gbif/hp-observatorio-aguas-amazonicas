@@ -1,0 +1,1 @@
+Include english translations for footer, home compositions and navigation files

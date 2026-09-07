@@ -1,0 +1,20 @@
+recognition:
+  markdownContent: |
+    <img class="center" src="https://aguasamazonicas.org/wp-content/uploads/2026/03/portada-web.jpg" alt="Guía de citación">
+    <br>
+    [Mas información](/about){:.button}
+
+citation:
+  markdownContent: |
+    <img class="center" src="https://aguasamazonicas.org/wp-content/uploads/2026/03/portada-web.jpg" alt="Términos de uso y privacidad">
+    A continuación, se adjunta la guía de citación correspondiente para la consulta y uso de contenidos publicados en el Observatorio.
+    <br>
+    [Mas información](/about){:.button}
+
+terms:
+  markdownContent: |
+    <img class="center" src="https://aguasamazonicas.org/wp-content/uploads/2026/03/portada-web.jpg" alt="Términos de uso y privacidad">
+    A continuación, se adjunta el documento correspondiente de términos de uso y privacidad del Observatorio.
+    <br>
+    [Mas información](/about){:.button}
+

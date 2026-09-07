@@ -2,29 +2,47 @@
 # You should create one of these files for each language you support. E.g. /_data/es/navigation.yml for the spanish version of the menu
 # Links listed below will be included in your site's navbar (navigation at the top)
 
-- text: Data
-  menu: 
-  - text: Occurrences
-    href: /occurrence/search
-  - text: Datasets
-    href: /dataset/search
-  - text: Collections
-    href: /collection/search
-  - text: Literature
-    href: /literature/search
-- text: Links
+- text: Consultar
   menu: # Dropdown menu (one level deep only)
-  - text: Base theme demo
-    href: https://hp-base-theme.gbif-staging.org/
-  - text: Other sites using the theme
-    href: https://github.com/gbif/?q=hp-&type=all&language=&sort=
-  - text: "---" # Divider to separate blocks of menu items (at least 3 "-")
-  - text: "Docs" # Title for block of menu items
-  - text: Jekyll documentation
-    href: https://jekyllrb.com/docs/pages/
-  - text: Markdown tutorial
-    href: https://guides.github.com/features/mastering-markdown/
-  - text: YAML tutorial
-    href: https://dev.to/paulasantamaria/introduction-to-yaml-125f
-- text: News
-  href: /news/
+  - text: Registros
+    href: /occurrence/search
+  - text: Fichas de taxones
+    href: /occurrence/search
+  - text: Mapa cuenca
+    href: /occurrence/search
+  - text: Panel dinámico
+    href: /occurrence/search  
+  - text: Conjuntos de datos
+    href: /occurrence/search  
+- text: Recursos
+  menu: # Dropdown menu (one level deep only)
+  - text: Guía de uso
+    href: /resources/use-guide
+  - text: Guía de publicación
+    href: /resources/publishing-guide
+  - text: Informes ICTIO
+    href: /resources/ict-reports
+  - text: Protocolos
+    href: /resources/protocols
+  - text: Estándares
+    href: /resources/standards
+  - text: Calidad de datos
+    href: /resources/data-quality
+  - text: API para desarrolladores
+    href: /resources/api-access
+- text: Acerca de
+  menu: # Dropdown menu (one level deep only)
+  - text: El Observatorio
+    href: /about/the-observatory
+  - text: Gobernanza
+    href: /about/governance
+  - text: Citación
+    href: /about/citation-guide
+  - text: Uso de los datos
+    href: /about/use-guidelines
+  - text: Privacidad
+    href: /about/privacy-policy
+  - text: Agradecimiento
+    href: /about/acknowledgements
+  - text: Ayuda
+    href: /about/terms-of-use-and-privacy
