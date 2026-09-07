@@ -18,9 +18,9 @@ El Observatorio es la infraestructura de datos de la Alianza Aguas Amazónicas. 
 
 A través del Observatorio se integran herramientas de visualización, mapas y registros que apoyan la conservación y gestión sostenible de la cuenca amazónica basados en datos.
 
-<img class="center" src="http://localhost:4000/assets/images/logos/logo_obs_alianza_og.svg" alt="El observatorio">
+<img class="center" src="/assets/images/logos/logo_obs_alianza_og.svg" alt="El observatorio">
 
 ## Los socios
 El Observatorio se construye de manera colaborativa junto a organizaciones, instituciones y socios de la Alianza que aportan datos, investigaciones y conocimiento sobre los ríos y ecosistemas amazónicos. Esta red de colaboración permite consolidar información diversa y actualizada para fortalecer el análisis, la toma de decisiones y las acciones de conservación en la Amazonía.
 
-<img class="center" src="http://localhost:4000/assets/images/logos/banner-socios-Alianza-AA-2025-es.png" alt="Socios">
+<img class="center" src="/assets/images/logos/banner-socios-Alianza-AA-2025-es.png" alt="Socios">

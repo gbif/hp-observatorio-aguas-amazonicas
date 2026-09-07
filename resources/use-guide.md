@@ -22,13 +22,13 @@ El Observatorio permite explorar información sobre biodiversidad, ecosistemas a
 
 El portal cuenta con un buscador que permite consultar registros e información disponible dentro del Observatorio. Las búsquedas pueden realizarse utilizando distintos filtros para facilitar la exploración de contenidos relacionados con biodiversidad, territorios y organizaciones participantes.
 
-<img class="center" src="http://localhost:4000/assets/images/resources/guia_banner_esp.png" alt="Buscador de información">
+<img class="center" src="/assets/images/resources/guia_banner_esp.png" alt="Buscador de información">
 
 ## Explorar páneles de datos "Dashboards"
 
 El Observatorio permite explorar la información disponible a través de distintas formas de visualización, facilitando el acceso y comprensión de los registros según los intereses y necesidades de cada usuario.
 
-<img class="center" src="http://localhost:4000/assets/images/resources/guia_visualizaciones_esp.png" alt="Explorar páneles de datos">
+<img class="center" src="/assets/images/resources/guia_visualizaciones_esp.png" alt="Explorar páneles de datos">
 
 ## Consultas y filtros dinámicos
 
@@ -37,7 +37,7 @@ Los paneles de datos permiten explorar la información mediante filtros interact
 Por ejemplo, en el panel de monitoreo de peces amazónicos, los usuarios pueden seleccionar una especie de interés y visualizar su distribución geográfica, los cuerpos de agua donde ha sido registrada, las instituciones participantes y demás información asociada.
 Al seleccionar una especie, todas las visualizaciones se actualizan automáticamente para mostrar únicamente los registros relacionados con ella. Para consultar una nueva especie, basta con cambiar la selección o regresar a la vista general del panel.
 
-<img class="center" src="http://localhost:4000/assets/images/resources/guia_visualizaciones_esp.png" alt="Consultas y filtros dinámicos">
+<img class="center" src="/assets/images/resources/guia_visualizaciones_esp.png" alt="Consultas y filtros dinámicos">
 
 ## Descargar información
 

@@ -22,4 +22,4 @@ El modelo de articulación se organiza en cuatro componentes complementarios. La
 
 Este modelo permite incorporar información proveniente de diferentes iniciativas, como el programa de ciencia ciudadana y otras fuentes aliadas, bajo principios comunes de calidad, interoperabilidad, trazabilidad y reconocimiento de quienes generan los datos. De esta manera, el Observatorio evoluciona como un espacio abierto y flexible que facilita el acceso a información confiable para apoyar la conservación, el manejo sostenible y la gobernanza de los ecosistemas acuáticos amazónicos.
 
-<img class="center" src="http://localhost:4000/assets/images/modelo_articulacion.png" alt="Modelo de articulación">
+<img class="center" src="/assets/images/modelo_articulacion.png" alt="Modelo de articulación">
