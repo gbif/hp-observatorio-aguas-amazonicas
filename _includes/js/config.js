@@ -68,7 +68,7 @@ var siteConfig = {
     {
       "code": "es",
       "localeCode": "es",
-      "label": "Español",
+      "label": "EspaÃ±ol",
       "default": true,
       "textDirection": "ltr",
       "iso3LetterCode": "esp",
@@ -90,7 +90,7 @@ var siteConfig = {
       {
         "code": "pt",
         "localeCode": "pt",
-        "label": "Português",
+        "label": "PortuguÃªs",
         "default": false,
         "textDirection": "ltr",
         "iso3LetterCode": "por",

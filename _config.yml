@@ -19,10 +19,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Observatorio Aguas Amazónicas # the title of your site should go here
+title: Observatorio Aguas AmazÃ³nicas # the title of your site should go here
 email: info@aguasamazonicas.org
 description: >- # this means to ignore newlines (until baseurl:)
-  Datos para entender la vida de los ríos amazónicos.
+  Datos para entender la vida de los rÃ­os amazÃ³nicos.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://observatorio-aguas-amazonicas.hp.gbif.org/" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -52,7 +52,7 @@ tweets_on_home: false                      # Show Twitter feed of twitter_userna
 
 # for usage in the standard privacy layout
 privacy:
-  name: Observatorio Aguas Amazónicas
+  name: Observatorio Aguas AmazÃ³nicas
   domain: aguasamazonicas.org
   contactEmail: info@aguasamazonicas.org
   helpdeskEmail: info@aguasamazonicas.org
