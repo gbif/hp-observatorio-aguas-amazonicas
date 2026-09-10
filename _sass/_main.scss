@@ -338,6 +338,18 @@ $footer-wave-image: url("/assets/images/placeholders/ondas.svg");
         z-index: 2;
     }
 
+    // Logo AA blanco (home): esquina inferior derecha sobre el hero
+    .hero-brand-logo {
+        position: absolute;
+        right: 2.5rem;
+        bottom: calc(#{$wave-height} - 2.5rem);
+        width: 12rem;
+        height: auto;
+        z-index: 3;
+        pointer-events: none;
+        user-select: none;
+    }
+
     .feature-content {
         text-align: left;
         margin-left: 100px;
@@ -385,6 +397,19 @@ $footer-wave-image: url("/assets/images/placeholders/ondas.svg");
 
     + .textBanner {
         background-color: $white-color;
+    }
+
+    @media (max-width: 900px) {
+        // Móvil/tablet: logo al flujo, centrado tras el contenido
+        .hero-brand-logo {
+            position: static;
+            display: block;
+            width: 10rem;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 2.5rem;
+            margin-bottom: -2.5rem;
+        }
     }
 
     @media (max-width: 620px) {
