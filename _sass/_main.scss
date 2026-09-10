@@ -207,6 +207,96 @@ $wave-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' vi
         color: $footer-text-color;
     }
 
+    .footer-brand {
+        max-width: 16rem;
+
+        a {
+            display: inline-block;
+        }
+
+        img {
+            height: auto;
+            max-width: 100%;
+        }
+
+        a.footer-brand__main {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin: 0 0 1.25rem;
+
+            img {
+                width: 120px;
+            }
+        }
+
+        &__label {
+            margin: 0.85rem 0 0.4rem;
+            font-size: 0.7rem;
+            font-weight: 500;
+            color: $footer-text-color;
+        }
+
+        &__supporters {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.85rem;
+            flex-wrap: wrap;
+
+            a:first-child {
+                margin-right: auto;
+            }
+
+            a:last-child {
+                margin-left: auto;
+            }
+
+            img {
+                width: 5.5rem;
+            }
+        }
+
+        &__powered img {
+            width: 4.5rem;
+        }
+    }
+
+    .footer-license-icons {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        margin-top: 0.75rem;
+
+        a {
+            color: $footer-text-color;
+            line-height: 0;
+        }
+
+        svg {
+            width: 1.75rem;
+            height: 1.75rem;
+            display: block;
+            background: transparent;
+        }
+    }
+
+    .footer-cta.button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 7.75rem;
+        background-color: $primary-color;
+        color: $white-color;
+        border-radius: 2rem;
+        padding: 0.65rem 1.5rem;
+        font-weight: 600;
+        font-size: 0.95rem;
+        line-height: 1;
+        text-decoration: none;
+        border: none;
+    }
+
 }
 
 // Floating Hero styles

@@ -5,26 +5,58 @@
 
 # Columns (the more you add, the narrower they will be)
 columns:
-  - description: | # Can be Markdown and multiline as shown here. 
-      Observatorio Aguas Amazónicas es un proyecto de la Red de Observatorios de Aguas Amazónicas.
+  - description: |
+      <div class="footer-brand">
+        <a class="footer-brand__main" href="https://aguasamazonicas.org" target="_blank" rel="noopener">
+          <img src="/assets/images/logos/Logo-AA-ESP-Az.png" alt="Logo Aguas Amazónicas">
+        </a>
+        <p class="footer-brand__label">Con el apoyo de:</p>
+        <div class="footer-brand__supporters">
+          <a href="https://www.wcs.org/" target="_blank" rel="noopener">
+            <img src="/assets/images/logos/Logo-WCS.png" alt="Logo WCS">
+          </a>
+          <a href="https://www.moore.org/" target="_blank" rel="noopener">
+            <img src="/assets/images/logos/Logo-Moore.png" alt="Logo Gordon and Betty Moore Foundation">
+          </a>
+        </div>
+        <p class="footer-brand__label">Powered by:</p>
+        <a class="footer-brand__powered" href="https://www.gbif.org/" target="_blank" rel="noopener">
+          <img src="/assets/images/logos/Logo_GBIF.png" alt="Logo GBIF">
+        </a>
+      </div>
 
-  - name: Licencia de contenido    
-    description: | # Can be Markdown
-      * [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
-      * (Salvo que se indique lo contrario)
-      * [Ir a la web de la Alianza](https://aguasamazonicas.org){:.button .margin-top-30 target="_blank"}
+  - name: Licencia de contenido
+    description: |
+      [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/){:target="_blank"} (salvo que se indique lo contrario)
+
+      <div class="footer-license-icons">
+        <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener" aria-label="Creative Commons">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" role="img" aria-hidden="true">
+            <circle cx="15" cy="15" r="13.5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+            <path fill="currentColor" d="M15.04 9.63c-3.02 0-5.02 2.08-5.02 5.37s2 5.37 5.02 5.37c1.68 0 3.04-.7 3.95-1.84l-1.68-1.08c-.5.7-1.24 1.14-2.2 1.14-1.58 0-2.66-1.22-2.66-3.59s1.08-3.59 2.66-3.59c.96 0 1.7.44 2.2 1.14l1.68-1.08c-.91-1.14-2.27-1.84-3.95-1.84z"/>
+          </svg>
+        </a>
+        <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener" aria-label="Atribución">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" role="img" aria-hidden="true">
+            <circle cx="15" cy="15" r="13.5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+            <circle cx="15" cy="9.2" r="2.1" fill="currentColor"/>
+            <path fill="currentColor" d="M11.2 12.4h7.6v1.7h-2.55v7.5h-2.5v-7.5H11.2z"/>
+          </svg>
+        </a>
+      </div>
 
   - name: Idioma
-    description: | # Can be Markdown
-      * [Español](/es)
+    description: |
+      * [Español](/)
       * [Portugués](/pt)
       * [Inglés](/en)
 
   - name: Contacto
-    description: | # Can be Markdown
+    description: |
       * Alianza Aguas Amazónicas
       * [info@aguasamazonicas.org](mailto:info@aguasamazonicas.org)
 
+      [Ir a la web de la Alianza](https://aguasamazonicas.org){:.button .is-primary .footer-cta target="_blank"}
 
   # EXAMPLE - just leave this commented out at the bottom of the file for future reference
   # You can add as many columns as you want
