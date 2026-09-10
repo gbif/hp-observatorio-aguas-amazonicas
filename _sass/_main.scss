@@ -10,8 +10,11 @@ $placeholder-color: #9a9a9a;
 $search-glass-bg: rgba(255, 255, 255, 0.1);
 $search-glass-border: rgba(255, 255, 255, 0.30);
 $search-glass-shadow: rgba(0, 0, 0, 0.08);
-$wave-height: 72px;
-$wave-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 72' preserveAspectRatio='none'%3E%3Cpath fill='%23000' d='M0 36C360 72 720 0 1080 36 1260 54 1380 18 1440 36V72H0Z'/%3E%3C/svg%3E");
+$wave-height: 88px;
+$wave-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 88' preserveAspectRatio='none'%3E%3Cpath fill='%23000' d='M0 48C180 68 360 78 540 58C720 38 840 18 1020 28C1200 38 1320 58 1440 48V88H0Z'/%3E%3C/svg%3E");
+// Ola del footer desde assets (alternativa 2). Altura fluida: min móvil → diseño 75px
+$footer-wave-height: clamp(2.75rem, 5.2vw, 4.6875rem);
+$footer-wave-image: url("/assets/images/placeholders/ondas.svg");
 
 @import "theme/_main";
 
@@ -173,32 +176,43 @@ $wave-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' vi
 .footer {
     position: relative;
     background-color: $secondary-color;
-    padding-top: calc(3rem);
+    // Espacio para que el overlay blanco de la ola no tape el contenido
+    padding-top: calc(3rem + #{$footer-wave-height});
+    overflow: visible;
 
     &::before {
         content: "";
         position: absolute;
-        top: calc(-1 * #{$wave-height});
+        top: 0;
         left: 0;
         right: 0;
-        height: $wave-height;
-        background-color: $secondary-color;
-        mask-image: $wave-mask;
-        -webkit-mask-image: $wave-mask;
-        mask-repeat: no-repeat;
-        -webkit-mask-repeat: no-repeat;
-        mask-size: 100% 100%;
-        -webkit-mask-size: 100% 100%;
-        mask-position: top center;
-        -webkit-mask-position: top center;
+        width: 100%;
+        height: $footer-wave-height;
+        // SVG blanco recorta la ola sobre el fondo del footer
+        background-color: transparent;
+        background-image: $footer-wave-image;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        background-position: center top;
         pointer-events: none;
         z-index: 1;
+    }
+
+    @media screen and (max-width: 768px) {
+        &::before {
+            background-size: 180% 100%;
+            background-position: center top;
+        }
     }
 
     .footer-column-name{
         font-size: 1.5rem;
         font-weight: 800;
         color: $footer-text-color;
+
+        &:not(:last-child) {
+            margin-bottom: 0;
+        }
     }
 
     .footer-description{
