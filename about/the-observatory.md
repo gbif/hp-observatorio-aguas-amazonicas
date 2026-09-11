@@ -4,9 +4,7 @@ lang-ref: the-observatory
 lang: es
 title: El observatorio
 toc: false
-background: https://aguasamazonicas.org/wp-content/uploads/2025/01/Sin-titulo-1-1.png
-imageLicense: |
-  Vía https://aguasamazonicas.org/
+background: /assets/images/pages_bg_wh_w1800px.png
 height: 41vh
 composition: 
   - type: heroImage

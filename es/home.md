@@ -122,7 +122,7 @@ description: |
   </script>
 
   <img class="hero-brand-logo" src="/assets/images/logos/logo_AA_esp_white.svg" alt="Aguas Amazónicas" width="120" height="120">
-background: /assets/images/home_bg_w1800px.png
+background: /assets/images/home_bg_wh_w1800px.png
 height: 100vh
 permalink: /
 composition:
