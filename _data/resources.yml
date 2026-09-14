@@ -122,6 +122,7 @@ publishing-guide:
       background: /assets/images/icons/publicacion_plantilla.png
 
 publishing-upload:
+  klass: splitBanner--contain
   reverse: false
   title: Cargar datos al Observatorio
   description: |

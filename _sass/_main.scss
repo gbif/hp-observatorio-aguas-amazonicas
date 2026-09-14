@@ -652,6 +652,24 @@ section.features, section.splitBanner, section.product, section.textBanner
     border-bottom: none;
 }
 
+// Split con ícono/ilustración completa (no cover)
+.splitBanner.splitBanner--contain,
+.splitBanner--contain {
+    .feature-img {
+        background-color: transparent !important;
+        background-size: contain !important;
+        background-position: center center !important;
+        background-repeat: no-repeat !important;
+
+        img {
+            object-fit: contain !important;
+            object-position: center center !important;
+            width: 100% !important;
+            height: 100% !important;
+        }
+    }
+}
+
 // Sección "Explora los datos" en home
 .features--explore {
     background: $white-color;
