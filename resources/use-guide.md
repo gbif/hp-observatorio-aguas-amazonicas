@@ -10,6 +10,8 @@ composition:
   - type: heroImage
   - type: blank
   - type: pageMarkdown
+  - type: features
+    data: resources.identity-manual
 ---
 
 # Guía de uso del Observatorio
@@ -22,7 +24,7 @@ El portal cuenta con un buscador que permite consultar registros e información 
 
 <img class="center" src="/assets/images/resources/guia_banner_esp.png" alt="Buscador de información">
 
-## Explorar páneles de datos "Dashboards"
+## Explorar paneles de datos "Dashboards"
 
 El Observatorio permite explorar la información disponible a través de distintas formas de visualización, facilitando el acceso y comprensión de los registros según los intereses y necesidades de cada usuario.
 
@@ -39,7 +41,7 @@ Al seleccionar una especie, todas las visualizaciones se actualizan automáticam
 
 ## Descargar información
 
-Parte de los registros y conjuntos de datos disponibles en el Observatorio pueden descargarse para fine de consulta, análisis e investigación.
+Parte de los registros y conjuntos de datos disponibles en el Observatorio pueden descargarse para fines de consulta, análisis e investigación.
 
 Para realizar descargas de datos es necesario contar con una cuenta de usuario en GBIF, la cual puede crearse gratuitamente. Desde las páginas de registros y visualización de datos, la opción "Descargar" redirige al sistema de descarga de GBIF.org, donde es posible gestionar y descargar la información seleccionada.
 
@@ -48,6 +50,7 @@ Los filtros aplicados previamente dentro del portal -como subcuenca, nombre cien
 La disponibilidad de descarga y los formatos asociados dependen de las condiciones de publicación y procesamiento definidas para cada conjunto de datos integrado en el Observatorio.
 
 ## Datos originales y datos publicados
-El Observatorio integra información proveniente de diferentes organizaciones, procesos de monitoreo e iniciativas asociadas a la Alianza Aguas Amazónicas. Parte de estos datos corresponden a registros originales generados por organizaciones socias, mientras que otro han sido procesados, consolidados o publicados para facilitar su consulta dentro del portal.
+
+El Observatorio integra información proveniente de diferentes organizaciones, procesos de monitoreo e iniciativas asociadas a la Alianza Aguas Amazónicas. Parte de estos datos corresponden a registros originales generados por organizaciones socias, mientras que otros han sido procesados, consolidados o publicados para facilitar su consulta dentro del portal.
 
 La disponibilidad y nivel de detalle de la información puede variar según el tipo de dato, el proceso de validación y las condiciones de publicación definidas por cada organización participante.

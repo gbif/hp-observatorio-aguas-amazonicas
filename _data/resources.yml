@@ -69,16 +69,64 @@ data-quality:
     <br>
     [Mas información](/about){:.button}
 
-publishing:
-  markdownContent: |
-    <img class="center" src="/assets/images/icons/icono_ipt.png" alt="Guía de publicación">  
-    En la siguiente guía encontrarás el paso a paso y las orientaciones técnicas necesarias para el proceso de publicación de datos dentro del Observatorio.
-    <br>
-    [Mas información](/about){:.button}
-
 api:
   markdownContent: |
     <img class="center" src="/assets/images/icons/icono_api.png" alt="Api para desarrolladores">  
     A continuación se presenta la documentación técnica donde encontraran endpoints, ejemplos de consulta y lineamientos necesarios para el uso e integración de la API dentro de desarrollos y proyectos asociados al ecosistema de datos del Observatorio.
     <br>
     [Mas información](/about){:.button}
+
+identity-manual:
+  klass: features--explore
+  features:
+    - title: Manual de identidad visual del Observatorio de Aguas Amazónicas # required
+      description: |      # required
+        Lineamientos para la aplicación coherente de la identidad visual en entornos digitales, editoriales y gráficos.
+      cta:  
+      - text: Descargar
+        href: /resources/usage-guide
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/icono_api.png
+
+publishing-guide:
+  klass: features--explore
+  title: Recursos para publicar datos
+  features:
+    - title: Guía de publicación # required
+      description: |      # required
+        Consulta el paso a paso y las orientaciones técnicas para preparar, documentar y enviar un conjunto de datos al Observatorio. La guía incluye recomendaciones para diligenciar correctamente los formatos requeridos y facilitar el proceso de revisión e incorporación de la información.
+      cta:  
+      - text: Ver guía
+        href: /resources/usage-guide
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/publicacion_guia.png
+    - title: Plantilla de metadatos # required
+      description: |      # required
+        Descarga la plantilla para registrar la información descriptiva del conjunto de datos, incluyendo aspectos como autoría, cobertura, metodología, calidad de los datos y demás elementos necesarios para su documentación.
+      cta:  
+      - text: Descargar
+        href: /resources/usage-guide
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/publicacion_metadatos.png
+    - title: Plantilla de carga de datos # required
+      description: |      # required
+        Descarga la plantilla para registrar los datos de biodiversidad y monitoreo de los ecosistemas acuáticos amazónicos que serán incorporados al Observatorio.
+      cta:  
+      - text: Descargar
+        href: /resources/usage-guide
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/publicacion_plantilla.png
+
+publishing-upload:
+  reverse: false
+  title: Cargar datos al Observatorio
+  description: |
+      Una vez diligenciado la Plantilla de metadatos y la Plantilla de carga de datos, adjunta ambos archivos mediante el siguiente formulario para iniciar el proceso.
+  background: /assets/images/icons/publicacion_upload.png
+  cta: 
+    - text: Cargar
+      href: /resources/protocols
