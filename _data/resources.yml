@@ -131,3 +131,7 @@ publishing-upload:
   cta: 
     - text: Cargar
       href: /resources/protocols
+
+publishing-upload-after:
+  markdownContent: |
+    Una vez enviados los archivos, el administrador de la base de datos revisará y validará la información. Si cumple con los criterios de calidad establecidos, realizará la incorporación del conjunto de datos y su publicación en el Observatorio.

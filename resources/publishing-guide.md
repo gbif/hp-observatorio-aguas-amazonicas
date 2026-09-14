@@ -14,6 +14,8 @@ composition:
     type: features
   - data: resources.publishing-upload
     type: split
+  - type: markdown
+    data: resources.publishing-upload-after
 
 ---
 
