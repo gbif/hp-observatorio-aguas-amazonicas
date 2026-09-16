@@ -1,4 +1,5 @@
 standards:
+  klass: features--explore
   title: Estándares usados en el observatorio
   features:
     - title: Darwin Core (DwC) # required
