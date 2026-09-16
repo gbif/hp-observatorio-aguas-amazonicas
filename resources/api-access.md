@@ -10,8 +10,8 @@ composition:
   - type: heroImage
   - type: blank
   - type: pageMarkdown
-  - type: markdown
-    data: resources.api
+  - type: features
+    data: resources.api-guide
 ---
 
 # Acceso e integración de datos del Observatorio para desarrollos, visualizaciones y herramientas externas

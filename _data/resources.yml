@@ -76,12 +76,18 @@ data-quality-manual:
       # img required
       background: /assets/images/icons/calidad_datos.png
 
-api:
-  markdownContent: |
-    <img class="center" src="/assets/images/icons/icono_api.png" alt="Api para desarrolladores">  
-    A continuación se presenta la documentación técnica donde encontraran endpoints, ejemplos de consulta y lineamientos necesarios para el uso e integración de la API dentro de desarrollos y proyectos asociados al ecosistema de datos del Observatorio.
-    <br>
-    [Mas información](/about){:.button}
+api-guide:
+  klass: features--explore
+  features:
+    - title: API # required
+      description: |      # required
+        A continuación se presenta la documentación técnica donde encontrarán endpoints, ejemplos de consulta y lineamientos necesarios para el uso e integración de la API dentro de desarrollos y proyectos asociados al ecosistema de datos del Observatorio.
+      cta:  
+      - text: Más información
+        href: /resources/usage-guide
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/icono_api.png
 
 identity-manual:
   klass: features--explore
