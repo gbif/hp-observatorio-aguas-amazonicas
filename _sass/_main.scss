@@ -716,6 +716,11 @@ section.features, section.splitBanner, section.product, section.textBanner
         grid-column: 2;
     }
 
+    // Un solo elemento: columna única para que quede centrado
+    .feature-cards:has(.feature:only-child) {
+        grid-template-columns: minmax(0, 340px);
+    }
+
     .feature {
         width: 100%;
         max-width: 340px;
