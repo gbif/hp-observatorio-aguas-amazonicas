@@ -10,11 +10,12 @@ composition:
   - type: heroImage
   - type: blank
   - type: pageMarkdown
-  - type: markdown
-    data: about.citation
+  - type: features
+    data: about.citation-guide
 ---
 
 # Orientaciones para citar correctamente los datos, recursos y contenidos publicados en el Observatorio
 
-La información publicada en el Observatorio es el resultado del trabajo colaborativo de organizaciones, equipos técnicos y procesos de monitoreo vinculados a la Alianza Aguas Amazónicas. Por esta razón, es importante reconocer adecuadamente las fuentes de información, los conjuntos de datos y las organizaciones que aportan los contenidos consultados. 
+La información publicada en el Observatorio es el resultado del trabajo colaborativo de organizaciones, equipos técnicos y procesos de monitoreo vinculados a la Alianza Aguas Amazónicas. Por esta razón, es importante reconocer adecuadamente las fuentes de información, los conjuntos de datos y las organizaciones que aportan los contenidos consultados.
+
 La guía de citación reúne orientaciones generales para referenciar correctamente datos, fichas de especies, conjuntos de datos y otros recursos disponibles dentro del portal, promoviendo buenas prácticas de uso, reconocimiento y atribución de la información.

@@ -4,12 +4,18 @@ recognition:
     <br>
     [Mas información](/about){:.button}
 
-citation:
-  markdownContent: |
-    <img class="center" src="https://aguasamazonicas.org/wp-content/uploads/2026/03/portada-web.jpg" alt="Términos de uso y privacidad">
-    A continuación, se adjunta la guía de citación correspondiente para la consulta y uso de contenidos publicados en el Observatorio.
-    <br>
-    [Mas información](/about){:.button}
+citation-guide:
+  klass: features--explore
+  features:
+    - title: Guia de citación # required
+      description: |      # required
+        A continuación, se adjunta la guía de citación correspondiente para la consulta y uso de contenidos publicados en el Observatorio.
+      cta:  
+      - text: Más información
+        href: /resources/usage-guide
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/citacion.png
 
 terms:
   markdownContent: |
