@@ -37,6 +37,7 @@ standards-after:
     Los estándares permiten que la información generada por múltiples actores pueda integrarse en una infraestructura común, facilitando su consulta y reutilización. Gracias a este lenguaje compartido, el Observatorio puede conectar registros biológicos, fichas taxonómicas, conjuntos de datos, recursos multimedia y otros contenidos provenientes de diferentes fuentes, fortaleciendo la gestión del conocimiento sobre la cuenca amazónica y promoviendo el acceso abierto a la información.
 
 protocols:
+  klass: features--explore
   description: |
     Cada protocolo responde a un contexto específico de observación y registro, permitiendo complementar la información obtenida desde diferentes puntos de la cadena pesquera:
   features:
