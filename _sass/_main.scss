@@ -3,6 +3,7 @@ $secondary-color: #c2bcbc;
 $button-color: #6b6767;
 $white-color: #ffffff;
 $black-color: #000000;
+$footer-background-color: #dbd8ce;
 $footer-text-color: #434343;
 $text-color: #363636;
 $light-gray-color: #ececec;
@@ -10,7 +11,7 @@ $placeholder-color: #9a9a9a;
 $search-glass-bg: rgba(255, 255, 255, 0.1);
 $search-glass-border: rgba(255, 255, 255, 0.30);
 $search-glass-shadow: rgba(0, 0, 0, 0.08);
-// Hero: máscara SVG inline (no ondas.svg)
+// Hero: máscara SVG inline (no se usaondas.svg)
 $wave-height: 72px;
 $wave-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 72' preserveAspectRatio='none'%3E%3Cpath fill='%23000' d='M0 36C360 72 720 0 1080 36 1260 54 1380 18 1440 36V72H0Z'/%3E%3C/svg%3E");
 // Footer: overlay con ondas.svg (no compartir con hero)
@@ -175,7 +176,7 @@ $footer-wave-image: url("/assets/images/placeholders/ondas.svg");
 // Footer styles
 .footer {
     position: relative;
-    background-color: $secondary-color;
+    background-color: $footer-background-color;
     // Espacio para que el overlay blanco de la ola no tape el contenido
     padding-top: calc(3rem + #{$footer-wave-height});
     overflow: visible;
@@ -209,6 +210,7 @@ $footer-wave-image: url("/assets/images/placeholders/ondas.svg");
         font-size: 1.5rem;
         font-weight: 800;
         color: $footer-text-color;
+        text-transform: none;
 
         &:not(:last-child) {
             margin-bottom: 0;
@@ -267,7 +269,7 @@ $footer-wave-image: url("/assets/images/placeholders/ondas.svg");
             }
 
             img {
-                width: 5.5rem;
+                width: 7.2rem;
             }
         }
 
@@ -320,7 +322,7 @@ $footer-wave-image: url("/assets/images/placeholders/ondas.svg");
     padding-bottom: $wave-height;
     overflow: hidden;
 
-    // Ola con máscara SVG inline (no ondas.svg)
+    // Ola con máscara SVG inline (no se una ondas.svg)
     &::after {
         content: "";
         position: absolute;
