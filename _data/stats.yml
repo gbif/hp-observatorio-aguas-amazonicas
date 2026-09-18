@@ -4,6 +4,10 @@ data-panel:
   description: |
     Sistema Ictio
   config:
+    predicate:
+      type: equals
+      key: gadmGid
+      value: "TZA.12.7_1"
     charts:
       [
         taxa,
