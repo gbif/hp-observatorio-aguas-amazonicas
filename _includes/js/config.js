@@ -39,16 +39,16 @@ var siteConfig = {
     // TODO: you should remove types you do not want to use
     "OCCURRENCE",
     "DATASET",
-    "COLLECTION",
-    "INSTITUTION",
-    "LITERATURE"
+    // "COLLECTION",
+    "INSTITUTION"
+    // "LITERATURE"
   ],
   "dataHeader": {
     "enableApiPopup": true,
     "enableInfoPopup": true
   },
   "theme": {
-    "primary": "#001972",
+    "primary": "#006ba6",
     "borderRadius": 3,
     "stickyOffset": "0px"
   },
@@ -114,10 +114,12 @@ var siteConfig = {
       "taxonKey",
       "verbatimScientificName",
       "institutionKey",
-      "collectionKey",
-      "catalogNumber",
-      "recordedBy",
-      "identifiedBy"
+      "country",
+      "locality",
+      // "collectionKey",
+      // "catalogNumber",
+      "recordedBy"
+      // "identifiedBy"
     ],
     "excludedFilters": [
       "occurrenceStatus",
@@ -130,13 +132,14 @@ var siteConfig = {
     ],
     "defaultEnabledTableColumns": [
       "features",
+      "commonName",
       "institutionKey",
-      "collectionKey",
-      "catalogNumber",
+      //"collectionKey",
+      //"catalogNumber",
       "country",
       "year",
-      "recordedBy",
-      "identifiedBy"
+      "recordedBy"
+      //"identifiedBy"
     ],
     "tabs": [
       "table",
