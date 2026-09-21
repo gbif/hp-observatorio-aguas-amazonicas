@@ -3,7 +3,7 @@ stats:
   lastUpdated: "30/07/2026"
   cta:
     - text: Más información
-      href: /resources/protocols
+      href: /stats/monitoring
   features:
     - title: "164.000"
       description: Registros validados de peces
