@@ -11,9 +11,9 @@
   - text: Mapa cuenca
     href: /occurrence/search
   - text: Panel dinámico
-    href: /occurrence/search  
+    href: /occurrence/search?view=dashboard 
   - text: Conjuntos de datos
-    href: /occurrence/search  
+    href: /dataset/search  
 - text: Recursos
   menu: # Dropdown menu (one level deep only)
   - text: Guía de uso
