@@ -1,30 +1,16 @@
-data-panel:
+dataPanel:
   klass: dashboard
-  title: "Panel de datos"
+  title: "Panel de datos test"
   description: |
     Sistema Ictio
   config:
-    predicate:
-      type: equals
-      key: gadmGid
-      value: "TZA.12.7_1"
+    # Sin predicate: usa occurrenceSearch.scope de _includes/js/config.js
     charts:
       [
-        taxa,
-        synonyms,
-        continent,
-        country,
-        stateProvince,
-        year,
-        month,
-        recordedBy,
-        collectionKey,
-        institutionKey,
-        typeStatus,
-        iucn,
-        datasetKey,
         occurrenceSummary,
-        occurrenceIssue,
-        dataQuality,
+        year,
+        taxa,
+        country,
+        datasetKey,
       ]
         # currently available types as of march 2024: [iucn, license, basisOfRecord, year, synonyms, iucnCounts, country, continent, dwcaExtension, eventId, gadmGid, mediaType, networkKey, publisherKey, publishingCountryCode, protocol, sampleSizeUnit, samplingProtocol, typeStatus, waterBody, collectionCode, institutionCode, stateProvince, identifiedBy, recordedBy, establishmentMeans, month, preparations, datasetKey, taxa, occurrenceIssue, dataQuality, occurrenceSummary, collectionKey, institutionKey, catalogNumber]

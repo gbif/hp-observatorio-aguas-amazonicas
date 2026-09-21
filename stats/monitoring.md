@@ -10,10 +10,10 @@ composition:
   - type: heroImage
   - type: blank
   - type: pageMarkdown
-#  - type: stats
-#    data: home.stats
+  - type: stats
+    data: home.stats
   - type: dashboard
-    data: stats.data-panel
+    data: stats.dataPanel
 ---
 
 Esta sección reúne información derivada de los registros biológicos adaptados desde el sistema Ictio al estándar Darwin Core (DwC), permitiendo consultar de manera dinámica indicadores asociados al monitoreo de peces A través de los indicadores destacados y las visualizaciones interactivas disponibles, es posible explorar las especies registradas, los cuerpos de agua donde han sido observadas, las instituciones participantes en la generación de información y su distribución geográfica.
