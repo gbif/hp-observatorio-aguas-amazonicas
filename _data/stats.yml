@@ -32,6 +32,23 @@ data-panel:
     charts:
       [iucn, license, basisOfRecord, year, synonyms, iucnCounts, country, continent, dwcaExtension, eventId, gadmGid, mediaType, networkKey, publisherKey, publishingCountryCode, protocol, sampleSizeUnit, samplingProtocol, typeStatus, waterBody, collectionCode, institutionCode, stateProvince, identifiedBy, recordedBy, establishmentMeans, month, preparations, datasetKey, taxa, occurrenceIssue, dataQuality, occurrenceSummary, collectionKey, institutionKey, catalogNumber]
 
+territory-panel:
+  id: territory-dashboard
+  klass: dashboard
+  title: "Panel de datos"
+  description: |
+    Territorial
+  config:
+    predicate:
+      type: in
+      key: publishingOrg
+      values:
+        - "760d5f24-4c04-40da-9646-1b2c935da502"
+        - "2e7df380-8356-4533-bcb3-5459e23c794e"
+        - "8e1a97a0-3ca8-11d9-8439-b8a03c50a862"
+    charts:
+      [iucn, license, basisOfRecord, year, synonyms, iucnCounts, country, continent, dwcaExtension, eventId, gadmGid, mediaType, networkKey, publisherKey, publishingCountryCode, protocol, sampleSizeUnit, samplingProtocol, typeStatus, waterBody, collectionCode, institutionCode, stateProvince, identifiedBy, recordedBy, establishmentMeans, month, preparations, datasetKey, taxa, occurrenceIssue, dataQuality, occurrenceSummary, collectionKey, institutionKey, catalogNumber]
+
 # Charts available as 2025:
 #charts: [iucn, license, basisOfRecord, year, synonyms, iucnCounts, country, continent, dwcaExtension, eventId, gadmGid, mediaType, networkKey, publisherKey, publishingCountryCode, protocol, sampleSizeUnit, samplingProtocol, typeStatus, waterBody, collectionCode, institutionCode, stateProvince, identifiedBy, recordedBy, establishmentMeans, month, preparations, datasetKey, taxa, occurrenceIssue, dataQuality, occurrenceSummary, collectionKey, institutionKey, catalogNumber]
 
@@ -46,5 +63,11 @@ data-after:
     Para profundizar en la exploración de la información, acceda al panel dinámico mediante el botón "[Ver datos en el panel dinámico](/occurrence/search?view=dashboard)". Allí podrá consultar con mayor detalle las organizaciones participantes, los conjuntos de datos publicados, los eventos y procesos de monitoreo registrados, las metodologías implementadas y los recursos multimedia asociados a la información disponible en el Observatorio. Las visualizaciones se actualizan dinámicamente según los filtros aplicados, permitiendo explorar diferentes dimensiones de la construcción colaborativa de conocimiento en la cuenca amazónica.
 
     Los indicadores presentados reflejan el crecimiento y fortalecimiento progresivo del Observatorio como un espacio de integración, publicación y acceso a información sobre la biodiversidad y los ecosistemas amazónicos. La diversidad de organizaciones participantes, conjuntos de datos, metodologías de monitoreo y recursos asociados evidencia el carácter colaborativo de la iniciativa y la importancia de la articulación entre distintos actores para ampliar el conocimiento disponible sobre la región. Los resultados observados deben interpretarse como una representación de la información actualmente publicada y disponible para consulta dentro del Observatorio
+
+    [Ver datos en el panel dinámico](/occurrence/search?view=dashboard){:.button}
+
+territory-after:
+  markdownContent: |
+    Para ampliar la exploración territorial, acceda al panel dinámico mediante el botón "[Ver datos en el panel dinámico](/occurrence/search?view=dashboard)". Allí podrá interactuar con el conjunto completo de visualizaciones, aplicar filtros geográficos y explorar la distribución de los registros biológicos a nivel de país, subcuenca y cuerpo de agua. Además, podrá utilizar el geovisor para profundizar en la información disponible para cada territorio.
 
     [Ver datos en el panel dinámico](/occurrence/search?view=dashboard){:.button}

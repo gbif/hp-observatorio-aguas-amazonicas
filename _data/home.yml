@@ -62,16 +62,16 @@ explore:
     - title: Territorio amazónico # required
       description: |      # required
         Explora los registros desde diferentes escalas territoriales de la cuenca amazónica.
-      href: /occurrence/search
+      href: /stats/territory
       cta:
       - text: Más información
-        href: /occurrence/search
+        href: /stats/territory
         isPrimary: true  
       background: /assets/images/icons/explora_territorio_amazonico.png
     - title: El observatorio en cifras # required
       description: |      # required
         Consulta indicadores del Sistema Ictio sobre monitoreo, participación y construcción colaborativa de conocimiento.
-      href: /stats/monitoring
+      href: /stats/dashboard
       cta:
       - text: Más información
         href: /stats/dashboard
