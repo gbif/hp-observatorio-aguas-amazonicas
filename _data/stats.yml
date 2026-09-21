@@ -21,4 +21,5 @@ dataPanel:
 dataPanel-after:
   markdownContent: |
     Para realizar consultas más específicas, acceda al panel dinámico mediante el botón "Ver datos en el panel dinámico". Allí podrá aplicar filtros adicionales, seleccionar especies de interés y explorar de forma interactiva la información asociada a su distribución, registros e instituciones participantes.
+    
     [Ver datos en el panel dinámico](/occurrence/search?view=dashboard){:.button}
