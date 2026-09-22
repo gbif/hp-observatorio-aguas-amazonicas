@@ -7,9 +7,9 @@
   - text: Registros
     href: /occurrence/search
   - text: Fichas de taxones
-    href: /occurrence/search
+    href: /taxa/list
   - text: Mapa cuenca
-    href: /occurrence/search
+    href: /stats/territory
   - text: Panel dinámico
     href: /occurrence/search?view=dashboard 
   - text: Conjuntos de datos
@@ -21,7 +21,7 @@
   - text: Guía de publicación
     href: /resources/publishing-guide
   - text: Informes ICTIO
-    href: /resources/ict-reports
+    href: /resources/ictio-reports
   - text: Protocolos
     href: /resources/protocols
   - text: Estándares

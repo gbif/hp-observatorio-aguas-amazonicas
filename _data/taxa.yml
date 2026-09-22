@@ -4,13 +4,13 @@ list:
   description: |
     Taxones priorizados
   features:
-    - title: Dorado / Plateado # required
+    - title: Bagre # required
       description: |      # required
-        *Brachyplatystoma rousseauxi*
-      href: /taxa/brachyplatystoma-roussouxi
+        *Sorubim lima*
+      href: /taxa/sorubim-lima
       cta:  
       - text: Más información
-        href: /taxa/brachyplatystoma-roussouxi
+        href: /taxa/sorubim-lima
         isPrimary: true      
       # img required
       background: /assets/images/icons/descubre_fichas_especies.png
