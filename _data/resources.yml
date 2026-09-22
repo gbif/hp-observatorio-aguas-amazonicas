@@ -149,3 +149,25 @@ publishing-upload:
 publishing-upload-after:
   markdownContent: |
     Una vez enviados los archivos, el administrador de la base de datos revisará y validará la información. Si cumple con los criterios de calidad establecidos, realizará la incorporación del conjunto de datos y su publicación en el Observatorio.
+
+discover:
+  klass: features--explore
+  features:
+    - title: Conjunto de datos # required
+      description: |      # required
+        El Observatorio publica el conjunto de datos que documenta las fichas de taxones, permitiendo conocer su alcance, estructura y características. En este espacio podrás consultar la descripción del dataset, sus métricas y acceder a las opciones de descarga de la información.
+      cta:  
+      - text: Ver conjunto de datos
+        href: /occurrence/search
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/descubre_conjunto_datos.png
+    - title: Consultar fichas de taxones # required
+      description: |      # required
+        Las fichas de familias, géneros y especies se encuentran disponibles en la sección Peces del sitio web de la Alianza Aguas Amazónicas. Allí podrás explorar el contenido descriptivo de cada taxón y acceder a la información organizada para su consulta.
+      cta:  
+      - text: Ver fichas de taxones
+        href: /taxa/list
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/descubre_fichas_especies.png

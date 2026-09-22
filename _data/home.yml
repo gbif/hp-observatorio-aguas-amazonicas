@@ -41,7 +41,7 @@ welcome:
     CC BY 4.0 - Aguas Amazónicas. 2026. Via Observatorio Aguas Amazónicas.
   cta: 
     - text: Más información
-      href: /resources/protocols
+      href: /resources/discover
 
 explore:
   klass: features--explore
