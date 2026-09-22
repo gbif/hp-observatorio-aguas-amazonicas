@@ -1,0 +1,146 @@
+list:
+  klass: features--explore
+  title: Lista de fichas
+  description: |
+    Taxones priorizados
+  features:
+    - title: Dorado / Plateado # required
+      description: |      # required
+        *Brachyplatystoma rousseauxi*
+      href: /taxa/brachyplatystoma-roussouxi
+      cta:  
+      - text: Más información
+        href: /taxa/brachyplatystoma-roussouxi
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/descubre_fichas_especies.png
+    - title: Pacú # required
+      description: |      # required
+        *Colossoma macropomum*
+      href: /taxa/colossoma-macropomum
+      cta:
+      - text: Más información
+        href: /taxa/colossoma-macropomum
+        isPrimary: true  
+      background: /assets/images/icons/descubre_fichas_especies.png
+    - title: Dorado / Plateado # required
+      description: |      # required
+        *Brachyplatystoma rousseauxi*
+      href: /taxa/brachyplatystoma-roussouxi
+      cta:
+      - text: Más información
+        href: /taxa/brachyplatystoma-roussouxi
+        isPrimary: true  
+      background: /assets/images/icons/descubre_fichas_especies.png
+    - title: Dorado / Plateado # required
+      description: |      # required
+        *Brachyplatystoma rousseauxi*
+      href: /taxa/brachyplatystoma-roussouxi
+      cta:  
+      - text: Más información
+        href: /taxa/brachyplatystoma-roussouxi
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/descubre_fichas_especies.png
+    - title: Pacú # required
+      description: |      # required
+        *Colossoma macropomum*
+      href: /taxa/colossoma-macropomum
+      cta:
+      - text: Más información
+        href: /taxa/colossoma-macropomum
+        isPrimary: true  
+      background: /assets/images/icons/descubre_fichas_especies.png
+    - title: Dorado / Plateado # required
+      description: |      # required
+        *Brachyplatystoma rousseauxi*
+      href: /taxa/brachyplatystoma-roussouxi
+      cta:
+      - text: Más información
+        href: /taxa/brachyplatystoma-roussouxi
+        isPrimary: true  
+      background: /assets/images/icons/descubre_fichas_especies.png
+    - title: Dorado / Plateado # required
+      description: |      # required
+        *Brachyplatystoma rousseauxi*
+      href: /taxa/brachyplatystoma-roussouxi
+      cta:  
+      - text: Más información
+        href: /taxa/brachyplatystoma-roussouxi
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/descubre_fichas_especies.png
+    - title: Pacú # required
+      description: |      # required
+        *Colossoma macropomum*
+      href: /taxa/colossoma-macropomum
+      cta:
+      - text: Más información
+        href: /taxa/colossoma-macropomum
+        isPrimary: true  
+      background: /assets/images/icons/descubre_fichas_especies.png
+    - title: Dorado / Plateado # required
+      description: |      # required
+        *Brachyplatystoma rousseauxi*
+      href: /taxa/brachyplatystoma-roussouxi
+      cta:
+      - text: Más información
+        href: /taxa/brachyplatystoma-roussouxi
+        isPrimary: true  
+      background: /assets/images/icons/descubre_fichas_especies.png
+    - title: Dorado / Plateado # required
+      description: |      # required
+        *Brachyplatystoma rousseauxi*
+      href: /taxa/brachyplatystoma-roussouxi
+      cta:  
+      - text: Más información
+        href: /taxa/brachyplatystoma-roussouxi
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/descubre_fichas_especies.png
+    - title: Pacú # required
+      description: |      # required
+        *Colossoma macropomum*
+      href: /taxa/colossoma-macropomum
+      cta:
+      - text: Más información
+        href: /taxa/colossoma-macropomum
+        isPrimary: true  
+      background: /assets/images/icons/descubre_fichas_especies.png
+    - title: Dorado / Plateado # required
+      description: |      # required
+        *Brachyplatystoma rousseauxi*
+      href: /taxa/brachyplatystoma-roussouxi
+      cta:
+      - text: Más información
+        href: /taxa/brachyplatystoma-roussouxi
+        isPrimary: true  
+      background: /assets/images/icons/descubre_fichas_especies.png
+    - title: Dorado / Plateado # required
+      description: |      # required
+        *Brachyplatystoma rousseauxi*
+      href: /taxa/brachyplatystoma-roussouxi
+      cta:  
+      - text: Más información
+        href: /taxa/brachyplatystoma-roussouxi
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/descubre_fichas_especies.png
+    - title: Pacú # required
+      description: |      # required
+        *Colossoma macropomum*
+      href: /taxa/colossoma-macropomum
+      cta:
+      - text: Más información
+        href: /taxa/colossoma-macropomum
+        isPrimary: true  
+      background: /assets/images/icons/descubre_fichas_especies.png
+    - title: Dorado / Plateado # required
+      description: |      # required
+        *Brachyplatystoma rousseauxi*
+      href: /taxa/brachyplatystoma-roussouxi
+      cta:
+      - text: Más información
+        href: /taxa/brachyplatystoma-roussouxi
+        isPrimary: true  
+      background: /assets/images/icons/descubre_fichas_especies.png
