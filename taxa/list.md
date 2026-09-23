@@ -2,7 +2,7 @@
 layout: compose
 lang-ref: list
 lang: es
-title: Lista de fichas
+title: Fichas de peces
 toc: false
 background: /assets/images/pages_bg_wh_w1800px.png
 height: 41vh

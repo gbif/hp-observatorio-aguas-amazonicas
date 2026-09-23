@@ -6,7 +6,7 @@ stats:
       href: /stats/dashboard
   features:
     - title: "164.000"
-      description: Registros validados de peces
+      description: Registros de peces
       background: /assets/images/icons/stats_registries_icon.svg
       href: /occurrence/search
       blankTarget: false
@@ -21,14 +21,9 @@ stats:
       href: /dataset/search
       blankTarget: false
     - title: 153
-      description: Subcuentas con registros
+      description: Subcuencas con registros
       background: /assets/images/icons/stats_basins_icon.svg
       href: /dataset/search
-      blankTarget: false
-    - title: 77%
-      description: Coberturas de subcuencas
-      background: /assets/images/icons/stats_basinlevel_icon.svg
-      href: /collection/search
       blankTarget: false
 
 welcome:

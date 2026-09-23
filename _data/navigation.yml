@@ -6,7 +6,7 @@
   menu: # Dropdown menu (one level deep only)
   - text: Registros
     href: /occurrence/search
-  - text: Fichas de taxones
+  - text: Fichas de peces
     href: /taxa/list
   - text: Mapa cuenca
     href: /stats/territory
