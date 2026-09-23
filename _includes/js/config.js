@@ -111,14 +111,13 @@ var siteConfig = {
     "highlightedFilters": [
       "taxonKey",
       "verbatimScientificName",
-      "institutionKey",
-      //"institutionCode",
       "country",
       "locality",
-      // "collectionKey",
-      // "catalogNumber",
+      "year",
       "recordedBy",
-      "identifiedBy"
+      "institutionCode",
+      "identifiedBy",
+      "datasetKey"
     ],
     "excludedFilters": [
       "occurrenceStatus",
@@ -132,14 +131,14 @@ var siteConfig = {
     "defaultEnabledTableColumns": [
       "taxonKey",
       "verbatimScientificName",
-      "institutionKey",
-      //"institutionCode",
+      "commonName",
       "country",
       "locality",
-      // "collectionKey",
-      // "catalogNumber",
+      "year",
       "recordedBy",
-      "identifiedBy"
+      "institutionCode",
+      "identifiedBy",
+      "datasetKey"
     ],
     "tabs": [
       "table",
@@ -150,8 +149,8 @@ var siteConfig = {
       "download"
     ],
     "mapSettings": {
-      "lat": -0.2932720882165326,
-      "lng": -67.9335677449268,
+      "lat": -4.306422,
+      "lng": -66.646079,
       "zoom": 4.911544076366507
     }
   },
