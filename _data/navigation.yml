@@ -4,45 +4,43 @@
 
 - text: Consultar
   menu: # Dropdown menu (one level deep only)
-  - text: Registros
-    href: /occurrence/search
-  - text: Fichas de peces
-    href: /taxa/list
+  - text: Panel de cifras
+    href: /occurrence/search?view=dashboard
   - text: Mapa cuenca
     href: /stats/territory
-  - text: Panel dinámico
-    href: /occurrence/search?view=dashboard 
+  - text: Fichas de peces
+    href: /taxa/list
   - text: Conjuntos de datos
-    href: /dataset/search  
+    href: /dataset/search?publishingOrg=6e3dccea-16ee-4060-a8e9-32e598167a94
+  - text: Registros
+    href: /occurrence/search
 - text: Recursos
   menu: # Dropdown menu (one level deep only)
   - text: Guía de uso
     href: /resources/use-guide
   - text: Guía de publicación
     href: /resources/publishing-guide
-  - text: Informes ICTIO
-    href: /news
-  - text: Protocolos
-    href: /resources/protocols
-  - text: Estándares
-    href: /resources/standards
+  - text: "Guía de citación | Usos de datos"
+    href: /resources/publishing-guide
   - text: Calidad de datos
     href: /resources/data-quality
+  - text: Protocolos de colecta
+    href: /resources/protocols
+  - text: Acceso a datos sensibles
+    href: /resources/protocols
+  - text: Informes ICTIO
+    href: /news
   - text: API para desarrolladores
     href: /resources/api-access
+  - text: Lista de recursos
+    href: /resources/standards
 - text: Acerca de
   menu: # Dropdown menu (one level deep only)
-  - text: El Observatorio
+  - text: Observatorio
     href: /about/the-observatory
-  - text: Gobernanza
+  - text: Ética y Gobernanza
     href: /about/governance
-  - text: Citación
-    href: /about/citation-guide
-  - text: Uso de los datos
-    href: /about/use-guidelines
-  - text: Privacidad
+  - text: Términos de uso y privacidad
     href: /about/privacy-policy
-  - text: Agradecimiento
-    href: /about/acknowledgements
   - text: Ayuda
     href: /about/faq
