@@ -345,3 +345,34 @@ api-access-intro:
     La documentación técnica presenta los endpoints disponibles, ejemplos de consulta y los lineamientos para usar la API. Los datos consultados por esta vía mantienen las mismas condiciones de uso y cita que el resto del Observatorio.
 
     [Ver documentación de la API](https://techdocs.gbif.org/en/openapi/v1/occurrence){:.button .is-primary target="_blank"}
+
+###################################################
+### Lista de recursos. Página resources-list.md
+###################################################
+
+resources-list-intro:
+  markdownContent: |
+    Esta sección reúne en un solo lugar las políticas, guías, plantillas e instrumentos del Observatorio, publicados en las distintas secciones del sitio, para facilitar su consulta y descarga.
+
+    **Políticas y términos de uso**
+    - [Política de ética y gobernanza de datos](/resources/usage-guide)
+    - [Política de privacidad del sistema ICTIO](/resources/sensitive-information)
+    - [Términos de uso del sistema ICTIO](/resources/api-access)
+    - [Niveles de acceso de los datos del sistema ICTIO](/resources/usage-guide)
+
+    **Guías**
+    - [Guía de uso del Observatorio](/resources/usage-guide)
+    - [Guía de estilo visual](/resources/citation-guide)
+    - [Guía de interoperabilidad](/resources/data-quality)
+    - [Guía de citación, atribución y reconocimiento](/resources/protocols)
+
+    **Plantillas y listas de chequeo**
+    - [Plantilla de registros biológicos](/resources/usage-guide)
+    - [Plantilla de metadatos](/resources/sensitive-information)
+    - [Lista de chequeo: Integración de datos desde iniciativas de origen y organizaciones socias en el sistema ICTIO](/resources/api-access)
+    
+    **Ética y gobernanza de datos**
+    - [Acuerdo para compartir datos a nivel de iniciativa u organización](/resources/usage-guide)
+    - [Consentimiento informado](/resources/sensitive-information)
+    - [Hoja de información del proyecto](/resources/api-access)
+    - [Plan de gestión de datos](/resources/usage-guide)
