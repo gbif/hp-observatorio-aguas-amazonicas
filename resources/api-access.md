@@ -10,11 +10,6 @@ composition:
   - type: heroImage
   - type: blank
   - type: pageMarkdown
-  - type: features
-    data: resources.api-guide
+  - type: markdown
+    data: resources.api-access-intro
 ---
-
-# Acceso e integración de datos del Observatorio para desarrollos, visualizaciones y herramientas externas
-
-La API del Observatorio permitirá a organizaciones socias, equipos técnicos y desarrolladores acceder e integrar información publicada dentro del portal en otros sistemas, aplicaciones y herramientas digitales.
-A través de este servicio, será posible consultar datos asociados a biodiversidad, monitoreo, especies de los ecosistemas acuáticos amazónicos, facilitando procesos de interoperabilidad, visualización y reutilización de información entre plataformas vinculadas al Observatorio y la Alianza Aguas Amazónicas.

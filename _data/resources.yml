@@ -1,15 +1,16 @@
-api-guide:
-  klass: features--explore
-  features:
-    - title: API # required
-      description: |      # required
-        A continuación se presenta la documentación técnica donde encontrarán endpoints, ejemplos de consulta y lineamientos necesarios para el uso e integración de la API dentro de desarrollos y proyectos asociados al ecosistema de datos del Observatorio.
-      cta:  
-      - text: Más información
-        href: /resources/usage-guide
-        isPrimary: true      
-      # img required
-      background: /assets/images/icons/icono_api.png
+##########################################################################
+### Contenidos de las páginas debajo de /resources
+###
+### Se definen en el archivo _data/resources.yml
+### Cada sección se define con un nombre de página y un contenido en yaml.
+### por ejemplo:
+### para use-guide.md se define use-guide-intro, use-guide-cards, etc.
+### Se indica el tipo de contenido:
+### -intro: para contenido introductorio en markdown
+### -cards: para contenido en features/tarjetas
+### -links: para contenido en enlaces/botones
+##########################################################################
+
 
 ###################################################
 ### Guía de uso. Página use-guide.md
@@ -329,4 +330,18 @@ ictio-reports-cards:
       - text: Ver informes
         href: https://aguasamazonicas.org/informe-ictio
         isPrimary: true  
-      background: /assets/images/icons/protocolo_p76.png   
+      background: /assets/images/icons/protocolo_p76.png
+
+###################################################
+### API para desarrolladores. Página api-access.md
+###################################################
+
+api-access-intro:
+  markdownContent: |
+    # Integración de los datos del Observatorio en sistemas, aplicaciones y visualizaciones.
+
+    La API permite a organizaciones socias, equipos técnicos y desarrolladores consultar de forma automática los datos publicados en el Observatorio, sin descargas manuales. A través de ella es posible acceder a la información de biodiversidad y monitoreo pesquero del sistema ICTIO e integrarla en tableros que se actualizan solos, análisis reproducibles o cruces con otras fuentes de la cuenca.
+
+    La documentación técnica presenta los endpoints disponibles, ejemplos de consulta y los lineamientos para usar la API. Los datos consultados por esta vía mantienen las mismas condiciones de uso y cita que el resto del Observatorio.
+
+    [Ver documentación de la API](https://techdocs.gbif.org/en/openapi/v1/occurrence){:.button .is-primary target="_blank"}
