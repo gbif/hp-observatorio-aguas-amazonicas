@@ -1,5 +1,6 @@
 ##########################################################################
-### Contenidos de las páginas debajo de /resources
+### Contenidos de las páginas debajo de /resources, en orden de cómo
+### aparecen en el menú de navegación debajo de recursos.
 ###
 ### Se definen en el archivo _data/resources.yml
 ### Cada sección se define con un nombre de página y un contenido en yaml.
@@ -370,7 +371,7 @@ resources-list-intro:
     - [Plantilla de registros biológicos](/resources/usage-guide)
     - [Plantilla de metadatos](/resources/sensitive-information)
     - [Lista de chequeo: Integración de datos desde iniciativas de origen y organizaciones socias en el sistema ICTIO](/resources/api-access)
-    
+
     **Ética y gobernanza de datos**
     - [Acuerdo para compartir datos a nivel de iniciativa u organización](/resources/usage-guide)
     - [Consentimiento informado](/resources/sensitive-information)

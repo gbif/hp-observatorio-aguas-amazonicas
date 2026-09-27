@@ -1,8 +1,47 @@
-recognition:
+##########################################################################
+### Contenidos de las páginas debajo de /about, en orden de cómo
+### aparecen en el menú de navegación debajo de acerca de.
+###
+### Se definen en el archivo _data/about.yml
+### Cada sección se define con un nombre de página y un contenido en yaml.
+### por ejemplo:
+### para use-guide.md se define use-guide-intro, use-guide-cards, etc.
+### Se indica el tipo de contenido:
+### -intro: para contenido introductorio en markdown
+### -cards: para contenido en features/tarjetas
+### -links: para contenido en enlaces/botones
+##########################################################################
+
+
+###################################################
+### Observatorio. Página observatory.md
+###################################################
+
+observatory-intro:
   markdownContent: |
-    <img class="center" src="https://aguasamazonicas.org/wp-content/uploads/2026/03/portada-web.jpg" alt="Guía de citación">
-    <br>
-    [Mas información](/about){:.button}
+    # La ventana de datos abiertos de la Alianza Aguas Amazónicas
+
+    Cada día, en ríos, lagos, mercados y puertos de la Amazonía, alguien registra un pez. Una pescadora anota su captura al volver de la faena, un monitor comunitario documenta un desembarque, un equipo técnico recorre un mercado. Cada uno de esos registros, por pequeño que parezca, es una pieza para entender cómo cambia el ecosistema acuático más grande del planeta. El Observatorio Aguas Amazónicas reúne esas piezas y las pone a disposición de todas las personas.
+
+    El Observatorio es la ventana de datos abiertos de la Alianza Aguas Amazónicas: el lugar donde la información que la Alianza genera y cuida se vuelve pública, consultable y reutilizable. Hoy su componente principal es el sistema ICTIO, que reúne los datos del monitoreo pesquero de la cuenca. Esos datos provienen de monitoreo participativo y comunitario, de programas de ciencia ciudadana y de los monitoreos que realizan las más de 30 organizaciones e instituciones que forman parte de la Alianza. En el futuro, la ventana se abrirá a otros componentes que la Alianza monitorea y estudia, como la calidad del agua.
+
+    Abrir los datos no significa exponer a quienes los generan. Por eso, la información del Observatorio se publica agregada a nivel de subcuenca, sin coordenadas exactas, para proteger sitios y recursos sensibles, y se anonimiza cuando es necesario para proteger los datos personales. Al mismo tiempo, la Alianza trabaja para que las organizaciones locales que producen la información sean reconocidas y citadas en cada uso de sus datos. Proteger y reconocer van de la mano.
+
+    ## ¿Por qué monitorear la pesca en la Amazonía?
+
+    Los peces son la base de la alimentación, la economía y la cultura de millones de personas en la cuenca amazónica. Algunas especies, como los grandes bagres migratorios, recorren miles de kilómetros entre los Andes y el estuario, conectando países y ecosistemas. Saber qué especies se pescan, dónde, cuándo y en qué cantidad permite detectar cambios a tiempo, sustentar decisiones de manejo y conservación, y fortalecer la voz de las comunidades pesqueras en esas decisiones.
+
+    ## La Alianza Aguas Amazónicas
+
+    La Alianza Aguas Amazónicas es una iniciativa regional que concibe la cuenca amazónica como un gran ecosistema acuático interconectado, que depende de sus bosques para mantener su integridad. Más de 30 organizaciones de los países de la cuenca trabajan juntas para conservar sus ríos, humedales y pesquerías, con la Wildlife Conservation Society (WCS) como Secretaría Técnica. La estrategia, los programas, los socios y el resto del contexto de la Alianza están en su sitio web.
+
+    [Conocer la Alianza](https://aguasamazonicas.org/la-alianza){:.button .is-primary target="_blank"}
+
+    ## Los socios
+
+    El Observatorio se construye de manera colaborativa junto a organizaciones, instituciones y socios de la Alianza que aportan datos, investigaciones y conocimiento sobre los ríos y ecosistemas amazónicos. Esta red de colaboración permite consolidar información diversa y actualizada para fortalecer el análisis, la toma de decisiones y las acciones de conservación en la Amazonía.
+
+    <img class="center" src="/assets/images/logos/banner-socios-Alianza-AA-2025-es.png" alt="Socios">
 
 citation-guide:
   klass: features--explore

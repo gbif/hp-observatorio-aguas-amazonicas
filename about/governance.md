@@ -2,7 +2,7 @@
 layout: compose
 lang-ref: governance
 lang: es
-title: Gobernanza
+title: Ética y gobernanza de datos
 toc: false
 background: /assets/images/pages_bg_wh_w1800px.png
 height: 41vh
@@ -12,12 +12,8 @@ composition:
   - type: pageMarkdown
 ---
 
-# Un modelo de articulación que conecta actores, datos y conocimiento para fortalecer la gobernanza de los ecosistemas acuáticos amazónicos.
+# Acuerdos compartidos para cuidar los datos y a quienes los generan
 
-El Observatorio Participativo hace parte de una infraestructura colaborativa liderada por la Alianza Aguas Amazónicas, que articula actores, conocimientos y procesos para fortalecer la gestión de la información sobre peces, pesca, agua y ecosistemas acuáticos de la Cuenca Amazónica. Más que una plataforma tecnológica, esta infraestructura integra acuerdos, estándares, mecanismos de participación y criterios de calidad que permiten que los datos se conviertan en evidencia para la toma de decisiones.
-
-El modelo de articulación se organiza en cuatro componentes complementarios. La Alianza Aguas Amazónicas proporciona el marco estratégico y de gobernanza; el Sistema Ictio reúne los procesos, estándares y herramientas para la gestión de datos sobre peces y pesca; el Programa de Ciencia Ciudadana fortalece la participación y la generación colaborativa de conocimiento; y el Observatorio Participativo integra, organiza y pone a disposición la información para su consulta, análisis y uso.
-
-Este modelo permite incorporar información proveniente de diferentes iniciativas, como el monitoreo hídrico, programas de ciencia ciudadana y otras fuentes aliadas, bajo principios comunes de calidad, interoperabilidad, trazabilidad y reconocimiento de quienes generan los datos. De esta manera, el Observatorio evoluciona como un espacio abierto y flexible que facilita el acceso a información confiable para apoyar la conservación, el manejo sostenible y la gobernanza de los ecosistemas acuáticos amazónicos.
+La gobernanza del Observatorio hace parte de la gobernanza general de la Alianza Aguas Amazónicas. Las mismas instancias que orientan la Alianza definen cómo se gestiona y cómo opera el Observatorio: la **Asamblea General**, que reúne a los socios y recibe la rendición de cuentas; el **Consejo Directivo**, que aprueba las políticas y resuelve las decisiones institucionales; el **Comité de Infraestructura de Datos**, que asesora en arquitectura, interoperabilidad, calidad y seguridad; el **Comité de Conducta**, que examina con imparcialidad los casos que afecten derechos, dignidad o confianza; y la **Secretaría Técnica**, a cargo de la Wildlife Conservation Society (WCS), que coordina la aplicación cotidiana. En cada iniciativa, las personas gestoras de datos mantienen el enlace entre el territorio y la Secretaría Técnica.
 
 <img class="center" src="/assets/images/resources/modelo_articulacion_esp.png" alt="Modelo de articulación">
