@@ -304,3 +304,29 @@ sensitive-information-howto-cards:
         href: /resources/usage-guide
         isPrimary: true  
       background: /assets/images/icons/protocolo_p76.png  
+
+###################################################
+### Informes ICTIO. Página ictio-reports.md
+###################################################
+
+ictio-reports-intro:
+  markdownContent: |
+    # Una mirada panorámica al monitoreo pesquero en la cuenca amazónica
+
+    Los Informes ICTIO son la lectura que hace la Secretaría Técnica de la Alianza Aguas Amazónicas sobre el estado del monitoreo pesquero en la cuenca. A partir de los datos del sistema ICTIO, reúnen cifras, tendencias y avances, y hacen visibles los aportes de las comunidades, organizaciones e instituciones que generan la información. Tienen un propósito divulgativo, por eso se presentan en formatos pensados para compartir, como infografías y reportes periódicos.
+
+    Los informes trabajan con un nivel de agregación propio y, en algunos casos, incorporan fuentes de datos complementarias a las del Observatorio. Por eso sus cifras no siempre coinciden con las de los paneles del Observatorio. Ambos productos son válidos y se complementan: el Observatorio muestra los registros publicados y consultables; los informes ofrecen una lectura de conjunto para entender el panorama del monitoreo pesquero.
+
+    Los Informes ICTIO se publican en el sitio web de la [Alianza Aguas Amazónicas](https://aguasamazonicas.org/informe-ictio){:target="_blank"}.
+
+ictio-reports-cards:
+  klass: features--explore
+  features:
+    - title: Informes ICTIO # required
+      description: |      # required
+        Informes e infografías del monitoreo pesquero de ICTIO, disponibles para consulta y descarga.   
+      cta:
+      - text: Ver informes
+        href: https://aguasamazonicas.org/informe-ictio
+        isPrimary: true  
+      background: /assets/images/icons/protocolo_p76.png   
