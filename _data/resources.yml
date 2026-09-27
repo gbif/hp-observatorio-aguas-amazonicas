@@ -1,30 +1,3 @@
-protocols:
-  klass: features--explore
-  description: |
-    Cada protocolo responde a un contexto específico de observación y registro, permitiendo complementar la información obtenida desde diferentes puntos de la cadena pesquera:
-  features:
-    - title: Durante la faena - P76 # required
-      description: |      # required
-        Registra peces observados o capturados directamente durante la actividad de pesca. Este protocolo permite documentar información asociada al momento de captura, incluyendo datos sobre la ubicación, fecha y características del evento cuando se encuentran disponibles.     
-      # img required
-      background: /assets/images/icons/protocolo_p76.png
-    - title: Después de la faena - P77 # required
-      description: |      # required
-        Permite registrar información reportada después de finalizar la actividad de pesca. Los datos son aportados por personas pescadoras, monitoras o equipos locales y complementan la información obtenida durante las jornadas de monitoreo.
-      background: /assets/images/icons/protocolo_p77.png
-    - title: Mercado - P78 # required
-      description: |      # required
-        Corresponde a registros realizados en mercados de peces, donde se documentan especies observadas o comercializadas. Este tipo de información permite conocer la diversidad de especies presentes en los circuitos de comercialización, aunque no siempre es posible determinar con precisión el lugar de captura.
-      background: /assets/images/icons/protocolo_p78.png
-    - title: Puerto - P79 # required
-      description: |      # required
-        Incluye registros obtenidos durante actividades de monitoreo en puertos y desembarques pesqueros. Dependiendo de la información disponible, estos registros pueden aportar datos sobre el origen de las capturas, las especies desembarcadas y otros aspectos relacionados con la actividad pesquera.
-      background: /assets/images/icons/protocolo_p79.png
-
-protocols-after:
-  markdownContent: |
-    La integración de estos protocolos permite construir una visión más amplia de la diversidad de peces presentes en la cuenca amazónica y fortalecer los procesos de monitoreo participativo impulsados por organizaciones, comunidades y equipos técnicos vinculados a la conservación de los ecosistemas acuáticos.
-
 api-guide:
   klass: features--explore
   features:
@@ -39,7 +12,7 @@ api-guide:
       background: /assets/images/icons/icono_api.png
 
 ###################################################
-### Guía de uso. Página use-guide
+### Guía de uso. Página use-guide.md
 ###################################################
 
 use-guide-intro:
@@ -73,7 +46,7 @@ use-guide-cards:
       background: /assets/images/icons/icono_api.png
 
 ###################################################
-### Publicación de datos. Página publishing-guide
+### Publicación de datos. Página publishing-guide.md
 ###################################################
 
 publishing-guide-intro:
@@ -212,7 +185,7 @@ data-quality-intro:
     - [openRefine](https://openrefine.org/): verifica la estructura y contenido de los archivos EML.
     - [Guía de interoperabilidad de la Alianza](/resources/publishing-guide) (ver sección 2.2): describe los controles que se aplican a cada aporte.
 
-    [Más herramientas de calidad](https://aguasamazonicas.org){:.button .is-primary .footer-cta target="_blank"}
+    [Más herramientas de calidad](https://aguasamazonicas.org){:.button .is-primary target="_blank"}
 
 data-quality-standards:
   markdownContent: |
@@ -251,3 +224,44 @@ data-quality-standards-cards:
         href: https://www.tdwg.org/community/species/plinian-core/
         isPrimary: true  
       background: /assets/images/icons/estandar_plic.png
+
+###################################################
+### Protocolos. Página protocols.md
+###################################################
+
+protocols-intro:
+  markdownContent: |
+    # Acuerdos comunes para observar y registrar la pesca en toda la cuenca
+
+    Para que datos tomados en ríos, mercados y puertos de distintos países puedan compararse, primero hay que ponerse de acuerdo en qué observar y cómo registrarlo. En la Alianza Aguas Amazónicas, ese acuerdo lo construye colaborativamente el Grupo de Pesca, un grupo interinstitucional que define las variables esenciales que se registran en los diferentes mecanismos de monitoreo de la Alianza.
+
+    De ese trabajo surgen los cuatro protocolos del sistema ICTIO. Cada uno responde a un momento distinto de la cadena pesquera y, juntos, ofrecen una visión más amplia de la diversidad de peces de la cuenca y de las dinámicas de la pesca.
+
+
+protocols-cards:
+  klass: features--explore
+  description: |
+    Cada protocolo responde a un contexto específico de observación y registro, permitiendo complementar la información obtenida desde diferentes puntos de la cadena pesquera:
+  features:
+    - title: P76 – Durante la faena # required
+      description: |      # required
+        Registra los peces observados o capturados directamente durante la actividad de pesca. Documenta información del momento de captura, como la ubicación, la fecha y las características del evento cuando están disponibles.     
+      # img required
+      background: /assets/images/icons/protocolo_p76.png
+    - title: P77 – Después de la faena # required
+      description: |      # required
+        Registra la información reportada una vez termina la actividad de pesca. Los datos los aportan personas pescadoras, monitoras o equipos locales, y complementan lo obtenido durante las jornadas de monitoreo.
+      background: /assets/images/icons/protocolo_p77.png
+    - title: P78 – Mercado # required
+      description: |      # required
+        Registra las especies observadas o comercializadas en mercados de pescado. Permite conocer la diversidad de especies que circulan en la comercialización, aunque no siempre es posible determinar con precisión el lugar de captura.
+      background: /assets/images/icons/protocolo_p78.png
+    - title: P79 – Puerto # required
+      description: |      # required
+        Registra información obtenida en puertos y desembarques pesqueros. Según la información disponible, aporta datos sobre el origen de las capturas, las especies desembarcadas y otros aspectos de la actividad pesquera.
+      background: /assets/images/icons/protocolo_p79.png
+
+protocols-files-link:
+  markdownContent: |
+    [Ver protocolos](https://aguasamazonicas.org){:.button .is-primary target="_blank"}
+    
