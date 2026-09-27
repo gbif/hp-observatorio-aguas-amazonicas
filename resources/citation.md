@@ -1,8 +1,8 @@
 ---
 layout: compose
-lang-ref: use-guide
+lang-ref: citation
 lang: es
-title: Guía de uso
+title: "Guía de citación / Uso de datos"
 toc: false
 background: /assets/images/pages_bg_wh_w1800px.png
 height: 41vh
@@ -11,7 +11,9 @@ composition:
   - type: blank
   - type: pageMarkdown
   - type: markdown
-    data: resources.use-guide-intro
+    data: resources.citation-guide-intro
   - type: features
-    data: resources.use-guide-link
+    data: resources.citation-guide-link
+  - type: markdown
+    data: resources.citation-guide-datause
 ---

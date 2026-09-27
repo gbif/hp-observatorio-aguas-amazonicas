@@ -190,3 +190,45 @@ publishing-guide-files:
         isPrimary: true      
       # img required
       background: /assets/images/icons/publicacion_metadatos.png
+
+###################################################
+### Guía de citación. Página citation.md
+###################################################
+
+citation-guide-intro:
+  markdownContent: |
+    # Reconocer a quienes hacen posible cada dato.
+
+    Detrás de cada registro del Observatorio hay personas pescadoras y monitoras, comunidades, organizaciones socias y equipos técnicos que observaron, registraron, validaron y cuidaron la información. Citar bien no es una formalidad bibliográfica: es la forma de mantener visible esa cadena de contribuciones, permitir que otras personas verifiquen los resultados y devolver valor a quienes generaron los datos.
+
+    ## Guía de citación, atribución y reconocimiento
+
+    La guía explica cómo citar cada tipo de recurso disponible en el Observatorio: el Observatorio mismo, un registro individual, un conjunto de datos, una descarga, un conjunto derivado, una fotografía, un mapa o una cifra de los paneles, y los productos derivados que se elaboren a partir de ellos. Su regla central es citar el recurso exacto que se utilizó. Mencionar a la Alianza, al Observatorio, a ICTIO o a GBIF no reemplaza la cita del conjunto o la descarga de dónde vienen los datos.
+
+citation-guide-link:
+  klass: features--explore
+  features:
+    - title: Guía de citación, atribución y reconocimiento # required
+      description: |      # required
+        Orientaciones para citar datos, conjuntos, descargas y productos de la Alianza, y para reconocer las contribuciones de personas, comunidades y organizaciones.
+      cta:  
+      - text: Descargar guía
+        href: /resources/usage-guide
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/icono_api.png
+
+citation-guide-datause:
+  markdownContent: |
+    ## Uso de los datos: notificación de uso y reúso
+
+    La Alianza invita a notificar la publicación de artículos, informes, mapas, visualizaciones, materiales educativos, software u otros productos basados en datos del Observatorio. Conocer cómo se usan los datos permite a la Alianza devolver los resultados a las comunidades y organizaciones que los hicieron posibles.
+
+    La notificación se envía a [observatorio@aguasamazonicas.org](mailto:observatorio@aguasamazonicas.org) con la siguiente información:
+
+    - título, tipo de producto, enlace público y DOI, si existe;
+    - autoría, organización responsable y contacto;
+    - datos o recursos utilizados, con su versión o DOI;
+    - una descripción breve del uso realizado.
+
+    Una notificación por producto es suficiente. No deben adjuntar datos restringidos ni información personal. La notificación es una buena práctica de reciprocidad: no reemplaza la cita ni es una condición para acceder a los datos o usarlos.
