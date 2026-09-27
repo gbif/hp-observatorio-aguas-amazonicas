@@ -1,3 +1,16 @@
+discover:
+  klass: features--explore
+  features:
+    - title: Consultar fichas de taxones # required
+      description: |      # required
+        Cada ficha reúne información taxonómica, ecológica y de distribución, complementada con registros biológicos, recursos visuales y otros contenidos del Observatorio. Recorrerlas es una forma de conocer distintos niveles de la diversidad biológica amazónica y su importancia en los ecosistemas y territorios de la cuenca.
+      cta:  
+      - text: Ver fichas de peces
+        href: /taxa/list
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/descubre_fichas_especies.png
+
 list:
   klass: features--explore
   title: Lista de fichas
