@@ -75,25 +75,37 @@ governance-cards:
       # img required
       background: /assets/images/icons/citacion.png
 
+###################################################
+### Términos de uso y privacidad. Página terms-of-use-and-privacy.md
+###################################################
 
+terms-of-use-and-privacy-intro:
+  markdownContent: |
+    Como el sistema ICTIO es hoy el componente principal del Observatorio, sus términos de uso y su política de privacidad son los que orientan la consulta, la descarga y la reutilización de los datos disponibles en el Observatorio. Se recomienda revisarlos antes de usar la información.
 
-citation-guide:
+terms-of-use-and-privacy-cards:
   klass: features--explore
   features:
-    - title: Guia de citación # required
+    - title: Términos de uso y privacidad # required
       description: |      # required
-        A continuación, se adjunta la guía de citación correspondiente para la consulta y uso de contenidos publicados en el Observatorio.
+        Condiciones para consultar, descargar, reutilizar y atribuir los datos del sistema ICTIO.
       cta:  
-      - text: Más información
+      - text: Ver términos
+        href: /resources/usage-guide
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/citacion.png
+    - title: Política de privacidad del sistema ICTIO # required
+      description: |      # required
+        Cómo se tratan y protegen los datos de las personas vinculadas a la generación y gestión de información en ICTIO.
+      cta:  
+      - text: Ver política
         href: /resources/usage-guide
         isPrimary: true      
       # img required
       background: /assets/images/icons/citacion.png
 
-terms:
+terms-of-use-and-privacy-outro:
   markdownContent: |
-    <img class="center" src="https://aguasamazonicas.org/wp-content/uploads/2026/03/portada-web.jpg" alt="Términos de uso y privacidad">
-    A continuación, se adjunta el documento correspondiente de términos de uso y privacidad del Observatorio.
-    <br>
-    [Mas información](/about){:.button}
+    El Observatorio no publica datos personales. Aun así, la Alianza trabaja para que las organizaciones que generan la información sean reconocidas. La forma de ese reconocimiento depende de los acuerdos locales que cada iniciativa establece en el marco de la Política de ética y gobernanza de datos. Cuando un trabajo requiere información con mayor nivel de detalle, el procedimiento se describe en la sección de Acceso a datos sensibles, que explica cómo presentar la solicitud a la Secretaría Técnica.
 
