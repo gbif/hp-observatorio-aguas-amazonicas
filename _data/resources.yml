@@ -199,7 +199,6 @@ data-quality-standards-cards:
     - title: Darwin Core (DwC) # required
       description: |      # required
         Estándar para estructurar y publicar registros biológicos: especie, evento, ubicación, fecha, personas e instituciones asociadas.
-      href: https://dwc.tdwg.org/es/
       cta:
       - text: Más información
         href: https://dwc.tdwg.org/es/
@@ -209,7 +208,6 @@ data-quality-standards-cards:
     - title: Ecological Metadata Language (EML) # required
       description: |      # required
         Estándar para documentar los metadatos de los conjuntos de datos: origen, métodos, cobertura, responsables y licencia.
-      href: https://eml.ecoinformatics.org/
       cta:
       - text: Más información
         href: https://eml.ecoinformatics.org/
@@ -218,7 +216,6 @@ data-quality-standards-cards:
     - title: Plinian Core (PliC) # required
       description: |      # required
         Estándar para estructurar fichas de especies: taxonomía, distribución, ecología, conservación y usos.
-      href: https://www.tdwg.org/community/species/plinian-core/
       cta:
       - text: Más información
         href: https://www.tdwg.org/community/species/plinian-core/
@@ -236,7 +233,6 @@ protocols-intro:
     Para que datos tomados en ríos, mercados y puertos de distintos países puedan compararse, primero hay que ponerse de acuerdo en qué observar y cómo registrarlo. En la Alianza Aguas Amazónicas, ese acuerdo lo construye colaborativamente el Grupo de Pesca, un grupo interinstitucional que define las variables esenciales que se registran en los diferentes mecanismos de monitoreo de la Alianza.
 
     De ese trabajo surgen los cuatro protocolos del sistema ICTIO. Cada uno responde a un momento distinto de la cadena pesquera y, juntos, ofrecen una visión más amplia de la diversidad de peces de la cuenca y de las dinámicas de la pesca.
-
 
 protocols-cards:
   klass: features--explore
@@ -264,4 +260,47 @@ protocols-cards:
 protocols-files-link:
   markdownContent: |
     [Ver protocolos](https://aguasamazonicas.org){:.button .is-primary target="_blank"}
-    
+
+###################################################
+### Acceso a datos sensibles. Página sensitive-information.md
+###################################################
+
+sensitive-information-intro:
+  markdownContent: |
+    # Tan abiertos como sea posible, tan protegidos como sea necesario
+
+    Los datos del sistema ICTIO no existen en una sola versión. Algunos detalles, como las coordenadas exactas de un sitio de pesca o la identidad de quien registró una captura, podrían afectar a personas, comunidades o especies si se publicaran sin cuidado. Por eso ICTIO organiza sus datos en cuatro niveles de acceso. Cada nivel es una versión distinta del mismo recurso, y abrir un nivel nunca ocurre de forma automática.
+
+sensitive-information-cards:
+  klass: features--explore
+  features:
+    - title: Niveles de acceso de los datos del sistema ICTIO # required
+      description: |      # required
+        Modelo completo de niveles de acceso, almacenamiento y licenciamiento, con las transiciones permitidas entre niveles.   
+      cta:
+      - text: Descargar
+        href: /resources/usage-guide
+        isPrimary: true  
+      background: /assets/images/icons/protocolo_p76.png
+
+sensitive-information-howto:
+  markdownContent: |
+    ## ¿Cómo acceder a datos sensibles del sistema ICTIO?
+
+    Cuando una investigación, un proyecto de conservación o un análisis técnico requiere más detalle del disponible públicamente, es posible solicitar acceso al nivel 2, es decir al conjunto de datos con las coordenadas de los registros. Las personas u organizaciones interesadas deben enviar una solicitud formal a la Secretaría Técnica de la Alianza Aguas Amazónicas al correo [observatorio@aguasamazonicas.org](mailto:observatorio@aguasamazonicas.org), usando el formato del [Acuerdo para compartir datos](/resources/usage-guide).
+
+    La Secretaría Técnica revisa cada solicitud junto con el custodio de los datos cuando corresponde. Si se aprueba, el acceso se formaliza con un acuerdo que define la finalidad, el alcance, el plazo, las medidas de seguridad y las restricciones de redistribución. Si no puede aprobarse, la decisión se comunica de forma motivada.
+
+    Acceder a datos de nivel 2 conlleva los mismos compromisos de reconocimiento que cualquier uso del Observatorio, y algunos más. Antes de enviar la solicitud, se recomienda revisar la [sección 2.3 de la Guía de citación / Uso de datos](/resources/citation-guide), donde se explica cómo citar el conjunto y su DOI, cómo reconocer a las organizaciones y comunidades que generaron la información, y cómo notificar el uso y reúso de los productos obtenidos.
+ 
+sensitive-information-howto-cards:
+  klass: features--explore
+  features:
+    - title: Acuerdo para compartir datos a nivel de iniciativa u organización # required
+      description: |      # required
+        Formato para solicitar y formalizar el acceso a datos de acceso controlado.   
+      cta:
+      - text: Descargar
+        href: /resources/usage-guide
+        isPrimary: true  
+      background: /assets/images/icons/protocolo_p76.png  
