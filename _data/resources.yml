@@ -1,42 +1,3 @@
-standards:
-  klass: features--explore
-  title: Estándares usados en el observatorio
-  features:
-    - title: Darwin Core (DwC) # required
-      description: |      # required
-        Es el estándar utilizado para estructurar y publicar registros biológicos. Permite documentar información relacionada con especies, observaciones, eventos de muestreo, ubicación geográfica, fechas, personas e instituciones asociadas a los registros, facilitando el intercambio de datos sobre biodiversidad entre diferentes plataformas y organizaciones.
-      href: https://dwc.tdwg.org/es/
-      cta:
-      - text: Más información
-        href: https://dwc.tdwg.org/es/
-        isPrimary: true      
-      # img required
-      background: /assets/images/icons/estandar_dwc.png
-    - title: Ecological Metadata Language (EML) # required
-      description: |      # required
-        Es el estándar utilizado para documentar los metadatos asociados a los conjuntos de datos. Proporciona información sobre el origen de los datos, métodos de recopilación, cobertura geográfica y temporal, responsables, licencias y otros elementos necesarios para comprender el contexto en que la información fue generada.
-      href: https://eml.ecoinformatics.org/
-      cta:
-      - text: Más información
-        href: https://eml.ecoinformatics.org/
-        isPrimary: true  
-      background: /assets/images/icons/estandar_eml.png
-    - title: Plinian Core (PliC) # required
-      description: |      # required
-        Es el estándar utilizado para estructurar fichas de especies y otros contenidos taxonómicos. Permite organizar información descriptiva relacionada con taxonomía, distribución, ecología, conservación, usos y otros atributos asociados a especies o grupos biológicos.
-      href: https://www.tdwg.org/community/species/plinian-core/
-      cta:
-      - text: Más información
-        href: https://www.tdwg.org/community/species/plinian-core/
-        isPrimary: true  
-      background: /assets/images/icons/estandar_plic.png
-
-standards-after:
-  markdownContent: |
-    ## ¿Por qué son importantes los estándares?
-
-    Los estándares permiten que la información generada por múltiples actores pueda integrarse en una infraestructura común, facilitando su consulta y reutilización. Gracias a este lenguaje compartido, el Observatorio puede conectar registros biológicos, fichas taxonómicas, conjuntos de datos, recursos multimedia y otros contenidos provenientes de diferentes fuentes, fortaleciendo la gestión del conocimiento sobre la cuenca amazónica y promoviendo el acceso abierto a la información.
-
 protocols:
   klass: features--explore
   description: |
@@ -64,19 +25,6 @@ protocols-after:
   markdownContent: |
     La integración de estos protocolos permite construir una visión más amplia de la diversidad de peces presentes en la cuenca amazónica y fortalecer los procesos de monitoreo participativo impulsados por organizaciones, comunidades y equipos técnicos vinculados a la conservación de los ecosistemas acuáticos.
 
-data-quality-manual:
-  klass: features--explore
-  features:
-    - title: Calidad de datos # required
-      description: |      # required
-        A continuación, encontrarás los documentos y orientaciones relacionadas con los procesos de revisión y fortalecimiento de calidad de datos implementados dentro del Observatorio.
-      cta:  
-      - text: Más información
-        href: /resources/usage-guide
-        isPrimary: true      
-      # img required
-      background: /assets/images/icons/calidad_datos.png
-
 api-guide:
   klass: features--explore
   features:
@@ -96,13 +44,13 @@ api-guide:
 
 use-guide-intro:
   markdownContent: |
-    # Herramientas y orientaciones para recorrer, consultar y aprovechar el Observatorio.
+    # Herramientas y orientaciones para recorrer, consultar y aprovechar el Observatorio
 
     El Observatorio Aguas Amazónicas permite explorar información sobre peces, pesca y ecosistemas acuáticos de la Amazonía desde distintas puertas de entrada: el buscador, los paneles de cifras, el mapa de la cuenca, las fichas de peces y los conjuntos de datos. La exploración puede comenzar por una especie, una subcuenca o la organización que aportó los datos, y las visualizaciones se actualizan según los filtros aplicados.
 
     La información seleccionada se descarga a través de GBIF con una cuenta gratuita, y los filtros aplicados en el Observatorio se conservan en la descarga. La guía de uso explica paso a paso cada herramienta; la guía de estilo visual orienta el uso correcto de la identidad del Observatorio en piezas y comunicaciones.
 
-use-guide-link:
+use-guide-cards:
   klass: features--explore
   features:
     - title: Guía de uso del Observatorio # required
@@ -130,7 +78,7 @@ use-guide-link:
 
 publishing-guide-intro:
   markdownContent: |
-    # Cómo llegan los datos de las organizaciones socias al Observatorio y al mundo.
+    # Cómo llegan los datos de las organizaciones socias al Observatorio y al mundo
 
     La interoperabilidad permite que los conjuntos de datos producidos por distintas organizaciones, con métodos, escalas y herramientas diferentes, se integren, interpreten y reutilicen de forma conjunta. En la Alianza Aguas Amazónicas se aborda en cuatro dimensiones: legal (licencias, condiciones de uso y acuerdos), organizacional (roles y responsabilidades), semántica (estándar común, vocabularios controlados y metadatos) y técnica (formatos abiertos, identificadores persistentes y acceso programático). El modelo no centraliza la información ni homogeniza las prácticas de campo: cada organización conserva la titularidad y el control sobre sus datos, y su contribución queda trazada a lo largo de todo el ciclo.
 
@@ -145,7 +93,7 @@ publishing-guide-intro:
     5. Proteger. Se anonimizan los datos personales y se generaliza la ubicación a nivel de subcuenca, lo que genera versiones de acceso controlado (niveles 1 y 2).
     6. Publicar. Con la autorización de la Secretaría Técnica, se genera la versión de acceso abierto (nivel 3).
 
-publishing-guide-link:
+publishing-guide-cards:
   klass: features--explore
   features:
     - title: Guía de interoperabilidad # required
@@ -169,7 +117,7 @@ publishing-guide-share:
 
     Cada organización conserva la titularidad sobre los datos que comparte y puede solicitar en cualquier momento una copia de lo aportado.
 
-publishing-guide-files:
+publishing-guide-files-cards:
   klass: features--explore
   features:
     - title: Plantilla de registros biológicos # required
@@ -197,7 +145,7 @@ publishing-guide-files:
 
 citation-guide-intro:
   markdownContent: |
-    # Reconocer a quienes hacen posible cada dato.
+    # Reconocer a quienes hacen posible cada dato
 
     Detrás de cada registro del Observatorio hay personas pescadoras y monitoras, comunidades, organizaciones socias y equipos técnicos que observaron, registraron, validaron y cuidaron la información. Citar bien no es una formalidad bibliográfica: es la forma de mantener visible esa cadena de contribuciones, permitir que otras personas verifiquen los resultados y devolver valor a quienes generaron los datos.
 
@@ -205,7 +153,7 @@ citation-guide-intro:
 
     La guía explica cómo citar cada tipo de recurso disponible en el Observatorio: el Observatorio mismo, un registro individual, un conjunto de datos, una descarga, un conjunto derivado, una fotografía, un mapa o una cifra de los paneles, y los productos derivados que se elaboren a partir de ellos. Su regla central es citar el recurso exacto que se utilizó. Mencionar a la Alianza, al Observatorio, a ICTIO o a GBIF no reemplaza la cita del conjunto o la descarga de dónde vienen los datos.
 
-citation-guide-link:
+citation-guide-cards:
   klass: features--explore
   features:
     - title: Guía de citación, atribución y reconocimiento # required
@@ -232,3 +180,74 @@ citation-guide-datause:
     - una descripción breve del uso realizado.
 
     Una notificación por producto es suficiente. No deben adjuntar datos restringidos ni información personal. La notificación es una buena práctica de reciprocidad: no reemplaza la cita ni es una condición para acceder a los datos o usarlos.
+
+###################################################
+### Calidad de datos. Página data-quality.md
+###################################################
+
+data-quality-intro:
+  markdownContent: |
+    # Datos participativos con procesos de curaduría que respaldan su confiabilidad
+
+    ## ¿Qué significa calidad de datos en la Alianza Aguas Amazónicas?
+
+    Buena parte de los datos del Observatorio nace del monitoreo participativo: personas pescadoras que registran sus capturas, monitores comunitarios, equipos locales en mercados y puertos, y organizaciones socias con sus propios programas de monitoreo pesquero. Que un dato venga de un proceso participativo no lo hace menos confiable. Lo que lo hace confiable es el camino de revisión que recorre antes de publicarse, y en la Alianza ese camino tiene varias manos.
+
+    La primera revisión ocurre en el territorio, donde las personas gestoras de datos de cada iniciativa verifican que los registros estén completos y bien documentados. Luego, la Secretaría Técnica de la Alianza cura cada aporte: caracteriza el conjunto, normaliza formatos, detecta duplicados y aplica la validación taxonómica, para confirmar que los nombres científicos existan y correspondan a taxones aceptados, conservando siempre la identificación original y los nombres locales. También aplica la validación geográfica, para comprobar que las ubicaciones sean coherentes con el cuerpo de agua y el territorio declarados, y la validación temporal, para asegurar que las fechas sean posibles y consistentes. Cuando hace falta, se suma la revisión de especialistas temáticos.
+
+    La Alianza evalúa la calidad en tres dimensiones: exactitud, consistencia y completitud. Y sigue un principio: la calidad no se corrige eliminando. Un registro con problemas se documenta, se intenta corregir junto con quien lo aportó y se clasifica según su aptitud, pero no se borra en silencio. Toda transformación queda registrada, de modo que cada dato publicado pueda explicarse.
+
+    La calidad tampoco es un sí o un no. Un registro puede ser útil para un análisis y no para otro. Por eso se recomienda revisar los metadatos de cada conjunto, donde se describen su metodología, su cobertura y las protecciones aplicadas; por ejemplo, las ubicaciones públicas están agregadas a nivel de subcuenca y no representan coordenadas exactas.
+
+    ## Herramientas para la calidad de datos
+
+    **Para quienes usan los datos.** Antes del análisis, es recomendable revisar los metadatos del conjunto y las marcas de calidad que GBIF asigna a cada registro. Estas marcas señalan, por ejemplo, nombres que no coinciden con el catálogo taxonómico o coordenadas inconsistentes, y permiten filtrar los registros según el propósito del análisis.
+
+    - [Requisitos de calidad de datos de GBIF](https://www.gbif.org/es/data-quality-requirements): qué se espera de un conjunto de ocurrencias publicado.
+    - [Buscador de nombres de especies de GBIF](https://www.gbif.org/es/tools/species-lookup): verifica nombres científicos contra el catálogo taxonómico.
+
+    **Para quienes generan o publican datos.** Estas herramientas libres ayudan a revisar los datos antes de enviarlos a la Secretaría Técnica:
+    
+    - [Validador de datos de GBIF](https://tools.gbif.org/es/tools/data-validator): revisa la estructura Darwin Core y detecta problemas antes de publicar.
+    - [openRefine](https://openrefine.org/): verifica la estructura y contenido de los archivos EML.
+    - [Guía de interoperabilidad de la Alianza](/resources/publishing-guide) (ver sección 2.2): describe los controles que se aplican a cada aporte.
+
+    [Más herramientas de calidad](https://aguasamazonicas.org){:.button .is-primary .footer-cta target="_blank"}
+
+data-quality-standards:
+  markdownContent: |
+    ## Estándares
+
+    Los estándares son el lenguaje común que permite integrar datos de distintos países, organizaciones y metodologías en una misma infraestructura. El Observatorio usa tres:
+
+data-quality-standards-cards:
+  klass: features--explore
+  features:
+    - title: Darwin Core (DwC) # required
+      description: |      # required
+        Estándar para estructurar y publicar registros biológicos: especie, evento, ubicación, fecha, personas e instituciones asociadas.
+      href: https://dwc.tdwg.org/es/
+      cta:
+      - text: Más información
+        href: https://dwc.tdwg.org/es/
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/estandar_dwc.png
+    - title: Ecological Metadata Language (EML) # required
+      description: |      # required
+        Estándar para documentar los metadatos de los conjuntos de datos: origen, métodos, cobertura, responsables y licencia.
+      href: https://eml.ecoinformatics.org/
+      cta:
+      - text: Más información
+        href: https://eml.ecoinformatics.org/
+        isPrimary: true  
+      background: /assets/images/icons/estandar_eml.png
+    - title: Plinian Core (PliC) # required
+      description: |      # required
+        Estándar para estructurar fichas de especies: taxonomía, distribución, ecología, conservación y usos.
+      href: https://www.tdwg.org/community/species/plinian-core/
+      cta:
+      - text: Más información
+        href: https://www.tdwg.org/community/species/plinian-core/
+        isPrimary: true  
+      background: /assets/images/icons/estandar_plic.png

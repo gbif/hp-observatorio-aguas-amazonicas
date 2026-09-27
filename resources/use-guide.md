@@ -13,5 +13,5 @@ composition:
   - type: markdown
     data: resources.use-guide-intro
   - type: features
-    data: resources.use-guide-link
+    data: resources.use-guide-cards
 ---

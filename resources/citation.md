@@ -13,7 +13,7 @@ composition:
   - type: markdown
     data: resources.citation-guide-intro
   - type: features
-    data: resources.citation-guide-link
+    data: resources.citation-guide-cards
   - type: markdown
     data: resources.citation-guide-datause
 ---

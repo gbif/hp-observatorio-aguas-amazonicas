@@ -12,10 +12,10 @@ composition:
   - type: markdown
     data: resources.publishing-guide-intro
   - type: features
-    data: resources.publishing-guide-link
+    data: resources.publishing-guide-cards
   - type: markdown
     data: resources.publishing-guide-share
   - type: features
-    data: resources.publishing-guide-files
+    data: resources.publishing-guide-files-cards
 
 ---
