@@ -90,7 +90,19 @@ api-guide:
       # img required
       background: /assets/images/icons/icono_api.png
 
-use-guide:
+###################################################
+### Guía de uso. Página use-guide
+###################################################
+
+use-guide-intro:
+  markdownContent: |
+    # Herramientas y orientaciones para recorrer, consultar y aprovechar el Observatorio.
+
+    El Observatorio Aguas Amazónicas permite explorar información sobre peces, pesca y ecosistemas acuáticos de la Amazonía desde distintas puertas de entrada: el buscador, los paneles de cifras, el mapa de la cuenca, las fichas de peces y los conjuntos de datos. La exploración puede comenzar por una especie, una subcuenca o la organización que aportó los datos, y las visualizaciones se actualizan según los filtros aplicados.
+
+    La información seleccionada se descarga a través de GBIF con una cuenta gratuita, y los filtros aplicados en el Observatorio se conservan en la descarga. La guía de uso explica paso a paso cada herramienta; la guía de estilo visual orienta el uso correcto de la identidad del Observatorio en piezas y comunicaciones.
+
+use-guide-link:
   klass: features--explore
   features:
     - title: Guía de uso del Observatorio # required
@@ -112,59 +124,69 @@ use-guide:
       # img required
       background: /assets/images/icons/icono_api.png
 
-    - title: Guía de uso del Observatorio # required
-      description: |      # required
-        Explica cómo navegar el Observatorio, usar el buscador y los filtros, explorar los paneles de datos y descargar información.
-      cta:  
-      - text: Descargar guía
-        href: /resources/usage-guide
-        isPrimary: true      
-      # img required
-      background: /assets/images/icons/icono_api.png
+###################################################
+### Publicación de datos. Página publishing-guide
+###################################################
 
-publishing-guide:
+publishing-guide-intro:
+  markdownContent: |
+    # Cómo llegan los datos de las organizaciones socias al Observatorio y al mundo.
+
+    La interoperabilidad permite que los conjuntos de datos producidos por distintas organizaciones, con métodos, escalas y herramientas diferentes, se integren, interpreten y reutilicen de forma conjunta. En la Alianza Aguas Amazónicas se aborda en cuatro dimensiones: legal (licencias, condiciones de uso y acuerdos), organizacional (roles y responsabilidades), semántica (estándar común, vocabularios controlados y metadatos) y técnica (formatos abiertos, identificadores persistentes y acceso programático). El modelo no centraliza la información ni homogeniza las prácticas de campo: cada organización conserva la titularidad y el control sobre sus datos, y su contribución queda trazada a lo largo de todo el ciclo.
+
+    ## Ciclo de la información: de la organización socia a GBIF
+
+    Todo registro publicado en el Observatorio atraviesa seis etapas:
+
+    1. Compartir. La organización socia entrega el conjunto estructurado en la plantilla Darwin Core, con sus metadatos y la declaración de licencia, restricciones e información sensible.
+    2. Custodiar. La Secretaría Técnica verifica la validez formal del aporte y conserva el original sin modificaciones y con acceso restringido (nivel 0).
+    3. Integrar. El aporte se incorpora al conjunto interno acumulativo, conservando el identificador del aporte, la organización de origen y la fecha de recepción.
+    4. Validar. Se aplican perfilamiento, normalización, validación taxonómica, geográfica y temporal, y detección de duplicados; cada transformación se documenta.
+    5. Proteger. Se anonimizan los datos personales y se generaliza la ubicación a nivel de subcuenca, lo que genera versiones de acceso controlado (niveles 1 y 2).
+    6. Publicar. Con la autorización de la Secretaría Técnica, se genera la versión de acceso abierto (nivel 3).
+
+publishing-guide-link:
   klass: features--explore
-  title: Recursos para publicar datos
   features:
-    - title: Guía de publicación # required
+    - title: Guía de interoperabilidad # required
       description: |      # required
-        Consulta el paso a paso y las orientaciones técnicas para preparar, documentar y enviar un conjunto de datos al Observatorio. La guía incluye recomendaciones para diligenciar correctamente los formatos requeridos y facilitar el proceso de revisión e incorporación de la información.
+        Lineamientos de la Alianza para compartir, estandarizar, validar, proteger y preparar conjuntos de datos para el acceso abierto.
       cta:  
       - text: Ver guía
         href: /resources/usage-guide
         isPrimary: true      
       # img required
       background: /assets/images/icons/publicacion_guia.png
-    - title: Plantilla de metadatos # required
+
+publishing-guide-share:
+  markdownContent: |
+    Las organizaciones socias de la Alianza comparten sus datos con el sistema ICTIO a través de la Secretaría Técnica. El proceso tiene cuatro momentos:
+
+    1. Preparación de los datos. La organización diligencia la plantilla de registros biológicos, que sigue el estándar Darwin Core, y la plantilla de metadatos, que describe quién generó los datos, cómo, dónde, cuándo y bajo qué condiciones de uso.
+    2.Envío por el canal único. Ambos archivos se adjuntan en el [mecanismo de carga del Observatorio](https://www.ictio.info/upload-data). Cada envío corresponde a un solo conjunto de datos con una sola declaración de metadatos y condiciones; las campañas o metodologías distintas se envían por separado.
+    3. Confirmación de recepción. La Secretaría Técnica acusa recibo y verifica que la documentación esté completa y que la estructura sea válida.
+    4. Resultado de la verificación. El aporte puede ser aceptado, aceptado con observaciones o devuelto con indicaciones concretas para su corrección. Las devoluciones se plantean como apoyo, no como rechazo.
+
+    Cada organización conserva la titularidad sobre los datos que comparte y puede solicitar en cualquier momento una copia de lo aportado.
+
+publishing-guide-files:
+  klass: features--explore
+  features:
+    - title: Plantilla de registros biológicos # required
       description: |      # required
-        Descarga la plantilla para registrar la información descriptiva del conjunto de datos, incluyendo aspectos como autoría, cobertura, metodología, calidad de los datos y demás elementos necesarios para su documentación.
-      cta:  
-      - text: Descargar
-        href: /resources/usage-guide
-        isPrimary: true      
-      # img required
-      background: /assets/images/icons/publicacion_metadatos.png
-    - title: Plantilla de carga de datos # required
-      description: |      # required
-        Descarga la plantilla para registrar los datos de biodiversidad y monitoreo de los ecosistemas acuáticos amazónicos que serán incorporados al Observatorio.
+        Plantilla estandarizada en Darwin Core para registrar la información que será evaluada e incorporada al sistema ICTIO.
       cta:  
       - text: Descargar
         href: /resources/usage-guide
         isPrimary: true      
       # img required
       background: /assets/images/icons/publicacion_plantilla.png
-
-publishing-upload:
-  klass: splitBanner--contain
-  reverse: false
-  title: Cargar datos al Observatorio
-  description: |
-      Una vez diligenciado la Plantilla de metadatos y la Plantilla de carga de datos, adjunta ambos archivos mediante el siguiente formulario para iniciar el proceso.
-  background: /assets/images/icons/publicacion_upload.png
-  cta: 
-    - text: Cargar
-      href: /resources/protocols
-
-publishing-upload-after:
-  markdownContent: |
-    Una vez enviados los archivos, el administrador de la base de datos revisará y validará la información. Si cumple con los criterios de calidad establecidos, realizará la incorporación del conjunto de datos y su publicación en el Observatorio.
+    - title: Plantilla de metadatos # required
+      description: |      # required
+        Plantilla para documentar el conjunto de datos: autoría, cobertura, metodología, calidad, licencia y condiciones de uso.
+      cta:  
+      - text: Descargar
+        href: /resources/usage-guide
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/publicacion_metadatos.png
