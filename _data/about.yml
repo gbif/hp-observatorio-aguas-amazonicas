@@ -43,6 +43,40 @@ observatory-intro:
 
     <img class="center" src="/assets/images/logos/banner-socios-Alianza-AA-2025-es.png" alt="Socios">
 
+###################################################
+### Ética y gobernanza de datos. Página governance.md
+###################################################
+
+governance-intro:
+  markdownContent: |
+    # Acuerdos compartidos para cuidar los datos y a quienes los generan
+    La gobernanza del Observatorio hace parte de la gobernanza general de la Alianza Aguas Amazónicas. Las mismas instancias que orientan la Alianza definen cómo se gestiona y cómo opera el Observatorio: la **Asamblea General**, que reúne a los socios y recibe la rendición de cuentas; el **Consejo Directivo**, que aprueba las políticas y resuelve las decisiones institucionales; el **Comité de Infraestructura de Datos**, que asesora en arquitectura, interoperabilidad, calidad y seguridad; el **Comité de Conducta**, que examina con imparcialidad los casos que afecten derechos, dignidad o confianza; y la **Secretaría Técnica**, a cargo de la Wildlife Conservation Society (WCS), que coordina la aplicación cotidiana. En cada iniciativa, las personas gestoras de datos mantienen el enlace entre el territorio y la Secretaría Técnica.
+
+    Esta gobernanza parte de una idea: la autoridad sobre un dato nace donde el dato se genera. Cada comunidad, iniciativa y organización socia conserva la gobernanza sobre sus datos, y la Alianza la complementa sin reemplazarla.
+
+    ## Una política para todos los que usan los datos
+
+    La Política de ética y gobernanza de datos rige a todas las instituciones que forman parte de la Alianza y, a la vez, ofrece lineamientos para cualquier persona que use el Observatorio o sus datos. Establece los principios, compromisos y responsabilidades que acompañan a la información en todo su ciclo de vida, desde que se registra hasta que se publica, se usa y se conserva.
+
+    Los datos que integra el Observatorio llegan por dos vías. La mayoría se publica directamente a través de la Alianza Aguas Amazónicas, que asegura la trazabilidad, el reconocimiento, el consentimiento y los acuerdos con las comunidades. Otros provienen de publicadores que reconocen estos mismos principios y se adhieren a ellos.
+
+    La Alianza está comprometida a trabajar bajo los principios FAIR, para que los datos sean localizables, accesibles, interoperables y reutilizables, y bajo los principios CARE, que reconocen el beneficio colectivo, la autoridad para controlar, la responsabilidad y la ética en el uso de datos de pueblos indígenas y comunidades locales. Esta combinación orienta lo que la política llama apertura situada: abrir los datos tanto como sea posible, teniendo en cuenta los derechos, los territorios, las relaciones de confianza y los riesgos de su divulgaciónica.
+
+governance-cards:
+  klass: features--explore
+  features:
+    - title: Política de ética y gobernanza de datos # required
+      description: |      # required
+        Principios, compromisos y responsabilidades para la gestión de la información de la Alianza a lo largo de su ciclo de vida.
+      cta:  
+      - text: Descarga política
+        href: /resources/usage-guide
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/citacion.png
+
+
+
 citation-guide:
   klass: features--explore
   features:
