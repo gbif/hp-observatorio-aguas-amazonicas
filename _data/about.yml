@@ -103,7 +103,7 @@ terms-of-use-and-privacy-cards:
         href: /resources/usage-guide
         isPrimary: true      
       # img required
-      background: /assets/images/icons/citacion.png
+      background: /assets/images/icons/uso_privacidad.png
 
 terms-of-use-and-privacy-outro:
   markdownContent: |
