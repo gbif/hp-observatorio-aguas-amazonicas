@@ -27,15 +27,14 @@ stats:
       blankTarget: false
 
 welcome:
-  reverse: false
+  reverse: true
+  klass: splitBanner--welcome
   title: Descobre a vida dos rios
   description: |
-      Conheça algumas das espécies que habitam nos rios amazônicos.
-  background: https://aguasamazonicas.org/wp-content/uploads/2026/03/portada-web.jpg
-  imageLicense: |
-    CC BY 4.0 - Aguas Amazónicas. 2026. Via Observatorio Aguas Amazónicas.
+      Conheça algumas das espécies e famílias de peixes mais representativas dos ecossistemas aquáticos amazônicos.
+  background: /assets/images/icons/descubre_fichas_especies.png
   cta: 
-    - text: Mais informações
+    - text: Ver fichas de peixes
       href: /pt/taxa/discover
 
 explore:

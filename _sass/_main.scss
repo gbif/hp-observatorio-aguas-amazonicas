@@ -652,6 +652,105 @@ section.features, section.splitBanner, section.product, section.textBanner
     border-bottom: none;
 }
 
+// CTA del split (welcome): mismo formato que .statistics-footer-button
+section.splitBanner {
+    a.button {
+        display: inline-block;
+        padding: 0.75rem 1.75rem;
+        border-radius: 2rem;
+        background-color: $button-color;
+        border-color: $button-color;
+        color: $white-color;
+        font-size: 1rem;
+        font-weight: 600;
+        text-decoration: none;
+        height: auto;
+        line-height: 1.25;
+
+        &:hover,
+        &:focus,
+        &:visited {
+            background-color: $button-color;
+            border-color: $button-color;
+            color: $white-color;
+            text-decoration: none;
+            filter: brightness(1.05);
+        }
+    }
+}
+
+// Welcome home
+.splitBanner.splitBanner--welcome,
+.splitBanner--welcome {
+    background-color: #f2f2f2;
+    min-height: 0;
+
+    .feature {
+        min-height: 22rem;
+    }
+
+    .feature-content {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0 !important;
+        background-image: url("/assets/images/placeholders/venas.png");
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-blend-mode: screen;
+
+        > * {
+            position: relative;
+            z-index: 1;
+        }
+    }
+
+    .feature-title {
+        text-align: center;
+        max-width: 18rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    // Ancho reducido para forzar ~3 líneas en la descripción
+    .feature-description {
+        text-align: center;
+        max-width: 18rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .feature-cta {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    // Ícono sin rotar, completo (contain)
+    .feature-img {
+        background-color: transparent !important;
+        background-size: contain !important;
+        background-position: center center !important;
+        background-repeat: no-repeat !important;
+        transform: none !important;
+        min-height: 22rem;
+
+        img {
+            object-fit: contain !important;
+            object-position: center center !important;
+            width: 100% !important;
+            height: 100% !important;
+            transform: none !important;
+        }
+    }
+}
+
 // Split con ícono/ilustración completa (no cover)
 .splitBanner.splitBanner--contain,
 .splitBanner--contain {

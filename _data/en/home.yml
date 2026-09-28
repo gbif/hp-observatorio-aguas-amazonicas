@@ -27,15 +27,14 @@ stats:
       blankTarget: false
 
 welcome:
-  reverse: false
+  reverse: true
+  klass: splitBanner--welcome
   title: Discover the life of Amazonian rivers
   description: |
-      Discover some of the species that inhabit Amazonian rivers.
-  background: https://aguasamazonicas.org/wp-content/uploads/2026/03/portada-web.jpg
-  imageLicense: |
-    CC BY 4.0 - Amazon Waters Alliance. 2026. Via Amazon Waters Observatory.
+      Discover some of the species and families of fish most representative of the Amazonian aquatic ecosystems.
+  background: /assets/images/icons/descubre_fichas_especies.png
   cta: 
-    - text: More information
+    - text: View fish cards
       href: /en/taxa/discover
 
 explore:

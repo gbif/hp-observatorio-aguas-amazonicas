@@ -27,15 +27,14 @@ stats:
       blankTarget: false
 
 welcome:
-  reverse: false
+  reverse: true
+  klass: splitBanner--welcome
   title: Descubre la vida de los ríos
   description: |
-      Conoce algunas de las especies que habitan en los ríos amazónicos.
-  background: https://aguasamazonicas.org/wp-content/uploads/2026/03/portada-web.jpg
-  imageLicense: |
-    CC BY 4.0 - Aguas Amazónicas. 2026. Via Observatorio Aguas Amazónicas.
+      Conoce algunas de las especies y familias de peces más representativas de los ecosistemas acuáticos amazónicos.
+  background: /assets/images/icons/descubre_fichas_especies.png
   cta: 
-    - text: Más información
+    - text: Ver fichas de peces
       href: /taxa/discover
 
 explore:
