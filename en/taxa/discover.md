@@ -4,7 +4,7 @@ lang-ref: discover
 lang: en
 title: Discover the life of Amazonian rivers
 toc: false
-background: /assets/images/pages_bg_wh_w1800px.png
+background: /assets/images/fishlist_bg_wh_w1800px.png
 height: 41vh
 composition: 
   - type: heroImage

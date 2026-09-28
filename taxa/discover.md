@@ -4,7 +4,7 @@ lang-ref: discover
 lang: es
 title: Descubre la vida de los ríos
 toc: false
-background: /assets/images/pages_bg_wh_w1800px.png
+background: /assets/images/fishlist_bg_wh_w1800px.png
 height: 41vh
 composition: 
   - type: heroImage
