@@ -3,7 +3,7 @@ stats:
   lastUpdated: "30/07/2026"
   cta:
     - text: Mais informações
-      href: /stats/dashboard
+      href: /pt/occurrence/search?view=dashboard&layout=table_stateProvince_iucn*taxa.rank-SPECIES_gallery*map.h-500_year_occurrenceSummary_institutionCode
   features:
     - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?publishingOrg=6e3dccea-16ee-4060-a8e9-32e598167a94">164000</span>
       description: Registros de peixes
@@ -47,17 +47,15 @@ explore:
     - title: Guia de uso # required
       description: |      # required
         Aprenda a utilizar as ferramentas de pesquisa, os filtros e as opções de visualização disponíveis no Observatório.
-      href: /pt/resources/usage-guide
       cta:  
       - text: Mais informações
-        href: /pt/resources/usage-guide
+        href: /pt/resources/use-guide
         isPrimary: true      
       # img required
       background: /assets/images/icons/explora_guia_de_uso.png
     - title: Territorio amazônico # required
       description: |      # required
         Explora os registros desde diferentes escalas territoriais da bacia amazônica.
-      href: /pt/stats/territory
       cta:
       - text: Mais informações
         href: /pt/stats/territory
@@ -66,9 +64,8 @@ explore:
     - title: O observatório em números # required
       description: |      # required
         Consulta indicadores do Sistema Ictio sobre monitoramento, participação e construção colaborativa de conhecimento.
-      href: /pt/stats/dashboard
       cta:
       - text: Mais informações
-        href: /pt/stats/dashboard
+        href: /pt/occurrence/search?view=dashboard&layout=table_stateProvince_iucn*taxa.rank-SPECIES_gallery*map.h-500_year_occurrenceSummary_institutionCode
         isPrimary: true  
       background: /assets/images/icons/explora_obs_cifras.png

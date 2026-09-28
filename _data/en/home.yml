@@ -3,7 +3,7 @@ stats:
   lastUpdated: "30/07/2026"
   cta:
     - text: More information
-      href: /stats/dashboard
+      href: /en/occurrence/search?view=dashboard&layout=table_stateProvince_iucn*taxa.rank-SPECIES_gallery*map.h-500_year_occurrenceSummary_institutionCode
   features:
     - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?publishingOrg=6e3dccea-16ee-4060-a8e9-32e598167a94">164000</span>
       description: Fish records
@@ -47,17 +47,15 @@ explore:
     - title: Usage guide # required
       description: |      # required
         Learn how to use the search, filters and visualization tools available in the Observatory.
-      href: /en/resources/usage-guide
       cta:  
       - text: More information
-        href: /en/resources/usage-guide
+        href: /en/resources/use-guide
         isPrimary: true      
       # img required
       background: /assets/images/icons/explora_guia_de_uso.png
     - title: Amazonian territory # required
       description: |      # required
         Explore records from different territorial scales of the Amazon basin.
-      href: /en/stats/territory
       cta:
       - text: More information
         href: /en/stats/territory
@@ -66,9 +64,8 @@ explore:
     - title: The Observatory in numbers # required
       description: |      # required
         Explore indicators on participation, monitoring, and collective construction of information.
-      href: /en/stats/dashboard
       cta:
       - text: More information
-        href: /en/stats/dashboard
+        href: /en/occurrence/search?view=dashboard&layout=table_stateProvince_iucn*taxa.rank-SPECIES_gallery*map.h-500_year_occurrenceSummary_institutionCode
         isPrimary: true  
       background: /assets/images/icons/explora_obs_cifras.png

@@ -5,7 +5,7 @@
 - text: Consultar
   menu: # Dropdown menu (one level deep only)
   - text: Panel de cifras
-    href: /occurrence/search?view=dashboard
+    href: /occurrence/search?view=dashboard&layout=table_stateProvince_iucn*taxa.rank-SPECIES_gallery*map.h-500_year_occurrenceSummary_institutionCode
   - text: Mapa cuenca
     href: /stats/territory
   - text: Fichas de peces
