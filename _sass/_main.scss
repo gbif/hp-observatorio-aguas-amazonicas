@@ -723,6 +723,12 @@ section.features, section.splitBanner, section.product, section.textBanner
         grid-template-columns: minmax(0, 340px);
     }
 
+    // Dos elementos: dos columnas centradas respecto a la página
+    .feature-cards:has(.feature:first-child:nth-last-child(2)),
+    .feature-cards.has-2-elements {
+        grid-template-columns: repeat(2, minmax(0, 340px));
+    }
+
     .feature {
         width: 100%;
         max-width: 340px;
