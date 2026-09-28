@@ -154,7 +154,7 @@ $footer-wave-image: url("/assets/images/placeholders/ondas.svg");
         }
       }
 
-      // stat compuesto de organizaciones y ciudadanos científicos publicadores: una línea sin afectar el resto
+      // stat compuesto de organizaciones y ciudadanos científicos publicadores: una línea sin afectar kis demás estadísticos
       .statistic:has(.stat-title-compound) {
         flex: 0 0 260px;
       }
@@ -316,6 +316,15 @@ $footer-wave-image: url("/assets/images/placeholders/ondas.svg");
 }
 
 // Floating Hero styles
+
+.separator {
+    font-size: 24px;
+    padding-top: 20px;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+  }
+
 .floatingHero {
     width: 100%;
     max-width: none;
@@ -351,18 +360,6 @@ $footer-wave-image: url("/assets/images/placeholders/ondas.svg");
             width: 100%;
             height: 100%;
         }
-    }
-
-    // Logo AA blanco (home): esquina inferior derecha sobre el hero
-    .hero-brand-logo {
-        position: absolute;
-        right: 2.5rem;
-        bottom: calc(#{$wave-height} - 2.5rem);
-        width: 12rem;
-        height: auto;
-        z-index: 3;
-        pointer-events: none;
-        user-select: none;
     }
 
     .feature-content {
@@ -410,8 +407,25 @@ $footer-wave-image: url("/assets/images/placeholders/ondas.svg");
         margin-bottom: 0;
     }
 
-    // Páginas tipo use-guide: título del hero a la derecha (no afecta home)
-    &.not-full-height:not(:has(.hero-brand-logo)) {
+    // Home: centrar buscador y textos en lugar del margin-left: 100px
+    &:has(.heroSearchBlock) {
+        @media (max-width: 935px) {
+            .feature-content {
+                margin-left: 0;
+                margin-right: 0;
+                text-align: center;
+            }
+
+            .feature-description {
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+            }
+        }
+    }
+
+    // Páginas de contenido: título del hero a la derecha (home tiene .heroSearchBlock)
+    &.not-full-height:not(:has(.heroSearchBlock)) {
         .feature-content {
             text-align: right;
             margin-left: 0;
@@ -443,19 +457,9 @@ $footer-wave-image: url("/assets/images/placeholders/ondas.svg");
     }
 
     @media (max-width: 900px) {
-        // En móvil el contenido apilado necesita que el hero crezca
+        // En móvil el contenido apilado del buscador necesita que el hero aumente su altura
         height: auto !important;
         min-height: 100vh;
-
-        .hero-brand-logo {
-            position: static;
-            display: block;
-            width: 10rem;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 2.5rem;
-            margin-bottom: -2.5rem;
-        }
 
         .feature-content {
             padding-bottom: 2.5rem;
@@ -604,7 +608,8 @@ $footer-wave-image: url("/assets/images/placeholders/ondas.svg");
 
 .heroSearchActions {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+    width: 100%;
     padding-top: 1rem;
 }
 
@@ -630,7 +635,7 @@ $footer-wave-image: url("/assets/images/placeholders/ondas.svg");
     }
 }
 
-@media (max-width: 620px) {
+@media (max-width: 825px) {
     .tab {
         flex-wrap: wrap;
 
@@ -880,6 +885,15 @@ section.features, section.splitBanner, section.product, section.textBanner
         .feature-cards.has-4-elements .feature:nth-child(4) {
             grid-column: auto;
         }
+
+        // Con 3 ítems en 2 columnas: el 3.º centrado en la segunda fila
+        .feature-cards.has-3-elements .feature:nth-child(3),
+        .feature-cards:has(.feature:first-child:nth-last-child(3)) .feature:nth-child(3) {
+            grid-column: 1 / -1;
+            justify-self: center;
+            width: 100%;
+            max-width: 340px;
+        }
     }
 
     @media screen and (max-width: 773px) {
@@ -888,6 +902,11 @@ section.features, section.splitBanner, section.product, section.textBanner
         }
 
         .feature {
+            max-width: 100%;
+        }
+
+        .feature-cards.has-3-elements .feature:nth-child(3),
+        .feature-cards:has(.feature:first-child:nth-last-child(3)) .feature:nth-child(3) {
             max-width: 100%;
         }
     }

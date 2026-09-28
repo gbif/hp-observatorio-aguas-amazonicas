@@ -60,14 +60,16 @@ description: |
       </div>
     </div>
 
+  <p class="separator">O</p>
+
     <div class="heroSearchActions">
-      <a href="/occurrence/search" class="heroSearchCta">Buscar todos los registros</a>
+      <a href="/occurrence/search" class="heroSearchCta">Todos los registros</a>
     </div>
   </div>
 
   <script>
     function equalizeHeroSearchTabs() {
-      var isStacked = window.matchMedia('(max-width: 620px)').matches;
+      var isStacked = window.matchMedia('(max-width: 825px)').matches;
 
       document.querySelectorAll('.heroSearchBlock .tab').forEach(function(tab) {
         var buttons = tab.querySelectorAll('.tablinks');
@@ -121,7 +123,6 @@ description: |
     window.addEventListener('resize', equalizeHeroSearchTabs);
   </script>
 
-  <img class="hero-brand-logo" src="/assets/images/logos/logo_AA_esp_white.svg" alt="Aguas Amazónicas" width="120" height="120">
 background: /assets/images/home_bg_wh_w1800px.png
 height: 100vh
 permalink: /
