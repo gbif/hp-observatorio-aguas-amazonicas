@@ -236,10 +236,10 @@ protocols-intro:
 
     De ese trabajo surgen los cuatro protocolos del sistema ICTIO. Cada uno responde a un momento distinto de la cadena pesquera y, juntos, ofrecen una visión más amplia de la diversidad de peces de la cuenca y de las dinámicas de la pesca.
 
+    Cada protocolo responde a un contexto específico de observación y registro, permitiendo complementar la información obtenida desde diferentes puntos de la cadena pesquera:
+
 protocols-cards:
   klass: features--explore
-  description: |
-    Cada protocolo responde a un contexto específico de observación y registro, permitiendo complementar la información obtenida desde diferentes puntos de la cadena pesquera:
   features:
     - title: P76 – Durante la faena # required
       description: |      # required
