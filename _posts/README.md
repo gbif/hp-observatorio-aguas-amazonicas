@@ -1,4 +1,5 @@
 # Posts
+
 Jekyll was build as a blogging tool. We can also use it as a news feed.
 For multilingual sites you should create a new folder for non default lanuages.
 
