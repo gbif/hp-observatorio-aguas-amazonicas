@@ -1,24 +1,24 @@
 ---
-lang: es
+lang: en
 lang-ref: home
 layout: home
 description: |
-  <p class="feature-title">Observatorio<br>Aguas Amazónicas</p>
-  <p class="hero-subtitle">Datos para entender la vida de los ríos amazónicos</p>
+  <p class="feature-title">Amazon Waters<br>Observatory</p>
+  <p class="hero-subtitle">Data to understand the life of Amazonian rivers</p>
 
   <div class="heroSearchBlock">
     <div class="searchWrapper">
       <div class="tab">
-        <button type="button" class="tablinks active" onclick="openTab(event, 'searchTab_name')">Todos los campos</button>
-        <button type="button" class="tablinks" onclick="openTab(event, 'searchTab_scientificName')">Nombre científico</button>
-        <button type="button" class="tablinks" onclick="openTab(event, 'searchTab_basin')">Subcuencas</button>
-        <button type="button" class="tablinks" onclick="openTab(event, 'searchTab_publisher')">Socios</button>
+        <button type="button" class="tablinks active" onclick="openTab(event, 'searchTab_name')">All fields</button>
+        <button type="button" class="tablinks" onclick="openTab(event, 'searchTab_scientificName')">Scientific name</button>
+        <button type="button" class="tablinks" onclick="openTab(event, 'searchTab_basin')">Subbasins</button>
+        <button type="button" class="tablinks" onclick="openTab(event, 'searchTab_publisher')">Partners</button>
       </div>
 
       <div id="searchTab_scientificName" class="tabcontent">
-        <form action="/occurrence/search" method="GET">
-          <input id="verbatimScientificName" name="verbatimScientificName" class="input searchInput" type="text" placeholder="Busca por nombre científico">
-          <button type="submit" class="searchSubmit" aria-label="Buscar">
+        <form action="/en/occurrence/search" method="GET">
+          <input id="verbatimScientificName" name="verbatimScientificName" class="input searchInput" type="text" placeholder="Search by species">
+          <button type="submit" class="searchSubmit" aria-label="Search">
             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
               <path fill="none" d="M0 0h24v24H0z"></path><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
             </svg>
@@ -27,9 +27,9 @@ description: |
       </div>
 
       <div id="searchTab_name" class="tabcontent is-active">
-        <form action="/occurrence/search" method="GET">
-          <input id="home_specimen_input" name="q" class="input searchInput" type="text" placeholder="Busca en el observatorio">
-          <button type="submit" class="searchSubmit" aria-label="Buscar">
+        <form action="/en/occurrence/search" method="GET">
+          <input id="home_specimen_input" name="q" class="input searchInput" type="text" placeholder="Search in the observatory">
+          <button type="submit" class="searchSubmit" aria-label="Search">
             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
               <path fill="none" d="M0 0h24v24H0z"></path><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
             </svg>
@@ -38,9 +38,9 @@ description: |
       </div>
 
       <div id="searchTab_basin" class="tabcontent">
-        <form action="/occurrence/search" method="GET">
-          <input id="basin" name="basin" class="input searchInput" type="text" placeholder="Busca por subcuenca">
-          <button type="submit" class="searchSubmit" aria-label="Buscar">
+        <form action="/en/occurrence/search" method="GET">
+          <input id="basin" name="basin" class="input searchInput" type="text" placeholder="Search by subbasin">
+          <button type="submit" class="searchSubmit" aria-label="Search">
             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
               <path fill="none" d="M0 0h24v24H0z"></path><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
             </svg>
@@ -49,9 +49,9 @@ description: |
       </div>
 
       <div id="searchTab_publisher" class="tabcontent">
-        <form action="/occurrence/search" method="GET">
-          <input id="publisher" name="publisher" class="input searchInput" type="text" placeholder="Busca por socio">
-          <button type="submit" class="searchSubmit" aria-label="Buscar">
+        <form action="/en/occurrence/search" method="GET">
+          <input id="publisher" name="publisher" class="input searchInput" type="text" placeholder="Search by partner">
+          <button type="submit" class="searchSubmit" aria-label="Search">
             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
               <path fill="none" d="M0 0h24v24H0z"></path><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
             </svg>
@@ -60,10 +60,10 @@ description: |
       </div>
     </div>
 
-  <p class="separator">O</p>
+  <p class="separator">Or</p>
 
     <div class="heroSearchActions">
-      <a href="/occurrence/search" class="heroSearchCta">Todos los registros</a>
+      <a href="/en/occurrence/search" class="heroSearchCta">Browse all records</a>
     </div>
   </div>
 
@@ -125,13 +125,13 @@ description: |
 
 background: /assets/images/home_bg_wh_w1800px.png
 height: 100vh
-permalink: /
+permalink: /en
 composition:
   - type: heroImage
-  - data: home.stats
+  - data: en.home.stats
     type: stats
-  - data: home.welcome
+  - data: en.home.welcome
     type: split
-  - data: home.explore
+  - data: en.home.explore
     type: features
 ---

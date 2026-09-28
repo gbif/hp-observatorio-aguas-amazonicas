@@ -1,0 +1,81 @@
+# Footer configuration
+# You should create one of these files for each language you support. E.g. /_data/en/footer.yml for the english version of the footer
+# Footer content is organized in columns.
+# You can also add a small print license statement at the bottom.
+
+# Columns (the more you add, the narrower they will be)
+columns:
+  - description: |
+      <div class="footer-brand">
+        <a class="footer-brand__main" href="https://aguasamazonicas.org" target="_blank" rel="noopener">
+          <img src="/assets/images/logos/Logo-AA-ESP-Az.png" alt="Aguas Amazónicas Logo">
+        </a>
+        <p class="footer-brand__label">Supported by:</p>
+        <div class="footer-brand__supporters">
+          <a href="https://www.wcs.org/" target="_blank" rel="noopener">
+            <img src="/assets/images/logos/Logo-WCS.png" alt="WCS Logo">
+          </a>
+          <a href="https://www.moore.org/" target="_blank" rel="noopener">
+            <img src="/assets/images/logos/Logo-Moore.png" alt="Gordon and Betty Moore Foundation Logo">
+          </a>
+        </div>
+        <p class="footer-brand__label">Powered by:</p>
+        <a class="footer-brand__powered" href="https://www.gbif.org/" target="_blank" rel="noopener">
+          <img src="/assets/images/logos/Logo_GBIF.png" alt="GBIF Logo">
+        </a>
+      </div>
+
+  - name: Content license
+    description: |
+      [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/){:target="_blank"} (unless otherwise specified)
+
+      <div class="footer-license-icons">
+        <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener" aria-label="Creative Commons">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" role="img" aria-hidden="true">
+            <circle cx="15" cy="15" r="13.5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+            <path fill="currentColor" d="M15.04 9.63c-3.02 0-5.02 2.08-5.02 5.37s2 5.37 5.02 5.37c1.68 0 3.04-.7 3.95-1.84l-1.68-1.08c-.5.7-1.24 1.14-2.2 1.14-1.58 0-2.66-1.22-2.66-3.59s1.08-3.59 2.66-3.59c.96 0 1.7.44 2.2 1.14l1.68-1.08c-.91-1.14-2.27-1.84-3.95-1.84z"/>
+          </svg>
+        </a>
+        <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener" aria-label="Attribution">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" role="img" aria-hidden="true">
+            <circle cx="15" cy="15" r="13.5" fill="none" stroke="currentColor" stroke-width="2.2"/>
+            <circle cx="15" cy="9.2" r="2.1" fill="currentColor"/>
+            <path fill="currentColor" d="M11.2 12.4h7.6v1.7h-2.55v7.5h-2.5v-7.5H11.2z"/>
+          </svg>
+        </a>
+      </div>
+
+  - name: Language
+    description: |
+      * [Spanish](/)
+      * [Portuguese](/pt)
+      * [English](/en)
+
+  - name: Contact
+    description: |
+      * Amazon Waters Observatory
+      * [observatorio@aguasamazonicas.org](mailto:observatorio@aguasamazonicas.org)
+
+      [Amazon Waters Alliance website](https://aguasamazonicas.org){:.button .is-primary .footer-cta target="_blank"}
+
+  # EXAMPLE - just leave this commented out at the bottom of the file for future reference
+  # You can add as many columns as you want
+
+  #columns:
+  #- name: Group name
+  #  description: |
+  #    An optional description. Can be markdown
+  #  links: # optional as well
+  #  - text: link title
+  #    href: http://example.com
+  #  - text: link title 2
+  #    href: http://example2.com
+  #  connectIcons: true # optional - show social icons (defined in _config.yml)
+
+
+# Below is configuration for a small print license statement to add at the bottom of the footer. Can be Markdown
+# Will be prefixed by "© {{ site.author }}" if defined in _config.yml
+# Will be postfixed by "Powered by GBIF"
+# (Disabled by default, remove the '#' lines on the following two lines to enable.)
+#license: >
+#  Licencia de contenido bajo [Creative Commons Attribution 4.0 License](https://creativecommons.org/licenses/by/4.0/), salvo que se indique lo contrario.

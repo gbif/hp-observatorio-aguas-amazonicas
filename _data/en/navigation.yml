@@ -1,0 +1,46 @@
+# Navigation configuration
+# You should create one of these files for each language you support. E.g. /_data/es/navigation.yml for the spanish version of the menu
+# Links listed below will be included in your site's navbar (navigation at the top)
+
+- text: Explore
+  menu: # Dropdown menu (one level deep only)
+  - text: Dashboard
+    href: /en/occurrence/search?view=dashboard
+  - text: Basin map
+    href: /en/stats/territory
+  - text: Fish cards
+    href: /en/taxa/discover
+  - text: Datasets
+    href: /en/dataset/search?publishingOrg=6e3dccea-16ee-4060-a8e9-32e598167a94
+  - text: Records
+    href: /en/occurrence/search
+- text: Resources
+  menu: # Dropdown menu (one level deep only)
+  - text: Usage guide
+    href: /en/resources/use-guide
+  - text: Publishing guide
+    href: /en/resources/publishing-guide
+  - text: "Citation guide | Data uses"
+    href: /en/resources/citation
+  - text: Data quality
+    href: /en/resources/data-quality
+  - text: Collection protocols
+    href: /en/resources/protocols
+  - text: Sensitive data access
+    href: /en/resources/sensitive-information
+  - text: ICTIO reports
+    href: /en/resources/ictio-reports
+  - text: API for developers
+    href: /en/resources/api-access
+  - text: Resources list
+    href: /en/resources/resources-list
+- text: About
+  menu: # Dropdown menu (one level deep only)
+  - text: Observatory
+    href: /en/about/observatory
+  - text: Ethics and Governance
+    href: /en/about/governance
+  - text: Terms of use and privacy
+    href: /en/about/terms-of-use-and-privacy
+  - text: Faq
+    href: /en/about/faq

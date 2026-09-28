@@ -1,0 +1,377 @@
+##########################################################################
+### Contents for pages under en/resources, in navigation order under Resources.
+###
+### Defined in _data/en/resources.yml
+### Each section is named by page and content type, e.g.:
+### for use-guide.md: use-guide-intro, use-guide-cards, etc.
+### Content types:
+### -intro: introductory markdown
+### -cards: features/cards
+### -links: links/buttons
+##########################################################################
+
+
+###################################################
+### User guide. Page /en/resources/use-guide.md
+###################################################
+
+use-guide-intro:
+  markdownContent: |
+    # Tools and guidance to explore, query, and make the most of the Observatory
+
+    The Amazon Waters Observatory lets you explore information on fish, fisheries, and aquatic ecosystems of Amazonia through different entry points: the search tool, indicator dashboards, the basin map, fish fact sheets, and datasets. Exploration can start from a species, a sub-basin, or the organization that contributed the data, and visualizations update according to the filters applied.
+
+    Selected information is downloaded through GBIF with a free account, and the filters applied in the Observatory are kept in the download. The user guide explains each tool step by step; the visual style guide supports correct use of the Observatory’s identity in materials and communications.
+
+use-guide-cards:
+  klass: features--explore
+  features:
+    - title: Observatory user guide # required
+      description: |      # required
+        Explains how to navigate the Observatory, use the search tool and filters, explore data dashboards, and download information.
+      cta:  
+      - text: View guide
+        href: https://drive.google.com/file/d/1gXeb8mTYHLoqznr3ZBVe7QO2Nq0f_1vi/view
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/explora_guia_de_uso.png
+    - title: Visual style guide # required
+      description: |      # required
+        Brings together guidance for correctly using the Observatory’s visual identity: identifiers, colors, typography, graphic assets, and application criteria across different materials and media.
+      cta:  
+      - text: View guide
+        href: https://drive.google.com/file/d/1USW0iMn_wa69sa_x4RaPu0aRquK2CizC/view
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/icono_api.png
+
+###################################################
+### Data publishing. Page /en/resources/publishing-guide.md
+###################################################
+
+publishing-guide-intro:
+  markdownContent: |
+    # How partner organizations’ data reach the Observatory and the world
+
+    Interoperability makes it possible for datasets produced by different organizations, with different methods, scales, and tools, to be integrated, interpreted, and reused together. In the Amazon Waters Alliance it is addressed across four dimensions: legal (licenses, terms of use, and agreements), organizational (roles and responsibilities), semantic (shared standard, controlled vocabularies, and metadata), and technical (open formats, persistent identifiers, and programmatic access). The model does not centralize the information or homogenize field practices: each organization retains ownership and control over its data, and its contribution is traced throughout the cycle.
+
+    ## Information cycle: from the partner organization to GBIF
+
+    Every record published in the Observatory goes through six stages:
+
+    1. Share. The partner organization submits the set structured in the Darwin Core template, with its metadata and the declaration of license, restrictions, and sensitive information.
+    2. Steward. The Technical Secretariat checks the formal validity of the contribution and keeps the original unchanged, with restricted access (level 0).
+    3. Integrate. The contribution is incorporated into the cumulative internal set, retaining the contribution identifier, the source organization, and the date of receipt.
+    4. Validate. Profiling, normalization, taxonomic, geographic, and temporal validation, and duplicate detection are applied; each transformation is documented.
+    5. Protect. Personal data are anonymized and location is generalized to the sub-basin level, producing controlled-access versions (levels 1 and 2).
+    6. Publish. With authorization from the Technical Secretariat, the open-access version (level 3) is generated.
+
+publishing-guide-cards:
+  klass: features--explore
+  features:
+    - title: Interoperability guide # required
+      description: |      # required
+        Alliance guidelines for sharing, standardizing, validating, protecting, and preparing datasets for open access.
+      cta:  
+      - text: View guide
+        href: https://drive.google.com/file/d/1DLUyBLAFsUnfi8f6_C6zhdy2FyohZTPM/view
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/publicacion_guia.png
+
+publishing-guide-share:
+  markdownContent: |
+    Alliance partner organizations share their data with the ICTIO system through the Technical Secretariat. The process has four steps:
+
+    1. Data preparation. The organization fills in the biological records template, which follows the Darwin Core standard, and the metadata template, which describes who generated the data, how, where, when, and under what terms of use.
+    2. Submission through the single channel. Both files are attached via the [Observatory upload mechanism](https://forms.gle/zBebu9AxMLkxJ1Gm7). Each submission corresponds to a single dataset with a single metadata and terms declaration; distinct campaigns or methodologies are submitted separately.
+    3. Receipt confirmation. The Technical Secretariat acknowledges receipt and checks that the documentation is complete and the structure is valid.
+    4. Verification outcome. The contribution may be accepted, accepted with observations, or returned with concrete instructions for correction. Returns are framed as support, not as rejection.
+
+    Each organization retains ownership of the data it shares and may request a copy of what was contributed at any time.
+
+publishing-guide-files-cards:
+  klass: features--explore
+  features:
+    - title: Biological records template # required
+      description: |      # required
+        Standardized Darwin Core template for recording the information that will be reviewed and incorporated into the ICTIO system.
+      cta:  
+      - text: Download
+        href: https://drive.google.com/uc?export=download&id=120snIlwX_gJrIdVGLe_3ykEluOe0VuHQ
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/publicacion_plantilla.png
+    - title: Metadata template # required
+      description: |      # required
+        Template to document the dataset: authorship, coverage, methodology, quality, license, and terms of use.
+      cta:  
+      - text: Download
+        href: https://drive.google.com/uc?export=download&id=1P0V93LhRofPZXL6aNmyGPmLZ6etn2r3J
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/publicacion_metadatos.png
+
+###################################################
+### Citation guide. Page /en/resources/citation.md
+###################################################
+
+citation-guide-intro:
+  markdownContent: |
+    # Recognizing those who make every datum possible
+
+    Behind every Observatory record are fishers and monitors, communities, partner organizations, and technical teams who observed, recorded, validated, and cared for the information. Citing well is not a bibliographic formality: it is how that chain of contributions stays visible, how others can verify results, and how value is returned to those who generated the data.
+
+    ## Citation, attribution, and recognition guide
+
+    The guide explains how to cite each type of resource available in the Observatory: the Observatory itself, an individual record, a dataset, a download, a derived dataset, a photograph, a map or a dashboard figure, and derived products created from them. Its central rule is to cite the exact resource that was used. Mentioning the Alliance, the Observatory, ICTIO, or GBIF does not replace citing the dataset or download from which the data come.
+
+citation-guide-cards:
+  klass: features--explore
+  features:
+    - title: Citation, attribution, and recognition guide # required
+      description: |      # required
+        Guidance for citing Alliance data, datasets, downloads, and products, and for recognizing the contributions of people, communities, and organizations.
+      cta:  
+      - text: View guide
+        href: https://drive.google.com/file/d/11GLuuW1eJLsD8jIUovcVH1_caOqSD9c7/view
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/citacion.png
+
+citation-guide-datause:
+  markdownContent: |
+    ## Data use: notification of use and reuse
+
+    The Alliance invites notification when articles, reports, maps, visualizations, educational materials, software, or other products based on Observatory data are published. Knowing how the data are used allows the Alliance to return results to the communities and organizations that made them possible.
+
+    Notifications are sent to [observatorio@aguasamazonicas.org](mailto:observatorio@aguasamazonicas.org) with the following information:
+
+    - title, product type, public link, and DOI, if available;
+    - authorship, responsible organization, and contact;
+    - data or resources used, with their version or DOI;
+    - a brief description of the use made.
+
+    One notification per product is enough. Restricted data or personal information should not be attached. Notification is a good reciprocity practice: it does not replace citation and is not a condition for accessing or using the data.
+
+###################################################
+### Data quality. Page /en/resources/data-quality.md
+###################################################
+
+data-quality-intro:
+  markdownContent: |
+    # Participatory data with curation processes that support their reliability
+
+    ## What does data quality mean in the Amazon Waters Alliance?
+
+    Much of the Observatory’s data comes from participatory monitoring: fishers who record their catches, community monitors, local teams in markets and ports, and partner organizations with their own fisheries monitoring programs. That a datum comes from a participatory process does not make it less reliable. What makes it reliable is the review path it follows before publication, and in the Alliance that path involves several hands.
+
+    The first review happens in the territory, where data managers in each initiative check that records are complete and well documented. Then the Alliance Technical Secretariat curates each contribution: it characterizes the set, normalizes formats, detects duplicates, and applies taxonomic validation to confirm that scientific names exist and correspond to accepted taxa, always retaining the original identification and local names. It also applies geographic validation to check that locations are consistent with the declared water body and territory, and temporal validation to ensure dates are possible and consistent. When needed, review by thematic specialists is added.
+
+    The Alliance assesses quality across three dimensions: accuracy, consistency, and completeness. And it follows one principle: quality is not fixed by deleting. A record with problems is documented, correction is attempted together with who contributed it, and it is classified by fitness for use, but it is not silently erased. Every transformation is recorded so that each published datum can be explained.
+
+    Quality is also not a yes or no. A record may be useful for one analysis and not for another. That is why it is recommended to review each dataset’s metadata, which describe its methodology, coverage, and applied protections; for example, public locations are aggregated at the sub-basin level and do not represent exact coordinates.
+
+    ## Tools for data quality
+
+    **For those who use the data.** Before analysis, it is advisable to review the dataset metadata and the quality flags GBIF assigns to each record. These flags indicate, for example, names that do not match the taxonomic catalog or inconsistent coordinates, and allow records to be filtered according to the purpose of the analysis.
+
+    - [GBIF data quality requirements](https://www.gbif.org/data-quality-requirements): what is expected of a published occurrence dataset.
+    - [GBIF species name lookup](https://www.gbif.org/tools/species-lookup): checks scientific names against the taxonomic catalog.
+
+    **For those who generate or publish data.** These free tools help review data before sending them to the Technical Secretariat:
+    
+    - [GBIF data validator](https://tools.gbif.org/tools/data-validator): checks Darwin Core structure and detects issues before publishing.
+    - [openRefine](https://openrefine.org/): checks the structure and content of EML files.
+    - [Alliance interoperability guide](https://drive.google.com/file/d/1DLUyBLAFsUnfi8f6_C6zhdy2FyohZTPM/view) (see section 2.2): describes the controls applied to each contribution.
+
+    [More quality tools](https://biodiversidad.co/recursos/calidad-de-datos/){:.button .is-primary target="_blank"}
+
+data-quality-standards:
+  markdownContent: |
+    ## Standards
+
+    Standards are the shared language that makes it possible to integrate data from different countries, organizations, and methodologies into one infrastructure. The Observatory uses three:
+
+data-quality-standards-cards:
+  klass: features--explore
+  features:
+    - title: Darwin Core (DwC) # required
+      description: |      # required
+        Standard for structuring and publishing biological records: species, event, location, date, and associated people and institutions.
+      cta:
+      - text: More information
+        href: https://dwc.tdwg.org/
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/estandar_dwc.png
+    - title: Ecological Metadata Language (EML) # required
+      description: |      # required
+        Standard for documenting dataset metadata: origin, methods, coverage, responsible parties, and license.
+      cta:
+      - text: More information
+        href: https://eml.ecoinformatics.org/
+        isPrimary: true  
+      background: /assets/images/icons/estandar_eml.png
+    - title: Plinian Core (PliC) # required
+      description: |      # required
+        Standard for structuring species fact sheets: taxonomy, distribution, ecology, conservation, and uses.
+      cta:
+      - text: More information
+        href: https://www.tdwg.org/community/species/plinian-core/
+        isPrimary: true  
+      background: /assets/images/icons/estandar_plic.png
+
+###################################################
+### Protocols. Page /en/resources/protocols.md
+###################################################
+
+protocols-intro:
+  markdownContent: |
+    # Shared agreements to observe and record fisheries across the basin
+
+    For data collected in rivers, markets, and ports of different countries to be comparable, there first needs to be agreement on what to observe and how to record it. In the Amazon Waters Alliance, that agreement is built collaboratively by the Fisheries Group, an interinstitutional group that defines the essential variables recorded across the Alliance’s different monitoring mechanisms.
+
+    From that work come the four ICTIO system protocols. Each responds to a different moment in the fisheries chain and, together, they offer a broader view of fish diversity in the basin and of fisheries dynamics.
+
+    Each protocol responds to a specific observation and recording context, making it possible to complement information obtained from different points in the fisheries chain:
+
+protocols-cards:
+  klass: features--explore
+  features:
+    - title: P76 – During the fishing trip # required
+      description: |      # required
+        Records fish observed or captured directly during fishing activity. Documents information from the moment of capture, such as location, date, and event characteristics when available.     
+      # img required
+      background: /assets/images/icons/protocolo_p76.png
+    - title: P77 – After the fishing trip # required
+      description: |      # required
+        Records information reported once fishing activity has ended. Data are contributed by fishers, monitors, or local teams, and complement what was obtained during monitoring sessions.
+      background: /assets/images/icons/protocolo_p77.png
+    - title: P78 – Market # required
+      description: |      # required
+        Records species observed or traded in fish markets. Makes it possible to know the diversity of species circulating in trade, although the exact place of capture cannot always be determined.
+      background: /assets/images/icons/protocolo_p78.png
+    - title: P79 – Port # required
+      description: |      # required
+        Records information obtained at ports and fish landings. Depending on available information, it contributes data on catch origin, landed species, and other aspects of fishing activity.
+      background: /assets/images/icons/protocolo_p79.png
+
+protocols-files-link:
+  markdownContent: |
+    [View protocols](https://aguasamazonicas.org){:.button .is-primary target="_blank"}
+
+###################################################
+### Sensitive data access. Page /en/resources/sensitive-information.md
+###################################################
+
+sensitive-information-intro:
+  markdownContent: |
+    # As open as possible, as protected as necessary
+
+    ICTIO system data do not exist in a single version. Some details, such as the exact coordinates of a fishing site or the identity of who recorded a catch, could affect people, communities, or species if published without care. That is why ICTIO organizes its data into four access levels. Each level is a different version of the same resource, and opening a level never happens automatically.
+
+sensitive-information-cards:
+  klass: features--explore
+  features:
+    - title: ICTIO system data access levels # required
+      description: |      # required
+        Complete model of access levels, storage, and licensing, with allowed transitions between levels.   
+      cta:
+      - text: View
+        href: https://drive.google.com/file/d/1HSJO-xewnXEIf7xCMMok7xXv-e0vmc1K/view
+        isPrimary: true  
+      background: /assets/images/icons/uso_privacidad.png
+
+sensitive-information-howto:
+  markdownContent: |
+    ## How to access sensitive ICTIO system data?
+
+    When research, a conservation project, or a technical analysis requires more detail than is publicly available, it is possible to request access to level 2, that is, the dataset with record coordinates. Interested people or organizations must send a formal request to the Amazon Waters Alliance Technical Secretariat at [observatorio@aguasamazonicas.org](mailto:observatorio@aguasamazonicas.org), using the [Data sharing agreement](/en/resources/use-guide) form.
+
+    The Technical Secretariat reviews each request together with the data custodian when appropriate. If approved, access is formalized with an agreement that defines purpose, scope, duration, security measures, and redistribution restrictions. If it cannot be approved, the decision is communicated with reasons.
+
+    Accessing level 2 data carries the same recognition commitments as any use of the Observatory, and some additional ones. Before submitting a request, it is recommended to review [section 2.3 of the Citation guide / Data use](https://drive.google.com/file/d/1DLUyBLAFsUnfi8f6_C6zhdy2FyohZTPM/view), which explains how to cite the dataset and its DOI, how to recognize the organizations and communities that generated the information, and how to notify use and reuse of the resulting products.
+ 
+sensitive-information-howto-cards:
+  klass: features--explore
+  features:
+    - title: Data sharing agreement at initiative or organization level # required
+      description: |      # required
+        Form to request and formalize access to controlled-access data.   
+      cta:
+      - text: Download
+        href: /en/resources/usage-guide
+        isPrimary: true  
+      background: /assets/images/icons/protocolo_p76.png  
+
+###################################################
+### ICTIO Reports. Page /en/resources/ictio-reports.md
+###################################################
+
+ictio-reports-intro:
+  markdownContent: |
+    # A panoramic view of fisheries monitoring in the Amazon basin
+
+    The ICTIO Reports are the Amazon Waters Alliance Technical Secretariat’s reading of the state of fisheries monitoring in the basin. Drawing on ICTIO system data, they bring together figures, trends, and progress, and make visible the contributions of the communities, organizations, and institutions that generate the information. They have an outreach purpose, which is why they are presented in formats designed for sharing, such as infographics and periodic reports.
+
+    The reports work with their own aggregation level and, in some cases, incorporate complementary data sources beyond those in the Observatory. That is why their figures do not always match the Observatory dashboards. Both products are valid and complementary: the Observatory shows published, queryable records; the reports offer an overall reading to understand the fisheries monitoring landscape.
+
+    ICTIO Reports are published on the [Amazon Waters Alliance](https://aguasamazonicas.org/informe-ictio){:target="_blank"} website.
+
+ictio-reports-cards:
+  klass: features--explore
+  features:
+    - title: ICTIO Reports # required
+      description: |      # required
+        ICTIO fisheries monitoring reports and infographics, available for consultation and download.   
+      cta:
+      - text: View reports
+        href: https://aguasamazonicas.org/informe-ictio
+        isPrimary: true  
+      background: /assets/images/icons/descubre_conjunto_datos.png
+
+###################################################
+### API for developers. Page api-access.md
+###################################################
+
+api-access-intro:
+  markdownContent: |
+    # Integrating Observatory data into systems, applications, and visualizations
+
+    The API allows partner organizations, technical teams, and developers to query data published in the Observatory automatically, without manual downloads. Through it, biodiversity and fisheries monitoring information from the ICTIO system can be accessed and integrated into self-updating dashboards, reproducible analyses, or cross-checks with other basin sources.
+
+    The technical documentation presents available endpoints, query examples, and guidelines for using the API. Data queried this way keep the same terms of use and citation as the rest of the Observatory.
+
+    [View API documentation](https://techdocs.gbif.org/en/openapi/v1/occurrence){:.button .is-primary target="_blank"}
+
+###################################################
+### Resources list. Page resources-list.md
+###################################################
+
+resources-list-intro:
+  markdownContent: |
+    This section brings together in one place the Observatory’s policies, guides, templates, and instruments published across the site’s sections, to make them easier to consult and download.
+
+    **Policies and terms of use**
+    - [Data ethics and governance policy](/en/resources/usage-guide)
+    - [ICTIO system privacy policy](/en/resources/sensitive-information)
+    - [ICTIO system terms of use](/en/resources/api-access)
+    - [ICTIO system data access levels](https://drive.google.com/file/d/1HSJO-xewnXEIf7xCMMok7xXv-e0vmc1K/view)
+
+    **Guides**
+    - [Observatory user guide](https://drive.google.com/file/d/1gXeb8mTYHLoqznr3ZBVe7QO2Nq0f_1vi/view)
+    - [Visual style guide](https://drive.google.com/file/d/1USW0iMn_wa69sa_x4RaPu0aRquK2CizC/view)
+    - [Interoperability guide](https://drive.google.com/file/d/1DLUyBLAFsUnfi8f6_C6zhdy2FyohZTPM/view)
+    - [Citation, attribution, and recognition guide](https://drive.google.com/file/d/11GLuuW1eJLsD8jIUovcVH1_caOqSD9c7/view)
+
+    **Templates and checklists**
+    - [Biological records template](https://drive.google.com/uc?export=download&id=120snIlwX_gJrIdVGLe_3ykEluOe0VuHQ)
+    - [Metadata template](https://drive.google.com/uc?export=download&id=1P0V93LhRofPZXL6aNmyGPmLZ6etn2r3J)
+    - [Checklist: Integrating data from source initiatives and partner organizations into the ICTIO system](https://drive.google.com/file/d/1QgBNQlGJ3a2Vzufkjw1nxkq3gxVjt98o/view)
+
+    **Data ethics and governance**
+    - [Data sharing agreement at initiative or organization level](/en/resources/usage-guide)
+    - [Informed consent](/en/resources/sensitive-information)
+    - [Project information sheet](/en/resources/api-access)
+    - [Data management plan](/en/resources/usage-guide)

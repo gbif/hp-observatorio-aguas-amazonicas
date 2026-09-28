@@ -1,4 +1,5 @@
 ---
+lang: es
 lang-ref: archive
 layout: archive
 title: Noticias
@@ -6,5 +7,5 @@ description: Noticias y eventos
 permalink: /news/
 ---
 {% comment %}
-  No content here. The layout will insert a card for each post in your _posts folder
+  No hay contenido aquí. El layout insertará una tarjeta por cada post que esté en el folder _posts
 {% endcomment %}

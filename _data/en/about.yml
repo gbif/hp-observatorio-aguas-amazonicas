@@ -1,0 +1,180 @@
+##########################################################################
+### Contents for pages under /about, in navigation order under About.
+###
+### Defined in _data/en/about.yml
+### Each section is named by page and content type, e.g.:
+### for use-guide.md: use-guide-intro, use-guide-cards, etc.
+### Content types:
+### -intro: introductory markdown
+### -cards: features/cards
+### -links: links/buttons
+##########################################################################
+
+
+###################################################
+### Observatory. Page /en/observatory.md
+###################################################
+
+observatory-intro:
+  markdownContent: |
+    # The open data window of the Amazon Waters Alliance
+
+    Every day, in rivers, lakes, markets, and ports across Amazonia, someone records a fish. A fisher notes their catch after returning from the fishing trip, a community monitor documents a landing, a technical team surveys a market. Each of those records, however small it may seem, is a piece for understanding how the planet’s largest aquatic ecosystem is changing. The Amazon Waters Observatory brings those pieces together and makes them available to everyone.
+
+    The Observatory is the open data window of the Amazon Waters Alliance: the place where the information the Alliance generates and stewards becomes public, searchable, and reusable. Today its main component is the ICTIO system, which brings together fisheries monitoring data from the basin. Those data come from participatory and community monitoring, citizen science programs, and the monitoring carried out by the more than 30 organizations and institutions that make up the Alliance. In the future, the window will open to other components the Alliance monitors and studies, such as water quality.
+
+    Opening data does not mean exposing those who generate it. That is why Observatory information is published aggregated at the sub-basin level, without exact coordinates, to protect sensitive sites and resources, and is anonymized when needed to protect personal data. At the same time, the Alliance works so that the local organizations that produce the information are recognized and cited in every use of their data. Protection and recognition go hand in hand.
+
+    ## Why monitor fisheries in Amazonia?
+
+    Fish are the foundation of food, livelihoods, and culture for millions of people in the Amazon basin. Some species, such as the large migratory catfish, travel thousands of kilometers between the Andes and the estuary, connecting countries and ecosystems. Knowing which species are fished, where, when, and in what quantity makes it possible to detect changes in time, support management and conservation decisions, and strengthen the voice of fishing communities in those decisions.
+
+    ## The Amazon Waters Alliance
+
+    The Amazon Waters Alliance is a regional initiative that conceives the Amazon basin as a large interconnected aquatic ecosystem that depends on its forests to maintain its integrity. More than 30 organizations from the basin’s countries work together to conserve its rivers, wetlands, and fisheries, with the Wildlife Conservation Society (WCS) as Technical Secretariat. The Alliance’s strategy, programs, partners, and broader context are on its website.
+
+    [Learn about the Alliance](https://aguasamazonicas.org/la-alianza){:.button .is-primary target="_blank"}
+
+    ## Partners
+
+    The Observatory is built collaboratively with organizations, institutions, and Alliance partners that contribute data, research, and knowledge about Amazonian rivers and ecosystems. This collaboration network helps consolidate diverse, up-to-date information to strengthen analysis, decision-making, and conservation actions in Amazonia.
+
+    <img class="center" src="/assets/images/logos/banner-socios-Alianza-AA-2025-es.png" alt="Partners">
+
+###################################################
+### Data ethics and governance. Page /en/governance.md
+###################################################
+
+governance-intro:
+  markdownContent: |
+    # Shared agreements to care for data and those who generate it
+    Observatory governance is part of the overall governance of the Amazon Waters Alliance. The same bodies that guide the Alliance define how the Observatory is managed and operated: the **General Assembly**, which brings partners together and receives accountability reports; the **Board of Directors**, which approves policies and resolves institutional decisions; the **Data Infrastructure Committee**, which advises on architecture, interoperability, quality, and security; the **Conduct Committee**, which impartially examines cases that affect rights, dignity, or trust; and the **Technical Secretariat**, led by the Wildlife Conservation Society (WCS), which coordinates day-to-day implementation. In each initiative, data managers maintain the link between the territory and the Technical Secretariat.
+
+    This governance starts from one idea: authority over a datum arises where the datum is generated. Each community, initiative, and partner organization retains governance over its data, and the Alliance complements that governance without replacing it.
+
+    ## A policy for everyone who uses the data
+
+    The Data Ethics and Governance Policy applies to all institutions that are part of the Alliance and, at the same time, offers guidance for anyone who uses the Observatory or its data. It sets out the principles, commitments, and responsibilities that accompany information throughout its life cycle, from the moment it is recorded until it is published, used, and preserved.
+
+    The data the Observatory integrates arrive through two channels. Most are published directly through the Amazon Waters Alliance, which ensures traceability, recognition, consent, and agreements with communities. Others come from publishers that recognize these same principles and adhere to them.
+
+    The Alliance is committed to working under the FAIR principles, so that data are findable, accessible, interoperable, and reusable, and under the CARE principles, which recognize collective benefit, authority to control, responsibility, and ethics in the use of data from Indigenous peoples and local communities. This combination guides what the policy calls situated openness: opening data as much as possible, while taking into account rights, territories, relationships of trust, and the risks of disclosure.
+
+governance-cards:
+  klass: features--explore
+  features:
+    - title: Data ethics and governance policy # required
+      description: |      # required
+        Principles, commitments, and responsibilities for managing Alliance information throughout its life cycle.
+      cta:  
+      - text: Download policy
+        href: /en/resources/use-guide
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/citacion.png
+
+###################################################
+### Terms of use and privacy. Page /en/terms-of-use-and-privacy.md
+###################################################
+
+terms-of-use-and-privacy-intro:
+  markdownContent: |
+    Because the ICTIO system is currently the main component of the Observatory, its terms of use and privacy policy guide consultation, download, and reuse of the data available in the Observatory. They should be reviewed before using the information.
+
+terms-of-use-and-privacy-cards:
+  klass: features--explore
+  features:
+    - title: Terms of use and privacy # required
+      description: |      # required
+        Conditions for consulting, downloading, reusing, and attributing ICTIO system data.
+      cta:  
+      - text: View terms
+        href: /en/resources/use-guide
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/citacion.png
+    - title: ICTIO system privacy policy # required
+      description: |      # required
+        How personal data of people involved in generating and managing information in ICTIO are handled and protected.
+      cta:  
+      - text: View policy
+        href: /en/resources/use-guide
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/uso_privacidad.png
+
+terms-of-use-and-privacy-outro:
+  markdownContent: |
+    The Observatory does not publish personal data. Even so, the Alliance works so that the organizations that generate the information are recognized. How that recognition is given depends on the local agreements each initiative establishes under the Data Ethics and Governance Policy. When a project requires more detailed information, the procedure is described in the Sensitive data access section, which explains how to submit a request to the Technical Secretariat.
+
+###################################################
+### FAQ. Page /en/faq.md
+###################################################
+
+faq-intro:
+  markdownContent: |
+    # Quick answers about the Observatory, its data, and ways to participate
+
+    ## What is the Amazon Waters Observatory?
+
+    It is the open data window of the Amazon Waters Alliance. It brings together and makes available information on fish, fisheries, and aquatic ecosystems of the Amazon basin. Today its main component is the ICTIO fisheries monitoring system.
+
+    ## What information does the Observatory provide?
+
+    Biological fish records, datasets, indicator dashboards, a basin map by sub-basins, and priority species fact sheets, as well as guides and documents on data use and management.
+
+    ## Where do the data come from?
+
+    From participatory and community monitoring, citizen science programs, and monitoring by Alliance partner organizations and institutions, following ICTIO fisheries monitoring protocols.
+
+    ## Why do records not show exact coordinates?
+
+    To protect sites, species, and people, public data are presented aggregated at the sub-basin level and without personal data. When a legitimate purpose requires more detail, access may be requested as described in Sensitive data access.
+
+    ## Where does the geographic information on basins come from?
+
+    The sub-basin division used by the Observatory is based on the geographic classification developed by the Amazon Waters Alliance. The main basins are described on the [Alliance website](https://aguasamazonicas.org/cuencas).
+
+    ## Are participatory monitoring data reliable?
+
+    Yes. Each contribution goes through local review by data managers and curation by the Technical Secretariat, including taxonomic, geographic, and temporal validation. The process is described in Data quality.
+
+    ## How often is the information updated?
+
+    Information is updated as new datasets or new versions are integrated and published. Each dataset indicates its publication date and version.
+
+    ## Is it possible to download the data?
+
+    Yes. Downloads are made through GBIF, with a [free account](https://www.gbif.org/user/login). From the occurrence pages, the “Download” option redirects to GBIF.org and keeps the filters applied in the Observatory.
+
+    ## How are the data cited?
+
+    Records, datasets, and their derived products are cited according to the Citation, attribution, and recognition Guide.
+
+    ## Is it necessary to notify data use?
+
+    The Alliance invites you to do so. The product link and DOI are sent to [info@aguasamazonicas.org](mailto:info@aguasamazonicas.org), which helps return results to those who generated the information.
+
+    ## Why do ICTIO Report figures not match those in the Observatory?
+
+    The reports have their own aggregation level and, in some cases, incorporate complementary sources. Both products are valid and complementary. More details in [ICTIO Reports](/en/resources/ictio-reports).
+
+    ## How can an organization share data?
+
+    Alliance partner organizations fill in the biological records and metadata templates and send them to the Technical Secretariat. The step-by-step process is in the Publishing guide. Organizations that are not partners and wish to contribute data can write to [info@aguasamazonicas.org](mailto:info@aguasamazonicas.org).
+
+    ## What are protocols P76, P77, P78, and P79?
+
+    They are the four ICTIO fisheries monitoring protocols: during the fishing trip, after the fishing trip, at market, and at port. They are described in Collection protocols.
+
+    ## Is it possible to integrate the data into other systems?
+
+    Yes, through the [API for developers](/en/resources/api-access), which allows published data to be queried automatically.
+
+    ## How is an error reported or a question asked?
+
+    Reports and questions are received at [info@aguasamazonicas.org](mailto:info@aguasamazonicas.org). Each reported error helps improve the information.
+
+    ## Where can I find more information about the Amazon Waters Alliance?
+
+    At [aguasamazonicas.org](https://aguasamazonicas.org/) you will find its strategy, programs, partners, and the Citizen Science Program.

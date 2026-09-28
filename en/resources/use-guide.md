@@ -1,0 +1,17 @@
+---
+layout: compose
+lang-ref: use-guide
+lang: en
+title: Usage guide
+toc: false
+background: /assets/images/pages_bg_wh_w1800px.png
+height: 41vh
+composition: 
+  - type: heroImage
+  - type: blank
+  - type: pageMarkdown
+  - type: markdown
+    data: en.resources.use-guide-intro
+  - type: features
+    data: en.resources.use-guide-cards
+---
