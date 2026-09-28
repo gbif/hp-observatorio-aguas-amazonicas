@@ -8,7 +8,7 @@ columns:
   - description: |
       <div class="footer-brand">
         <a class="footer-brand__main" href="https://aguasamazonicas.org" target="_blank" rel="noopener">
-          <img src="/assets/images/logos/Logo-AA-ESP-Az.png" alt="Logo Aguas Amazónicas">
+          <img src="/assets/images/logos/AA-ES.png" alt="Logo Aguas Amazónicas">
         </a>
         <p class="footer-brand__label">Con el apoyo de:</p>
         <div class="footer-brand__supporters">
