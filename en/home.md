@@ -60,8 +60,6 @@ description: |
       </div>
     </div>
 
-  <p class="separator">Or</p>
-
     <div class="heroSearchActions">
       <a href="/en/occurrence/search" class="heroSearchCta">Browse all records</a>
     </div>

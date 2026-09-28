@@ -317,41 +317,34 @@ $footer-wave-image: url("/assets/images/placeholders/ondas.svg");
 
 // Floating Hero styles
 
-.separator {
-    font-size: 24px;
-    padding-top: 20px;
-    margin: 0;
-    text-align: center;
-    width: 100%;
-  }
-
 .floatingHero {
     width: 100%;
     max-width: none;
-    padding-bottom: $wave-height;
+    // Prueba: olas del hero deshabilitadas
+    // padding-bottom: $wave-height;
     overflow: hidden;
 
-    // Ola con máscara SVG inline (no se una ondas.svg)
-    &::after {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        width: 100%;
-        height: $wave-height;
-        background-color: $white-color;
-        mask-image: $wave-mask;
-        -webkit-mask-image: $wave-mask;
-        mask-repeat: no-repeat;
-        -webkit-mask-repeat: no-repeat;
-        mask-size: 100% 100%;
-        -webkit-mask-size: 100% 100%;
-        mask-position: bottom center;
-        -webkit-mask-position: bottom center;
-        pointer-events: none;
-        z-index: 2;
-    }
+    // Ola con máscara SVG inline (no se usa ondas.svg)
+    // &::after {
+    //     content: "";
+    //     position: absolute;
+    //     bottom: 0;
+    //     left: 0;
+    //     right: 0;
+    //     width: 100%;
+    //     height: $wave-height;
+    //     background-color: $white-color;
+    //     mask-image: $wave-mask;
+    //     -webkit-mask-image: $wave-mask;
+    //     mask-repeat: no-repeat;
+    //     -webkit-mask-repeat: no-repeat;
+    //     mask-size: 100% 100%;
+    //     -webkit-mask-size: 100% 100%;
+    //     mask-position: bottom center;
+    //     -webkit-mask-position: bottom center;
+    //     pointer-events: none;
+    //     z-index: 2;
+    // }
 
     .feature-img {
         img {
@@ -608,9 +601,9 @@ $footer-wave-image: url("/assets/images/placeholders/ondas.svg");
 
 .heroSearchActions {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     width: 100%;
-    padding-top: 1rem;
+    padding-top: calc(20px + 5rem);
 }
 
 .heroSearchCta {
@@ -646,7 +639,7 @@ $footer-wave-image: url("/assets/images/placeholders/ondas.svg");
     }
 
     .heroSearchActions {
-        justify-content: center;
+        justify-content: flex-start;
     }
 }
 
