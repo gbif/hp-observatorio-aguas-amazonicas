@@ -1,4 +1,31 @@
-discover:
+##########################################################################
+### Contenidos de las páginas debajo de /taxa, en orden de cómo
+### aparecen en el menú de navegación debajo de taxa.
+###
+### Se definen en el archivo _data/taxa.yml
+### Cada sección se define con un nombre de página y un contenido en yaml.
+### por ejemplo:
+### para discover.md se define discover-intro, discover-cards, etc.
+### Se indica el tipo de contenido:
+### -intro: para contenido introductorio en markdown
+### -cards: para contenido en features/tarjetas
+### -links: para contenido en enlaces/botones
+##########################################################################
+
+
+###################################################
+### Discover. Página discover.md
+###################################################
+
+discover-intro:
+  markdownContent: |
+    La cuenca amazónica alberga una extraordinaria diversidad de organismos que cumplen funciones fundamentales en los ecosistemas acuáticos y terrestres. Desde grupos taxonómicos amplios hasta especies de especial interés para la conservación y el monitoreo, cada uno aporta información valiosa para comprender la biodiversidad, las dinámicas ecológicas y los procesos que conectan los territorios amazónicos.
+
+    Como parte de sus esfuerzos para fortalecer la generación, integración y divulgación de conocimiento sobre la región, la Alianza Aguas Amazónicas prioriza un conjunto de familias, géneros y especies de peces de especial relevancia para los procesos de monitoreo, investigación y conservación en la cuenca.
+
+    En esta sección podrás acceder tanto al conjunto de datos que documenta las fichas de estos taxones como a la lista de las fichas y a la descripción biológica de cada taxón.
+
+discover-cards:
   klass: features--explore
   features:
     - title: Consultar fichas de taxones # required
@@ -11,11 +38,16 @@ discover:
       # img required
       background: /assets/images/icons/descubre_fichas_especies.png
 
-list:
+###################################################
+### List. Página list.md
+###################################################
+
+list-intro:
+  markdownContent: |
+    Cada ficha reúne información taxonómica, ecológica y de distribución, complementada con registros biológicos, recursos visuales y otros contenidos del Observatorio. Recorrerlas es una forma de conocer distintos niveles de la diversidad biológica amazónica y su importancia en los ecosistemas y territorios de la cuenca.
+
+list-cards:
   klass: features--explore
-  title: Lista de fichas
-  description: |
-    Taxones priorizados
   features:
     - title: Bagre # required
       description: |      # required
