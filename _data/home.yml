@@ -5,7 +5,7 @@ stats:
     - text: Más información
       href: /stats/dashboard
   features:
-    - title: "164.000"
+    - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?publishingOrg=6e3dccea-16ee-4060-a8e9-32e598167a94">164000</span>
       description: Registros de peces
       background: /assets/images/icons/stats_registries_icon.svg
       href: /occurrence/search
