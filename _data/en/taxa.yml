@@ -1,0 +1,189 @@
+##########################################################################
+### Contents for pages under /taxa, in navigation order under Taxa.
+###
+### Defined in _data/en/taxa.yml
+### Each section is named by page and content type, e.g.:
+### for discover.md: discover-intro, discover-cards, etc.
+### Content types:
+### -intro: introductory markdown
+### -cards: features/cards
+### -links: links/buttons
+##########################################################################
+
+
+###################################################
+### Discover. Page en/taxa/discover.md
+###################################################
+
+discover-intro:
+  markdownContent: |
+    The Amazon basin hosts an extraordinary diversity of organisms that play fundamental roles in aquatic and terrestrial ecosystems. From broad taxonomic groups to species of special interest for conservation and monitoring, each contributes valuable information for understanding biodiversity, ecological dynamics, and the processes that connect Amazonian territories.
+
+    As part of its efforts to strengthen the generation, integration, and sharing of knowledge about the region, the Amazon Waters Alliance prioritizes a set of fish families, genera, and species of particular relevance to monitoring, research, and conservation processes in the basin.
+
+    In this section you can access both the dataset that documents the fact sheets for these taxa and the list of fact sheets and the biological description of each taxon.
+
+discover-cards:
+  klass: features--explore
+  features:
+    - title: Browse taxon fact sheets # required
+      description: |      # required
+        Each fact sheet brings together taxonomic, ecological, and distribution information, complemented by biological records, visual resources, and other Observatory content. Exploring them is a way to learn about different levels of Amazonian biological diversity and its importance in the basin’s ecosystems and territories.
+      cta:  
+      - text: View fish fact sheets
+        href: /en/taxa/list
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/descubre_fichas_especies.png
+
+###################################################
+### List. Page en/taxa/list.md
+###################################################
+
+list-intro:
+  markdownContent: |
+    Each fact sheet brings together taxonomic, ecological, and distribution information, complemented by biological records, visual resources, and other Observatory content. Exploring them is a way to learn about different levels of Amazonian biological diversity and its importance in the basin’s ecosystems and territories.
+
+list-cards:
+  klass: features--explore
+  features:
+    - title: Bagre # required
+      description: |      # required
+        *Sorubim lima*
+      href: /taxa/sorubim-lima
+      cta:  
+      - text: More information
+        href: /taxa/sorubim-lima
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/descubre_fichas_especies.png
+    - title: Pacú # required
+      description: |      # required
+        *Colossoma macropomum*
+      href: /taxa/colossoma-macropomum
+      cta:
+      - text: More information
+        href: /taxa/colossoma-macropomum
+        isPrimary: true  
+      background: /assets/images/icons/descubre_fichas_especies.png
+    - title: Dorado / Plateado # required
+      description: |      # required
+        *Brachyplatystoma rousseauxi*
+      href: /taxa/brachyplatystoma-roussouxi
+      cta:
+      - text: More information
+        href: /taxa/brachyplatystoma-roussouxi
+        isPrimary: true  
+      background: /assets/images/icons/descubre_fichas_especies.png
+    - title: Dorado / Plateado # required
+      description: |      # required
+        *Brachyplatystoma rousseauxi*
+      href: /taxa/brachyplatystoma-roussouxi
+      cta:  
+      - text: More information
+        href: /taxa/brachyplatystoma-roussouxi
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/descubre_fichas_especies.png
+    - title: Pacú # required
+      description: |      # required
+        *Colossoma macropomum*
+      href: /taxa/colossoma-macropomum
+      cta:
+      - text: More information
+        href: /taxa/colossoma-macropomum
+        isPrimary: true  
+      background: /assets/images/icons/descubre_fichas_especies.png
+    - title: Dorado / Plateado # required
+      description: |      # required
+        *Brachyplatystoma rousseauxi*
+      href: /taxa/brachyplatystoma-roussouxi
+      cta:
+      - text: More information
+        href: /taxa/brachyplatystoma-roussouxi
+        isPrimary: true  
+      background: /assets/images/icons/descubre_fichas_especies.png
+    - title: Dorado / Plateado # required
+      description: |      # required
+        *Brachyplatystoma rousseauxi*
+      href: /taxa/brachyplatystoma-roussouxi
+      cta:  
+      - text: More information
+        href: /taxa/brachyplatystoma-roussouxi
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/descubre_fichas_especies.png
+    - title: Pacú # required
+      description: |      # required
+        *Colossoma macropomum*
+      href: /taxa/colossoma-macropomum
+      cta:
+      - text: More information
+        href: /taxa/colossoma-macropomum
+        isPrimary: true  
+      background: /assets/images/icons/descubre_fichas_especies.png
+    - title: Dorado / Plateado # required
+      description: |      # required
+        *Brachyplatystoma rousseauxi*
+      href: /taxa/brachyplatystoma-roussouxi
+      cta:
+      - text: More information
+        href: /taxa/brachyplatystoma-roussouxi
+        isPrimary: true  
+      background: /assets/images/icons/descubre_fichas_especies.png
+    - title: Dorado / Plateado # required
+      description: |      # required
+        *Brachyplatystoma rousseauxi*
+      href: /taxa/brachyplatystoma-roussouxi
+      cta:  
+      - text: More information
+        href: /taxa/brachyplatystoma-roussouxi
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/descubre_fichas_especies.png
+    - title: Pacú # required
+      description: |      # required
+        *Colossoma macropomum*
+      href: /taxa/colossoma-macropomum
+      cta:
+      - text: More information
+        href: /taxa/colossoma-macropomum
+        isPrimary: true  
+      background: /assets/images/icons/descubre_fichas_especies.png
+    - title: Dorado / Plateado # required
+      description: |      # required
+        *Brachyplatystoma rousseauxi*
+      href: /taxa/brachyplatystoma-roussouxi
+      cta:
+      - text: More information
+        href: /taxa/brachyplatystoma-roussouxi
+        isPrimary: true  
+      background: /assets/images/icons/descubre_fichas_especies.png
+    - title: Dorado / Plateado # required
+      description: |      # required
+        *Brachyplatystoma rousseauxi*
+      href: /taxa/brachyplatystoma-roussouxi
+      cta:  
+      - text: More information
+        href: /taxa/brachyplatystoma-roussouxi
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/descubre_fichas_especies.png
+    - title: Pacú # required
+      description: |      # required
+        *Colossoma macropomum*
+      href: /taxa/colossoma-macropomum
+      cta:
+      - text: More information
+        href: /taxa/colossoma-macropomum
+        isPrimary: true  
+      background: /assets/images/icons/descubre_fichas_especies.png
+    - title: Dorado / Plateado # required
+      description: |      # required
+        *Brachyplatystoma rousseauxi*
+      href: /taxa/brachyplatystoma-roussouxi
+      cta:
+      - text: More information
+        href: /taxa/brachyplatystoma-roussouxi
+        isPrimary: true  
+      background: /assets/images/icons/descubre_fichas_especies.png
