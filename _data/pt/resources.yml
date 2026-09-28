@@ -1,0 +1,377 @@
+##########################################################################
+### Conteúdos das páginas em /pt/resources, na ordem do menu Recursos.
+###
+### Definidos em _data/pt/resources.yml
+### Cada seção é nomeada por página e tipo de conteúdo, por exemplo:
+### para use-guide.md: use-guide-intro, use-guide-cards, etc.
+### Tipos de conteúdo:
+### -intro: markdown introdutório
+### -cards: features/cartões
+### -links: links/botões
+##########################################################################
+
+
+###################################################
+### Guia de uso. Página use-guide.md
+###################################################
+
+use-guide-intro:
+  markdownContent: |
+    # Ferramentas e orientações para percorrer, consultar e aproveitar o Observatório
+
+    O Observatório Águas Amazônicas permite explorar informação sobre peixes, pesca e ecossistemas aquáticos da Amazônia a partir de diferentes portas de entrada: o buscador, os painéis de números, o mapa da bacia, as fichas de peixes e os conjuntos de dados. A exploração pode começar por uma espécie, uma sub-bacia ou a organização que contribuiu com os dados, e as visualizações se atualizam conforme os filtros aplicados.
+
+    A informação selecionada é baixada por meio do GBIF com uma conta gratuita, e os filtros aplicados no Observatório são conservados no download. O guia de uso explica passo a passo cada ferramenta; o guia de estilo visual orienta o uso correto da identidade do Observatório em peças e comunicações.
+
+use-guide-cards:
+  klass: features--explore
+  features:
+    - title: Guia de uso do Observatório # required
+      description: |      # required
+        Explica como navegar no Observatório, usar o buscador e os filtros, explorar os painéis de dados e baixar informação.
+      cta:  
+      - text: Ver guia
+        href: https://drive.google.com/file/d/1gXeb8mTYHLoqznr3ZBVe7QO2Nq0f_1vi/view
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/explora_guia_de_uso.png
+    - title: Guia de estilo visual # required
+      description: |      # required
+        Reúne as orientações para usar corretamente a identidade visual do Observatório: identificadores, cores, tipografias, recursos gráficos e critérios de aplicação em diferentes peças e meios.
+      cta:  
+      - text: Ver guia
+        href: https://drive.google.com/file/d/1USW0iMn_wa69sa_x4RaPu0aRquK2CizC/view
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/icono_api.png
+
+###################################################
+### Publicação de dados. Página publishing-guide.md
+###################################################
+
+publishing-guide-intro:
+  markdownContent: |
+    # Como os dados das organizações parceiras chegam ao Observatório e ao mundo
+
+    A interoperabilidade permite que os conjuntos de dados produzidos por distintas organizações, com métodos, escalas e ferramentas diferentes, sejam integrados, interpretados e reutilizados de forma conjunta. Na Aliança Águas Amazônicas, ela é abordada em quatro dimensões: legal (licenças, condições de uso e acordos), organizacional (papéis e responsabilidades), semântica (padrão comum, vocabulários controlados e metadados) e técnica (formatos abertos, identificadores persistentes e acesso programático). O modelo não centraliza a informação nem homogeneiza as práticas de campo: cada organização conserva a titularidade e o controle sobre seus dados, e sua contribuição fica rastreada ao longo de todo o ciclo.
+
+    ## Ciclo da informação: da organização parceira ao GBIF
+
+    Todo registro publicado no Observatório passa por seis etapas:
+
+    1. Compartilhar. A organização parceira entrega o conjunto estruturado na planilha Darwin Core, com seus metadados e a declaração de licença, restrições e informação sensível.
+    2. Custodiar. A Secretaria Técnica verifica a validade formal do aporte e conserva o original sem modificações e com acesso restrito (nível 0).
+    3. Integrar. O aporte é incorporado ao conjunto interno cumulativo, conservando o identificador do aporte, a organização de origem e a data de recebimento.
+    4. Validar. Aplicam-se perfilamento, normalização, validação taxonômica, geográfica e temporal, e detecção de duplicados; cada transformação é documentada.
+    5. Proteger. Anonimizam-se os dados pessoais e generaliza-se a localização ao nível de sub-bacia, o que gera versões de acesso controlado (níveis 1 e 2).
+    6. Publicar. Com a autorização da Secretaria Técnica, gera-se a versão de acesso aberto (nível 3).
+
+publishing-guide-cards:
+  klass: features--explore
+  features:
+    - title: Guia de interoperabilidade # required
+      description: |      # required
+        Diretrizes da Aliança para compartilhar, padronizar, validar, proteger e preparar conjuntos de dados para o acesso aberto.
+      cta:  
+      - text: Ver guia
+        href: https://drive.google.com/file/d/1DLUyBLAFsUnfi8f6_C6zhdy2FyohZTPM/view
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/publicacion_guia.png
+
+publishing-guide-share:
+  markdownContent: |
+    As organizações parceiras da Aliança compartilham seus dados com o sistema ICTIO por meio da Secretaria Técnica. O processo tem quatro momentos:
+
+    1. Preparação dos dados. A organização preenche a planilha de registros biológicos, que segue o padrão Darwin Core, e a planilha de metadados, que descreve quem gerou os dados, como, onde, quando e sob quais condições de uso.
+    2. Envio pelo canal único. Ambos os arquivos são anexados no [mecanismo de carga do Observatório](https://forms.gle/zBebu9AxMLkxJ1Gm7). Cada envio corresponde a um único conjunto de dados com uma única declaração de metadados e condições; campanhas ou metodologias distintas são enviadas separadamente.
+    3. Confirmação de recebimento. A Secretaria Técnica confirma o recebimento e verifica se a documentação está completa e se a estrutura é válida.
+    4. Resultado da verificação. O aporte pode ser aceito, aceito com observações ou devolvido com indicações concretas para correção. As devoluções são apresentadas como apoio, não como rejeição.
+
+    Cada organização conserva a titularidade sobre os dados que compartilha e pode solicitar a qualquer momento uma cópia do que foi aportado.
+
+publishing-guide-files-cards:
+  klass: features--explore
+  features:
+    - title: Planilha de registros biológicos # required
+      description: |      # required
+        Planilha padronizada em Darwin Core para registrar a informação que será avaliada e incorporada ao sistema ICTIO.
+      cta:  
+      - text: Baixar
+        href: https://drive.google.com/uc?export=download&id=120snIlwX_gJrIdVGLe_3ykEluOe0VuHQ
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/publicacion_plantilla.png
+    - title: Planilha de metadados # required
+      description: |      # required
+        Planilha para documentar o conjunto de dados: autoria, cobertura, metodologia, qualidade, licença e condições de uso.
+      cta:  
+      - text: Baixar
+        href: https://drive.google.com/uc?export=download&id=1P0V93LhRofPZXL6aNmyGPmLZ6etn2r3J
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/publicacion_metadatos.png
+
+###################################################
+### Guia de citação. Página citation.md
+###################################################
+
+citation-guide-intro:
+  markdownContent: |
+    # Reconhecer quem torna possível cada dado
+
+    Por trás de cada registro do Observatório há pessoas pescadoras e monitoras, comunidades, organizações parceiras e equipes técnicas que observaram, registraram, validaram e cuidaram da informação. Citar bem não é uma formalidade bibliográfica: é a forma de manter visível essa cadeia de contribuições, permitir que outras pessoas verifiquem os resultados e devolver valor a quem gerou os dados.
+
+    ## Guia de citação, atribuição e reconhecimento
+
+    O guia explica como citar cada tipo de recurso disponível no Observatório: o próprio Observatório, um registro individual, um conjunto de dados, um download, um conjunto derivado, uma fotografia, um mapa ou um número dos painéis, e os produtos derivados elaborados a partir deles. Sua regra central é citar o recurso exato que foi utilizado. Mencionar a Aliança, o Observatório, o ICTIO ou o GBIF não substitui a citação do conjunto ou do download de onde vêm os dados.
+
+citation-guide-cards:
+  klass: features--explore
+  features:
+    - title: Guia de citação, atribuição e reconhecimento # required
+      description: |      # required
+        Orientações para citar dados, conjuntos, downloads e produtos da Aliança, e para reconhecer as contribuições de pessoas, comunidades e organizações.
+      cta:  
+      - text: Ver guia
+        href: https://drive.google.com/file/d/11GLuuW1eJLsD8jIUovcVH1_caOqSD9c7/view
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/citacion.png
+
+citation-guide-datause:
+  markdownContent: |
+    ## Uso dos dados: notificação de uso e reúso
+
+    A Aliança convida a notificar a publicação de artigos, relatórios, mapas, visualizações, materiais educativos, software ou outros produtos baseados em dados do Observatório. Conhecer como os dados são usados permite à Aliança devolver os resultados às comunidades e organizações que os tornaram possíveis.
+
+    A notificação é enviada a [observatorio@aguasamazonicas.org](mailto:observatorio@aguasamazonicas.org) com as seguintes informações:
+
+    - título, tipo de produto, link público e DOI, se existir;
+    - autoria, organização responsável e contato;
+    - dados ou recursos utilizados, com sua versão ou DOI;
+    - uma descrição breve do uso realizado.
+
+    Uma notificação por produto é suficiente. Não devem ser anexados dados restritos nem informação pessoal. A notificação é uma boa prática de reciprocidade: não substitui a citação nem é condição para acessar ou usar os dados.
+
+###################################################
+### Qualidade de dados. Página data-quality.md
+###################################################
+
+data-quality-intro:
+  markdownContent: |
+    # Dados participativos com processos de curadoria que respaldam sua confiabilidade
+
+    ## O que significa qualidade de dados na Aliança Águas Amazônicas?
+
+    Boa parte dos dados do Observatório nasce do monitoramento participativo: pessoas pescadoras que registram suas capturas, monitores comunitários, equipes locais em mercados e portos, e organizações parceiras com seus próprios programas de monitoramento pesqueiro. Que um dado venha de um processo participativo não o torna menos confiável. O que o torna confiável é o caminho de revisão que percorre antes de ser publicado, e na Aliança esse caminho tem várias mãos.
+
+    A primeira revisão ocorre no território, onde as pessoas gestoras de dados de cada iniciativa verificam se os registros estão completos e bem documentados. Em seguida, a Secretaria Técnica da Aliança cura cada aporte: caracteriza o conjunto, normaliza formatos, detecta duplicados e aplica a validação taxonômica, para confirmar que os nomes científicos existam e correspondam a táxons aceitos, conservando sempre a identificação original e os nomes locais. Também aplica a validação geográfica, para verificar se as localizações são coerentes com o corpo d'água e o território declarados, e a validação temporal, para assegurar que as datas sejam possíveis e consistentes. Quando necessário, soma-se a revisão de especialistas temáticos.
+
+    A Aliança avalia a qualidade em três dimensões: exatidão, consistência e completude. E segue um princípio: a qualidade não se corrige eliminando. Um registro com problemas é documentado, tenta-se corrigi-lo junto com quem o aportou e classifica-se segundo sua aptidão, mas não se apaga em silêncio. Toda transformação fica registrada, de modo que cada dado publicado possa ser explicado.
+
+    A qualidade também não é um sim ou um não. Um registro pode ser útil para uma análise e não para outra. Por isso, recomenda-se revisar os metadados de cada conjunto, onde se descrevem sua metodologia, sua cobertura e as proteções aplicadas; por exemplo, as localizações públicas estão agregadas ao nível de sub-bacia e não representam coordenadas exatas.
+
+    ## Ferramentas para a qualidade de dados
+
+    **Para quem usa os dados.** Antes da análise, é recomendável revisar os metadados do conjunto e as marcas de qualidade que o GBIF atribui a cada registro. Essas marcas sinalizam, por exemplo, nomes que não coincidem com o catálogo taxonômico ou coordenadas inconsistentes, e permitem filtrar os registros segundo o propósito da análise.
+
+    - [Requisitos de qualidade de dados do GBIF](https://www.gbif.org/pt/data-quality-requirements): o que se espera de um conjunto de ocorrências publicado.
+    - [Buscador de nomes de espécies do GBIF](https://www.gbif.org/pt/tools/species-lookup): verifica nomes científicos contra o catálogo taxonômico.
+
+    **Para quem gera ou publica dados.** Essas ferramentas livres ajudam a revisar os dados antes de enviá-los à Secretaria Técnica:
+    
+    - [Validador de dados do GBIF](https://tools.gbif.org/pt/tools/data-validator): revisa a estrutura Darwin Core e detecta problemas antes de publicar.
+    - [openRefine](https://openrefine.org/): verifica a estrutura e o conteúdo dos arquivos EML.
+    - [Guia de interoperabilidade da Aliança](https://drive.google.com/file/d/1DLUyBLAFsUnfi8f6_C6zhdy2FyohZTPM/view) (ver seção 2.2): descreve os controles aplicados a cada aporte.
+
+    [Mais ferramentas de qualidade](https://biodiversidad.co/recursos/calidad-de-datos/){:.button .is-primary target="_blank"}
+
+data-quality-standards:
+  markdownContent: |
+    ## Padrões
+
+    Os padrões são a linguagem comum que permite integrar dados de distintos países, organizações e metodologias em uma mesma infraestrutura. O Observatório usa três:
+
+data-quality-standards-cards:
+  klass: features--explore
+  features:
+    - title: Darwin Core (DwC) # required
+      description: |      # required
+        Padrão para estruturar e publicar registros biológicos: espécie, evento, localização, data, pessoas e instituições associadas.
+      cta:
+      - text: Mais informações
+        href: https://dwc.tdwg.org/
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/estandar_dwc.png
+    - title: Ecological Metadata Language (EML) # required
+      description: |      # required
+        Padrão para documentar os metadados dos conjuntos de dados: origem, métodos, cobertura, responsáveis e licença.
+      cta:
+      - text: Mais informações
+        href: https://eml.ecoinformatics.org/
+        isPrimary: true  
+      background: /assets/images/icons/estandar_eml.png
+    - title: Plinian Core (PliC) # required
+      description: |      # required
+        Padrão para estruturar fichas de espécies: taxonomia, distribuição, ecologia, conservação e usos.
+      cta:
+      - text: Mais informações
+        href: https://www.tdwg.org/community/species/plinian-core/
+        isPrimary: true  
+      background: /assets/images/icons/estandar_plic.png
+
+###################################################
+### Protocolos. Página protocols.md
+###################################################
+
+protocols-intro:
+  markdownContent: |
+    # Acordos comuns para observar e registrar a pesca em toda a bacia
+
+    Para que dados tomados em rios, mercados e portos de distintos países possam ser comparados, primeiro é preciso chegar a um acordo sobre o que observar e como registrá-lo. Na Aliança Águas Amazônicas, esse acordo é construído de forma colaborativa pelo Grupo de Pesca, um grupo interinstitucional que define as variáveis essenciais registradas nos diferentes mecanismos de monitoramento da Aliança.
+
+    Desse trabalho surgem os quatro protocolos do sistema ICTIO. Cada um responde a um momento distinto da cadeia pesqueira e, juntos, oferecem uma visão mais ampla da diversidade de peixes da bacia e das dinâmicas da pesca.
+
+    Cada protocolo responde a um contexto específico de observação e registro, permitindo complementar a informação obtida a partir de diferentes pontos da cadeia pesqueira:
+
+protocols-cards:
+  klass: features--explore
+  features:
+    - title: P76 – Durante a pescaria # required
+      description: |      # required
+        Registra os peixes observados ou capturados diretamente durante a atividade de pesca. Documenta informação do momento da captura, como a localização, a data e as características do evento quando estão disponíveis.     
+      # img required
+      background: /assets/images/icons/protocolo_p76.png
+    - title: P77 – Depois da pescaria # required
+      description: |      # required
+        Registra a informação reportada uma vez terminada a atividade de pesca. Os dados são aportados por pessoas pescadoras, monitoras ou equipes locais, e complementam o obtido durante as jornadas de monitoramento.
+      background: /assets/images/icons/protocolo_p77.png
+    - title: P78 – Mercado # required
+      description: |      # required
+        Registra as espécies observadas ou comercializadas em mercados de peixe. Permite conhecer a diversidade de espécies que circulam na comercialização, embora nem sempre seja possível determinar com precisão o local de captura.
+      background: /assets/images/icons/protocolo_p78.png
+    - title: P79 – Porto # required
+      description: |      # required
+        Registra informação obtida em portos e desembarques pesqueiros. Segundo a informação disponível, aporta dados sobre a origem das capturas, as espécies desembarcadas e outros aspectos da atividade pesqueira.
+      background: /assets/images/icons/protocolo_p79.png
+
+protocols-files-link:
+  markdownContent: |
+    [Ver protocolos](https://pt.aguasamazonicas.org/bacia){:.button .is-primary target="_blank"}
+
+###################################################
+### Acesso a dados sensíveis. Página sensitive-information.md
+###################################################
+
+sensitive-information-intro:
+  markdownContent: |
+    # Tão abertos quanto possível, tão protegidos quanto necessário
+
+    Os dados do sistema ICTIO não existem em uma única versão. Alguns detalhes, como as coordenadas exatas de um sítio de pesca ou a identidade de quem registrou uma captura, poderiam afetar pessoas, comunidades ou espécies se fossem publicados sem cuidado. Por isso, o ICTIO organiza seus dados em quatro níveis de acesso. Cada nível é uma versão distinta do mesmo recurso, e abrir um nível nunca ocorre de forma automática.
+
+sensitive-information-cards:
+  klass: features--explore
+  features:
+    - title: Níveis de acesso dos dados do sistema ICTIO # required
+      description: |      # required
+        Modelo completo de níveis de acesso, armazenamento e licenciamento, com as transições permitidas entre níveis.   
+      cta:
+      - text: Ver
+        href: https://drive.google.com/file/d/1HSJO-xewnXEIf7xCMMok7xXv-e0vmc1K/view
+        isPrimary: true  
+      background: /assets/images/icons/uso_privacidad.png
+
+sensitive-information-howto:
+  markdownContent: |
+    ## Como acessar dados sensíveis do sistema ICTIO?
+
+    Quando uma pesquisa, um projeto de conservação ou uma análise técnica exige mais detalhe do que o disponível publicamente, é possível solicitar acesso ao nível 2, ou seja, ao conjunto de dados com as coordenadas dos registros. As pessoas ou organizações interessadas devem enviar uma solicitação formal à Secretaria Técnica da Aliança Águas Amazônicas no e-mail [observatorio@aguasamazonicas.org](mailto:observatorio@aguasamazonicas.org), usando o formato do [Acordo para compartilhar dados](/pt/resources/use-guide).
+
+    A Secretaria Técnica revisa cada solicitação junto com o custodiante dos dados quando corresponde. Se for aprovada, o acesso é formalizado com um acordo que define a finalidade, o escopo, o prazo, as medidas de segurança e as restrições de redistribuição. Se não puder ser aprovada, a decisão é comunicada de forma motivada.
+
+    Acessar dados de nível 2 implica os mesmos compromissos de reconhecimento que qualquer uso do Observatório, e alguns a mais. Antes de enviar a solicitação, recomenda-se revisar a [seção 2.3 do Guia de citação / Uso de dados](https://drive.google.com/file/d/1DLUyBLAFsUnfi8f6_C6zhdy2FyohZTPM/view), onde se explica como citar o conjunto e seu DOI, como reconhecer as organizações e comunidades que geraram a informação, e como notificar o uso e reúso dos produtos obtidos.
+ 
+sensitive-information-howto-cards:
+  klass: features--explore
+  features:
+    - title: Acordo para compartilhar dados no nível de iniciativa ou organização # required
+      description: |      # required
+        Formato para solicitar e formalizar o acesso a dados de acesso controlado.   
+      cta:
+      - text: Baixar
+        href: /pt/resources/use-guide
+        isPrimary: true  
+      background: /assets/images/icons/protocolo_p76.png  
+
+###################################################
+### Relatórios ICTIO. Página ictio-reports.md
+###################################################
+
+ictio-reports-intro:
+  markdownContent: |
+    # Um olhar panorâmico do monitoramento pesqueiro na bacia amazônica
+
+    Os Relatórios ICTIO são a leitura que a Secretaria Técnica da Aliança Águas Amazônicas faz sobre o estado do monitoramento pesqueiro na bacia. A partir dos dados do sistema ICTIO, reúnem números, tendências e avanços, e tornam visíveis os aportes das comunidades, organizações e instituições que geram a informação. Têm um propósito divulgativo, por isso são apresentados em formatos pensados para compartilhar, como infográficos e relatórios periódicos.
+
+    Os relatórios trabalham com um nível de agregação próprio e, em alguns casos, incorporam fontes de dados complementares às do Observatório. Por isso, seus números nem sempre coincidem com os dos painéis do Observatório. Ambos os produtos são válidos e se complementam: o Observatório mostra os registros publicados e consultáveis; os relatórios oferecem uma leitura de conjunto para entender o panorama do monitoramento pesqueiro.
+
+    Os Relatórios ICTIO são publicados no site da [Aliança Águas Amazônicas](https://pt.aguasamazonicas.org/relatorio-ictio){:target="_blank"}.
+
+ictio-reports-cards:
+  klass: features--explore
+  features:
+    - title: Relatórios ICTIO # required
+      description: |      # required
+        Relatórios e infográficos do monitoramento pesqueiro do ICTIO, disponíveis para consulta e download.   
+      cta:
+      - text: Ver relatórios
+        href: https://pt.aguasamazonicas.org/relatorio-ictio
+        isPrimary: true  
+      background: /assets/images/icons/descubre_conjunto_datos.png
+
+###################################################
+### API para desenvolvedores. Página api-access.md
+###################################################
+
+api-access-intro:
+  markdownContent: |
+    # Integração dos dados do Observatório em sistemas, aplicações e visualizações
+
+    A API permite a organizações parceiras, equipes técnicas e desenvolvedores consultar de forma automática os dados publicados no Observatório, sem downloads manuais. Por meio dela é possível acessar a informação de biodiversidade e monitoramento pesqueiro do sistema ICTIO e integrá-la em painéis que se atualizam sozinhos, análises reproduzíveis ou cruzamentos com outras fontes da bacia.
+
+    A documentação técnica apresenta os endpoints disponíveis, exemplos de consulta e as diretrizes para usar a API. Os dados consultados por essa via mantêm as mesmas condições de uso e citação que o restante do Observatório.
+
+    [Ver documentação da API](https://techdocs.gbif.org/en/openapi/v1/occurrence){:.button .is-primary target="_blank"}
+
+###################################################
+### Lista de recursos. Página resources-list.md
+###################################################
+
+resources-list-intro:
+  markdownContent: |
+    Esta seção reúne em um só lugar as políticas, guias, planilhas e instrumentos do Observatório, publicados nas distintas seções do site, para facilitar sua consulta e download.
+
+    **Políticas e termos de uso**
+    - [Política de ética e governança de dados](/pt/resources/use-guide)
+    - [Política de privacidade do sistema ICTIO](/pt/resources/sensitive-information)
+    - [Termos de uso do sistema ICTIO](/pt/resources/api-access)
+    - [Níveis de acesso dos dados do sistema ICTIO](https://drive.google.com/file/d/1HSJO-xewnXEIf7xCMMok7xXv-e0vmc1K/view)
+
+    **Guias**
+    - [Guia de uso do Observatório](https://drive.google.com/file/d/1gXeb8mTYHLoqznr3ZBVe7QO2Nq0f_1vi/view)
+    - [Guia de estilo visual](https://drive.google.com/file/d/1USW0iMn_wa69sa_x4RaPu0aRquK2CizC/view)
+    - [Guia de interoperabilidade](https://drive.google.com/file/d/1DLUyBLAFsUnfi8f6_C6zhdy2FyohZTPM/view)
+    - [Guia de citação, atribuição e reconhecimento](https://drive.google.com/file/d/11GLuuW1eJLsD8jIUovcVH1_caOqSD9c7/view)
+
+    **Planilhas e listas de verificação**
+    - [Planilha de registros biológicos](https://drive.google.com/uc?export=download&id=120snIlwX_gJrIdVGLe_3ykEluOe0VuHQ)
+    - [Planilha de metadados](https://drive.google.com/uc?export=download&id=1P0V93LhRofPZXL6aNmyGPmLZ6etn2r3J)
+    - [Lista de verificação: Integração de dados desde iniciativas de origem e organizações parceiras no sistema ICTIO](https://drive.google.com/file/d/1QgBNQlGJ3a2Vzufkjw1nxkq3gxVjt98o/view)
+
+    **Ética e governança de dados**
+    - [Acordo para compartilhar dados no nível de iniciativa ou organização](/pt/resources/use-guide)
+    - [Consentimento informado](/pt/resources/sensitive-information)
+    - [Folha de informação do projeto](/pt/resources/api-access)
+    - [Plano de gestão de dados](/pt/resources/use-guide)

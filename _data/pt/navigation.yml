@@ -1,0 +1,46 @@
+# Navigation configuration
+# You should create one of these files for each language you support. E.g. /_data/en/navigation.yml for the spanish version of the menu
+# Links listed below will be included in your site's navbar (navigation at the top)
+
+- text: Consultar
+  menu: # Dropdown menu (one level deep only)
+  - text: Painel de números
+    href: /pt/occurrence/search?view=dashboard
+  - text: Mapa da bacia hidrográfica
+    href: /pt/stats/territory
+  - text: Fichas de peixes
+    href: /pt/taxa/discover
+  - text: Conjuntos de dados
+    href: /pt/dataset/search?publishingOrg=6e3dccea-16ee-4060-a8e9-32e598167a94
+  - text: Registros de ocorrências
+    href: /pt/occurrence/search
+- text: Recursos
+  menu: # Dropdown menu (one level deep only)
+  - text: Guia de uso
+    href: /pt/resources/use-guide
+  - text: Guia de publicação
+    href: /pt/resources/publishing-guide
+  - text: "Guia de citação | Uso de dados"
+    href: /pt/resources/citation
+  - text: Qualidade dos dados
+    href: /pt/resources/data-quality
+  - text: Protocolos de coleta
+    href: /pt/resources/protocols
+  - text: Acesso a dados confidenciais
+    href: /pt/resources/sensitive-information
+  - text: Relatórios ICTIO
+    href: /pt/resources/ictio-reports
+  - text: API para programadores
+    href: /pt/resources/api-access
+  - text: Lista de recursos
+    href: /pt/resources/resources-list
+- text: Sobre
+  menu: # Dropdown menu (one level deep only)
+  - text: Observatório
+    href: /pt/about/observatory
+  - text: Ética e Governança
+    href: /pt/about/governance
+  - text: Termos de uso e privacidade
+    href: /pt/about/terms-of-use-and-privacy
+  - text: Ajuda
+    href: /pt/about/faq

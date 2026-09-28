@@ -1,0 +1,74 @@
+stats:
+  title: 'Conheça o <span class="stats-highlight">monitoramento participativo</span> de peixes amazônicos.'
+  lastUpdated: "30/07/2026"
+  cta:
+    - text: Mais informações
+      href: /stats/dashboard
+  features:
+    - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?publishingOrg=6e3dccea-16ee-4060-a8e9-32e598167a94">164000</span>
+      description: Registros de peixes
+      background: /assets/images/icons/stats_registries_icon.svg
+      href: /pt/occurrence/search
+      blankTarget: false
+    - title: '<span class="stat-title-compound">34 | +730</span>'
+      description: '<span class="stat-desc-compound">Organizações | Cidadãos cientistas publicadores</span>'
+      background: /assets/images/icons/stats_publishers_icon.svg
+      href: /pt/occurrence/search?hasCoordinate=true
+      blankTarget: false
+    - title: "+120"
+      description: Espécies registradas
+      background: /assets/images/icons/stats_species_icon.svg
+      href: /pt/dataset/search
+      blankTarget: false
+    - title: 153
+      description: Sub-bacias com registros
+      background: /assets/images/icons/stats_basins_icon.svg
+      href: /pt/dataset/search
+      blankTarget: false
+
+welcome:
+  reverse: false
+  title: Descobre a vida dos rios
+  description: |
+      Conheça algumas das espécies que habitam nos rios amazônicos.
+  background: https://aguasamazonicas.org/wp-content/uploads/2026/03/portada-web.jpg
+  imageLicense: |
+    CC BY 4.0 - Aguas Amazónicas. 2026. Via Observatorio Aguas Amazónicas.
+  cta: 
+    - text: Mais informações
+      href: /pt/taxa/discover
+
+explore:
+  klass: features--explore
+  title: Explora os dados
+  description: |
+    Acessa visualizações e ferramentas que permitem comprender a distribuição territorial dos registros e o crescimento da informação disponível no Observatório.
+  features:
+    - title: Guia de uso # required
+      description: |      # required
+        Aprenda a utilizar as ferramentas de pesquisa, os filtros e as opções de visualização disponíveis no Observatório.
+      href: /pt/resources/usage-guide
+      cta:  
+      - text: Mais informações
+        href: /pt/resources/usage-guide
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/explora_guia_de_uso.png
+    - title: Territorio amazônico # required
+      description: |      # required
+        Explora os registros desde diferentes escalas territoriais da bacia amazônica.
+      href: /pt/stats/territory
+      cta:
+      - text: Mais informações
+        href: /pt/stats/territory
+        isPrimary: true  
+      background: /assets/images/icons/explora_territorio_amazonico.png
+    - title: O observatório em números # required
+      description: |      # required
+        Consulta indicadores do Sistema Ictio sobre monitoramento, participação e construção colaborativa de conhecimento.
+      href: /pt/stats/dashboard
+      cta:
+      - text: Mais informações
+        href: /pt/stats/dashboard
+        isPrimary: true  
+      background: /assets/images/icons/explora_obs_cifras.png

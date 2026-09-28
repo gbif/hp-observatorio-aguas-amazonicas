@@ -1,0 +1,17 @@
+---
+layout: compose
+lang-ref: faq
+lang: pt
+title: Perguntas frequentes
+toc: false
+background: /assets/images/pages_bg_wh_w1800px.png
+height: 41vh
+composition: 
+  - type: heroImage
+  - type: blank
+  - type: pageMarkdown
+  - type: markdown
+    data: pt.about.faq-intro
+
+---
+

@@ -1,0 +1,180 @@
+##########################################################################
+### Conteúdos das páginas em /pt/about, na ordem do menu Sobre.
+###
+### Definidos em _data/pt/about.yml
+### Cada seção é nomeada por página e tipo de conteúdo, por exemplo:
+### para use-guide.md: use-guide-intro, use-guide-cards, etc.
+### Tipos de conteúdo:
+### -intro: markdown introdutório
+### -cards: features/cartões
+### -links: links/botões
+##########################################################################
+
+
+###################################################
+### Observatório. Página pt/about/observatory.md
+###################################################
+
+observatory-intro:
+  markdownContent: |
+    # A janela de dados abertos da Aliança Águas Amazônicas
+
+    Todos os dias, em rios, lagos, mercados e portos da Amazônia, alguém registra um peixe. Uma pescadora anota sua captura ao voltar da pescaria, um monitor comunitário documenta um desembarque, uma equipe técnica percorre um mercado. Cada um desses registros, por menor que pareça, é uma peça para entender como muda o maior ecossistema aquático do planeta. O Observatório Águas Amazônicas reúne essas peças e as disponibiliza a todas as pessoas.
+
+    O Observatório é a janela de dados abertos da Aliança Águas Amazônicas: o lugar onde a informação que a Aliança gera e cuida se torna pública, consultável e reutilizável. Hoje seu componente principal é o sistema ICTIO, que reúne os dados do monitoramento pesqueiro da bacia. Esses dados vêm do monitoramento participativo e comunitário, de programas de ciência cidadã e dos monitoramentos realizados pelas mais de 30 organizações e instituições que integram a Aliança. No futuro, a janela se abrirá a outros componentes que a Aliança monitora e estuda, como a qualidade da água.
+
+    Abrir os dados não significa expor quem os gera. Por isso, a informação do Observatório é publicada agregada no nível de sub-bacia, sem coordenadas exatas, para proteger sítios e recursos sensíveis, e é anonimizada quando necessário para proteger dados pessoais. Ao mesmo tempo, a Aliança trabalha para que as organizações locais que produzem a informação sejam reconhecidas e citadas em cada uso de seus dados. Proteger e reconhecer andam juntos.
+
+    ## Por que monitorar a pesca na Amazônia?
+
+    Os peixes são a base da alimentação, da economia e da cultura de milhões de pessoas na bacia amazônica. Algumas espécies, como os grandes bagres migratórios, percorrem milhares de quilômetros entre os Andes e o estuário, conectando países e ecossistemas. Saber quais espécies são pescadas, onde, quando e em que quantidade permite detectar mudanças a tempo, embasar decisões de manejo e conservação, e fortalecer a voz das comunidades pesqueiras nessas decisões.
+
+    ## A Aliança Águas Amazônicas
+
+    A Aliança Águas Amazônicas é uma iniciativa regional que concebe a bacia amazônica como um grande ecossistema aquático interconectado, que depende de suas florestas para manter sua integridade. Mais de 30 organizações dos países da bacia trabalham juntas para conservar seus rios, áreas úmidas e pescarias, com a Wildlife Conservation Society (WCS) como Secretaria Técnica. A estratégia, os programas, os parceiros e o restante do contexto da Aliança estão em seu site.
+
+    [Conhecer a Aliança](https://pt.aguasamazonicas.org/a-alianca){:.button .is-primary target="_blank"}
+
+    ## Os parceiros
+
+    O Observatório é construído de forma colaborativa com organizações, instituições e parceiros da Aliança que contribuem com dados, pesquisas e conhecimento sobre os rios e ecossistemas amazônicos. Essa rede de colaboração permite consolidar informação diversa e atualizada para fortalecer a análise, a tomada de decisão e as ações de conservação na Amazônia.
+
+    <img class="center" src="/assets/images/logos/banner-socios-Alianza-AA-2025-es.png" alt="Parceiros">
+
+###################################################
+### Ética e governança de dados. Página pt/about/governance.md
+###################################################
+
+governance-intro:
+  markdownContent: |
+    # Acordos compartilhados para cuidar dos dados e de quem os gera
+    A governança do Observatório faz parte da governança geral da Aliança Águas Amazônicas. As mesmas instâncias que orientam a Aliança definem como o Observatório é gerido e opera: a **Assembleia Geral**, que reúne os parceiros e recebe a prestação de contas; o **Conselho Diretivo**, que aprova as políticas e resolve as decisões institucionais; o **Comitê de Infraestrutura de Dados**, que assessora em arquitetura, interoperabilidade, qualidade e segurança; o **Comitê de Conduta**, que examina com imparcialidade os casos que afetem direitos, dignidade ou confiança; e a **Secretaria Técnica**, a cargo da Wildlife Conservation Society (WCS), que coordena a aplicação cotidiana. Em cada iniciativa, as pessoas gestoras de dados mantêm o elo entre o território e a Secretaria Técnica.
+
+    Essa governança parte de uma ideia: a autoridade sobre um dado nasce onde o dado é gerado. Cada comunidade, iniciativa e organização parceira conserva a governança sobre seus dados, e a Aliança a complementa sem substituí-la.
+
+    ## Uma política para todos que usam os dados
+
+    A Política de ética e governança de dados rege todas as instituições que fazem parte da Aliança e, ao mesmo tempo, oferece diretrizes para qualquer pessoa que use o Observatório ou seus dados. Estabelece os princípios, compromissos e responsabilidades que acompanham a informação em todo o seu ciclo de vida, desde o registro até a publicação, o uso e a conservação.
+
+    Os dados que o Observatório integra chegam por duas vias. A maioria é publicada diretamente pela Aliança Águas Amazônicas, que assegura a rastreabilidade, o reconhecimento, o consentimento e os acordos com as comunidades. Outros vêm de publicadores que reconhecem esses mesmos princípios e aderem a eles.
+
+    A Aliança está comprometida a trabalhar sob os princípios FAIR, para que os dados sejam localizáveis, acessíveis, interoperáveis e reutilizáveis, e sob os princípios CARE, que reconhecem o benefício coletivo, a autoridade para controlar, a responsabilidade e a ética no uso de dados de povos indígenas e comunidades locais. Essa combinação orienta o que a política chama de abertura situada: abrir os dados tanto quanto possível, considerando os direitos, os territórios, as relações de confiança e os riscos da divulgação.
+
+governance-cards:
+  klass: features--explore
+  features:
+    - title: Política de ética e governança de dados # required
+      description: |      # required
+        Princípios, compromissos e responsabilidades para a gestão da informação da Aliança ao longo de seu ciclo de vida.
+      cta:  
+      - text: Baixar política
+        href: /pt/resources/usage-guide
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/citacion.png
+
+###################################################
+### Termos de uso e privacidade. Página pt/about/terms-of-use-and-privacy.md
+###################################################
+
+terms-of-use-and-privacy-intro:
+  markdownContent: |
+    Como o sistema ICTIO é hoje o componente principal do Observatório, seus termos de uso e sua política de privacidade são os que orientam a consulta, o download e a reutilização dos dados disponíveis no Observatório. Recomenda-se revisá-los antes de usar a informação.
+
+terms-of-use-and-privacy-cards:
+  klass: features--explore
+  features:
+    - title: Termos de uso e privacidade # required
+      description: |      # required
+        Condições para consultar, baixar, reutilizar e atribuir os dados do sistema ICTIO.
+      cta:  
+      - text: Ver termos
+        href: /pt/resources/usage-guide
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/citacion.png
+    - title: Política de privacidade do sistema ICTIO # required
+      description: |      # required
+        Como são tratados e protegidos os dados das pessoas vinculadas à geração e gestão de informação no ICTIO.
+      cta:  
+      - text: Ver política
+        href: /pt/resources/usage-guide
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/uso_privacidad.png
+
+terms-of-use-and-privacy-outro:
+  markdownContent: |
+    O Observatório não publica dados pessoais. Ainda assim, a Aliança trabalha para que as organizações que geram a informação sejam reconhecidas. A forma desse reconhecimento depende dos acordos locais que cada iniciativa estabelece no marco da Política de ética e governança de dados. Quando um trabalho requer informação com maior nível de detalhe, o procedimento é descrito na seção de Acesso a dados sensíveis, que explica como apresentar a solicitação à Secretaria Técnica.
+
+###################################################
+### FAQ. Página pt/about/faq.md
+###################################################
+
+faq-intro:
+  markdownContent: |
+    # Respostas rápidas sobre o Observatório, seus dados e as formas de participar
+
+    ## O que é o Observatório Águas Amazônicas?
+
+    É a janela de dados abertos da Aliança Águas Amazônicas. Reúne e disponibiliza informação sobre peixes, pesca e ecossistemas aquáticos da bacia amazônica. Hoje seu componente principal é o sistema ICTIO de monitoramento pesqueiro.
+
+    ## Que informação o Observatório oferece?
+
+    Registros biológicos de peixes, conjuntos de dados, painéis de indicadores, um mapa da bacia por sub-bacias e fichas de espécies prioritárias, além de guias e documentos sobre o uso e a gestão dos dados.
+
+    ## De onde vêm os dados?
+
+    Do monitoramento participativo e comunitário, de programas de ciência cidadã e dos monitoramentos das organizações e instituições parceiras da Aliança, seguindo os protocolos de monitoramento pesqueiro do ICTIO.
+
+    ## Por que os registros não mostram coordenadas exatas?
+
+    Para proteger sítios, espécies e pessoas, os dados públicos são apresentados agregados no nível de sub-bacia e sem dados pessoais. Quando uma finalidade legítima requer mais detalhe, o acesso pode ser solicitado conforme descrito em Acesso a dados sensíveis.
+
+    ## De onde vem a informação geográfica sobre as bacias?
+
+    A divisão em sub-bacias usada pelo Observatório baseia-se na classificação geográfica desenvolvida pela Aliança Águas Amazônicas. As principais bacias são descritas no [site da Aliança](https://pt.aguasamazonicas.org/bacia).
+
+    ## Os dados do monitoramento participativo são confiáveis?
+
+    Sim. Cada contribuição passa por revisão local das pessoas gestoras de dados e pela curadoria da Secretaria Técnica, que inclui validação taxonômica, geográfica e temporal. O processo é descrito em Qualidade de dados.
+
+    ## Com que frequência a informação é atualizada?
+
+    A informação é atualizada à medida que novos conjuntos de dados ou novas versões são integrados e publicados. Cada conjunto indica sua data de publicação e sua versão.
+
+    ## É possível baixar os dados?
+
+    Sim. Os downloads são feitos por meio do GBIF, com uma [conta gratuita](https://www.gbif.org/user/login). Nas páginas de registros, a opção «Baixar» redireciona para o GBIF.org e mantém os filtros aplicados no Observatório.
+
+    ## Como os dados são citados?
+
+    Os registros, conjuntos de dados e seus produtos derivados são citados segundo as orientações da Guia de citação, atribuição e reconhecimento.
+
+    ## É necessário notificar o uso dos dados?
+
+    A Aliança convida a fazê-lo. O link e o DOI do produto são enviados a [info@aguasamazonicas.org](mailto:info@aguasamazonicas.org), o que permite devolver os resultados a quem gerou a informação.
+
+    ## Por que os números dos Relatórios ICTIO não coincidem com os do Observatório?
+
+    Os relatórios têm seu próprio nível de agregação e, em alguns casos, incorporam fontes complementares. Ambos os produtos são válidos e se complementam. Mais detalhes em [Relatórios ICTIO](/pt/resources/ictio-reports).
+
+    ## Como uma organização pode compartilhar dados?
+
+    As organizações parceiras da Aliança preenchem os modelos de registros biológicos e de metadados e os enviam à Secretaria Técnica. O passo a passo está na Guia de publicação. Organizações que não são parceiras e desejam contribuir com dados podem escrever a [info@aguasamazonicas.org](mailto:info@aguasamazonicas.org).
+
+    ## O que são os protocolos P76, P77, P78 e P79?
+
+    São os quatro protocolos de monitoramento pesqueiro do ICTIO: durante a pescaria, depois da pescaria, no mercado e no porto. São descritos em Protocolos de coleta.
+
+    ## É possível integrar os dados em outros sistemas?
+
+    Sim, por meio da [API para desenvolvedores](/pt/resources/api-access), que permite consultar os dados publicados de forma automática.
+
+    ## Como se reporta um erro ou se faz uma consulta?
+
+    Os relatos e consultas são recebidos em [info@aguasamazonicas.org](mailto:info@aguasamazonicas.org). Cada erro reportado contribui para melhorar a informação.
+
+    ## Onde encontrar mais informação sobre a Aliança Águas Amazônicas?
+
+    Em [aguasamazonicas.org](https://pt.aguasamazonicas.org/) apresentam-se sua estratégia, seus programas, seus parceiros e o Programa de Ciência Cidadã.
