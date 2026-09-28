@@ -123,7 +123,7 @@ description: |
     window.addEventListener('resize', equalizeHeroSearchTabs);
   </script>
 
-background: /assets/images/home_bg_wh_w1800px.png
+background: /assets/images/home_bg_w1800px.png
 height: 100vh
 permalink: /pt
 composition:
