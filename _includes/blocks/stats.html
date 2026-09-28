@@ -16,7 +16,12 @@
   {% if include.content.lastUpdated or include.content.cta %}
   <div class="statistics-footer">
     {% if include.content.lastUpdated %}
-    <p class="statistics-footer-date">Última actualización {{ include.content.lastUpdated }}</p>
+    <p class="statistics-footer-date"
+      data-dataset-url="https://api.gbif.org/v1/dataset/4fc99930-4e36-463a-842e-3ecea273cca6"
+      data-fallback="{{ include.content.lastUpdatedUnavailable | default: '—' }}">
+      {{ include.content.lastUpdated }}
+      <span data-last-updated></span>
+    </p>
     {% endif %}
     {% if include.content.cta %}
     <div class="statistics-footer-cta">
@@ -28,3 +33,44 @@
   </div>
   {% endif %}
 </section>
+<script>
+  (function () {
+    // Fecha de última actualización del dataset
+    document.querySelectorAll('.statistics-footer-date[data-dataset-url]').forEach(function (node) {
+      var target = node.querySelector('[data-last-updated]');
+      var url = node.getAttribute('data-dataset-url');
+      var fallback = node.getAttribute('data-fallback') || '—';
+      if (!target || !url) return;
+
+      function showFallback() {
+        target.textContent = fallback;
+      }
+
+      fetch(url)
+        .then(function (res) { return res.ok ? res.json() : Promise.reject(res.status); })
+        .then(function (data) {
+          if (!data || !data.modified) {
+            showFallback();
+            return;
+          }
+          target.textContent = data.modified.slice(0, 10);
+        })
+        .catch(showFallback);
+    });
+
+    // Conteo de valores únicos (p. ej. institutionCode) vía facets
+    document.querySelectorAll('[data-facet-url]').forEach(function (target) {
+      var url = target.getAttribute('data-facet-url');
+      if (!url) return;
+
+      fetch(url)
+        .then(function (res) { return res.ok ? res.json() : Promise.reject(res.status); })
+        .then(function (data) {
+          var facet = data && data.facets && data.facets[0];
+          if (!facet || !facet.counts) return;
+          target.textContent = String(facet.counts.length);
+        })
+        .catch(function () { /* conserva el valor estático del YAML */ });
+    });
+  })();
+</script>
