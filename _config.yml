@@ -24,7 +24,7 @@ email: observatorio@aguasamazonicas.org
 description: >- # this means to ignore newlines (until baseurl:)
   Datos para entender la vida de los ríos amazónicos.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://observatorio-aguas-amazonicas.hp.gbif.org/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://observatorio.aguasamazonicas.org/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # SOCIAL PROFILES that will show in the footer
 email: observatorio@aguasamazonicas.org                                     # Social icon in footer
