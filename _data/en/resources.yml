@@ -35,7 +35,7 @@ use-guide-cards:
         isPrimary: true      
       # img required
       background: /assets/images/icons/explora_guia_de_uso.png
-    - title: Visual style guide # required
+    - title: Visual identity guide # required
       description: |      # required
         Brings together guidance for correctly using the Observatory’s visual identity: identifiers, colors, typography, graphic assets, and application criteria across different materials and media.
       cta:  

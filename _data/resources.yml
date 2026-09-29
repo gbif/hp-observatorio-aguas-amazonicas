@@ -37,7 +37,7 @@ use-guide-cards:
         isPrimary: true      
       # img required
       background: /assets/images/icons/explora_guia_de_uso.png
-    - title: Guía de estilo visual # required
+    - title: Guía de identidad visual # required
       description: |      # required
         Reúne las orientaciones para usar correctamente la identidad visual del Observatorio: identificadores, colores, tipografías, recursos gráficos y criterios de aplicación en diferentes piezas y medios.
       cta:  
