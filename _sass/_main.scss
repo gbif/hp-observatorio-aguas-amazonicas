@@ -732,7 +732,7 @@ section.splitBanner {
         text-align: center;
     }
 
-    // Ícono más pequeño, con padding; la altura de la sección se mantiene
+    // Ícono centrado verticalmente en el split
     .feature-img {
         background-color: transparent !important;
         background-size: contain !important;
@@ -740,14 +740,18 @@ section.splitBanner {
         background-repeat: no-repeat !important;
         transform: none !important;
         min-height: 22rem;
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
 
         img {
             object-fit: contain !important;
             object-position: center center !important;
-            width: 100% !important;
-            height: 100% !important;
+            width: auto !important;
+            height: auto !important;
             max-width: 70% !important;
             max-height: 70% !important;
+            margin: auto;
             transform: none !important;
         }
     }
