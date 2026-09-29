@@ -47,24 +47,27 @@ explore:
       description: |      # required
         Aprende cómo utilizar las herramientas de búsqueda, filtros y visualización disponibles en el Observatorio.
       cta:  
-      - text: Más información
+      - text: →
         href: /resources/use-guide
-        isPrimary: true      
+        isPrimary: true
+        klass: button--arrow
       # img required
       background: /assets/images/icons/explora_guia_de_uso.png
     - title: Territorio amazónico # required
       description: |      # required
         Explora los registros desde diferentes escalas territoriales de la cuenca amazónica.
       cta:
-      - text: Más información
+      - text: →
         href: /stats/territory
-        isPrimary: true  
+        isPrimary: true
+        klass: button--arrow
       background: /assets/images/icons/explora_territorio_amazonico.png
     - title: El observatorio en cifras # required
       description: |      # required
         Consulta indicadores del Sistema Ictio sobre monitoreo, participación y construcción colaborativa de conocimiento.
       cta:
-      - text: Más información
+      - text: →
         href: /occurrence/search?view=dashboard&layout=table_stateProvince_iucn*taxa.rank-SPECIES_gallery*map.h-500_year_occurrenceSummary_institutionCode
-        isPrimary: true  
+        isPrimary: true
+        klass: button--arrow
       background: /assets/images/icons/explora_obs_cifras.png

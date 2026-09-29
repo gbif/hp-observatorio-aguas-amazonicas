@@ -487,6 +487,17 @@ $footer-wave-image: url("/assets/images/placeholders/ondas.svg");
     font-size: 1.2rem;
 }
 
+// CTA con flecha → (explícito vía klass: button--arrow)
+.button.button--arrow {
+    display: inline-flex !important;
+    justify-content: flex-end !important;
+    align-items: center;
+    min-width: 10rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
 .margin-top-30 {
     margin-top: 30px;
 }

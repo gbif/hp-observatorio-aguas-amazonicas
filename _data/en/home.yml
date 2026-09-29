@@ -47,24 +47,27 @@ explore:
       description: |      # required
         Learn how to use the search, filters and visualization tools available in the Observatory.
       cta:  
-      - text: More information
+      - text: →
         href: /en/resources/use-guide
-        isPrimary: true      
+        isPrimary: true
+        klass: button--arrow
       # img required
       background: /assets/images/icons/explora_guia_de_uso.png
     - title: Amazonian territory # required
       description: |      # required
         Explore records from different territorial scales of the Amazon basin.
       cta:
-      - text: More information
+      - text: →
         href: /en/stats/territory
-        isPrimary: true  
+        isPrimary: true
+        klass: button--arrow
       background: /assets/images/icons/explora_territorio_amazonico.png
     - title: The Observatory in numbers # required
       description: |      # required
         Explore indicators on participation, monitoring, and collective construction of information.
       cta:
-      - text: More information
+      - text: →
         href: /en/occurrence/search?view=dashboard&layout=table_stateProvince_iucn*taxa.rank-SPECIES_gallery*map.h-500_year_occurrenceSummary_institutionCode
-        isPrimary: true  
+        isPrimary: true
+        klass: button--arrow
       background: /assets/images/icons/explora_obs_cifras.png
