@@ -3,7 +3,7 @@ layout: compose
 lang-ref: test-page
 lang: es
 title: Test
-  toc: verdadero
+toc: true
 background: /assets/images/pages_bg_wh_w1800px.png
 height: 41vh
 composition: 
