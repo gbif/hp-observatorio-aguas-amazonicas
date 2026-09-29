@@ -10,12 +10,12 @@ stats:
       background: /assets/images/icons/stats_registries_icon.svg
       href: /occurrence/search
       blankTarget: false
-    - title: '<span class="stat-title-compound"><span data-facet-url="https://api.gbif.org/v1/occurrence/search?datasetKey=4fc99930-4e36-463a-842e-3ecea273cca6&amp;facet=institutionCode&amp;facetLimit=1000&amp;limit=0">34</span> | +730</span>'
-      description: '<span class="stat-desc-compound">Organizaciones | Ciudadanos científicos publicadores</span>'
+    - title: <span data-facet-url="https://api.gbif.org/v1/occurrence/search?datasetKey=4fc99930-4e36-463a-842e-3ecea273cca6&amp;facet=institutionCode&amp;facetLimit=1000&amp;limit=0">34</span>
+      description: Organizaciones
       background: /assets/images/icons/stats_publishers_icon.svg
       href: /occurrence/search?hasCoordinate=true
       blankTarget: false
-    - title: '<span data-facet-url="https://api.gbif.org/v1/occurrence/search?datasetKey=4fc99930-4e36-463a-842e-3ecea273cca6&amp;facet=speciesKey&amp;facetLimit=10000&amp;limit=0">+120</span>'
+    - title: <span data-facet-url="https://api.gbif.org/v1/occurrence/search?datasetKey=4fc99930-4e36-463a-842e-3ecea273cca6&amp;facet=speciesKey&amp;facetLimit=10000&amp;limit=0">+120</span>
       description: Especies registradas
       background: /assets/images/icons/stats_species_icon.svg
       href: /dataset/search
