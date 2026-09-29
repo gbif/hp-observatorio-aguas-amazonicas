@@ -58,7 +58,7 @@ explore:
         Explora os registros desde diferentes escalas territoriais da bacia amazônica.
       cta:
       - text: →
-        href: /pt/stats/territory
+        href: /pt/occurrence/search?view=dashboard&layout=map_table
         isPrimary: true
         klass: button--arrow
       background: /assets/images/icons/explora_territorio_amazonico.png

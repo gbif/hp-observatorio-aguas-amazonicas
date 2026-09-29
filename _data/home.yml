@@ -58,7 +58,7 @@ explore:
         Explora los registros desde diferentes escalas territoriales de la cuenca amazónica.
       cta:
       - text: →
-        href: /stats/territory
+        href: /occurrence/search?view=dashboard&layout=map_table
         isPrimary: true
         klass: button--arrow
       background: /assets/images/icons/explora_territorio_amazonico.png

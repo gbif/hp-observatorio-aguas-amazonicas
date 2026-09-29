@@ -58,7 +58,7 @@ explore:
         Explore records from different territorial scales of the Amazon basin.
       cta:
       - text: →
-        href: /en/stats/territory
+        href: /en/occurrence/search?view=dashboard&layout=map_table
         isPrimary: true
         klass: button--arrow
       background: /assets/images/icons/explora_territorio_amazonico.png
