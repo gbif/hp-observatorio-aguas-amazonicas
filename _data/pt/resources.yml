@@ -30,18 +30,20 @@ use-guide-cards:
       description: |      # required
         Explica como navegar no Observatório, usar o buscador e os filtros, explorar os painéis de dados e baixar informação.
       cta:  
-      - text: Ver guia
+      - text: Baixar guia
         href: https://drive.google.com/file/d/1gXeb8mTYHLoqznr3ZBVe7QO2Nq0f_1vi/view
-        isPrimary: true      
+        isPrimary: true 
+        blankTarget: true     
       # img required
       background: /assets/images/icons/explora_guia_de_uso.png
     - title: Guia de identidade visual # required
       description: |      # required
         Reúne as orientações para usar corretamente a identidade visual do Observatório: identificadores, cores, tipografias, recursos gráficos e critérios de aplicação em diferentes peças e meios.
       cta:  
-      - text: Ver guia
+      - text: Baixar guia
         href: https://drive.google.com/file/d/1USW0iMn_wa69sa_x4RaPu0aRquK2CizC/view
-        isPrimary: true      
+        isPrimary: true 
+        blankTarget: true     
       # img required
       background: /assets/images/icons/icono_api.png
 
@@ -73,9 +75,10 @@ publishing-guide-cards:
       description: |      # required
         Diretrizes da Aliança para compartilhar, padronizar, validar, proteger e preparar conjuntos de dados para o acesso aberto.
       cta:  
-      - text: Ver guia
+      - text: Baixar guia
         href: https://drive.google.com/file/d/1DLUyBLAFsUnfi8f6_C6zhdy2FyohZTPM/view
-        isPrimary: true      
+        isPrimary: true 
+        blankTarget: true     
       # img required
       background: /assets/images/icons/publicacion_guia.png
 
@@ -133,9 +136,10 @@ citation-guide-cards:
       description: |      # required
         Orientações para citar dados, conjuntos, downloads e produtos da Aliança, e para reconhecer as contribuições de pessoas, comunidades e organizações.
       cta:  
-      - text: Ver guia
+      - text: Baixar guia
         href: https://drive.google.com/file/d/11GLuuW1eJLsD8jIUovcVH1_caOqSD9c7/view
-        isPrimary: true      
+        isPrimary: true 
+        blankTarget: true     
       # img required
       background: /assets/images/icons/citacion.png
 
