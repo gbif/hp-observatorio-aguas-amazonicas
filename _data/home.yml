@@ -31,7 +31,7 @@ welcome:
   klass: splitBanner--welcome
   title: Descubre la vida de los ríos
   description: |
-      Conoce algunas de las especies y familias de peces más representativas de los ecosistemas acuáticos amazónicos.
+      Esto es una prueba de cambio de código
   background: /assets/images/icons/descubre_fichas_especies.png
   cta: 
     - text: Ver fichas de peces
