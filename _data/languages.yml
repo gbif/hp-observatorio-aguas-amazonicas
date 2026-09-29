@@ -2,9 +2,12 @@
 es:
   label: Español
   archive_permalink: /post/
+  logo: /assets/images/logos/OBS-AA-SP.png
 en:
   label: English
   archive_permalink: /en/post/
+  logo: /assets/images/logos/OBS-AA-EN.png
 pt:
   label: Portuguese
   archive_permalink: /pt/post/
+  logo: /assets/images/logos/OBS-AA-PT.png
