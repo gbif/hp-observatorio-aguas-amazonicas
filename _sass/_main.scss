@@ -18,6 +18,31 @@ $wave-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' vi
 $footer-wave-height: clamp(2.75rem, 5.2vw, 4.6875rem);
 $footer-wave-image: url("/assets/images/placeholders/ondas.svg");
 
+// Botón pill compartido (stats CTA, splitBanner, explore)
+@mixin btn-pill {
+  display: inline-block;
+  padding: 0.75rem 1.75rem;
+  border-radius: 2rem;
+  background-color: $button-color;
+  border-color: $button-color;
+  color: $white-color;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  height: auto;
+  line-height: 1.25;
+
+  &:hover,
+  &:focus,
+  &:visited {
+    background-color: $button-color;
+    border-color: $button-color;
+    color: $white-color;
+    text-decoration: none;
+    filter: brightness(1.05);
+  }
+}
+
 @import "theme/_main";
 
 // Navbar styles
@@ -63,22 +88,7 @@ $footer-wave-image: url("/assets/images/placeholders/ondas.svg");
       }
 
       .statistics-footer-button {
-        display: inline-block;
-        padding: 0.75rem 1.75rem;
-        border-radius: 2rem;
-        background-color: $button-color;
-        color: $white-color;
-        font-size: 1rem;
-        font-weight: 600;
-        text-decoration: none;
-
-        &:hover,
-        &:focus,
-        &:visited {
-          color: $white-color;
-          text-decoration: none;
-          filter: brightness(1.05);
-        }
+        @include btn-pill;
       }
 
       .statistics-cards {
@@ -670,30 +680,10 @@ section.features, section.splitBanner, section.product, section.textBanner
     border-bottom: none;
 }
 
-// CTA del split (welcome): mismo formato que .statistics-footer-button
+// CTA del split (welcome): mismo formato pill
 section.splitBanner {
     a.button {
-        display: inline-block;
-        padding: 0.75rem 1.75rem;
-        border-radius: 2rem;
-        background-color: $button-color;
-        border-color: $button-color;
-        color: $white-color;
-        font-size: 1rem;
-        font-weight: 600;
-        text-decoration: none;
-        height: auto;
-        line-height: 1.25;
-
-        &:hover,
-        &:focus,
-        &:visited {
-            background-color: $button-color;
-            border-color: $button-color;
-            color: $white-color;
-            text-decoration: none;
-            filter: brightness(1.05);
-        }
+        @include btn-pill;
     }
 }
 
@@ -866,6 +856,7 @@ section.splitBanner {
         flex: none;
     }
 
+    // Íconos: anula layout 50/50 del tema en cards especiales
     .feature .feature-img,
     .feature-cards.has-4-elements .feature:nth-child(1) > .feature-img,
     .feature-cards.has-4-elements .feature:nth-child(4) > .feature-img,
@@ -873,7 +864,12 @@ section.splitBanner {
     .feature-cards.has-4-elements .feature:nth-child(4) .feature-img,
     .feature-cards .feature:last-of-type:nth-child(3n) .feature-img,
     .feature-cards .feature:last-of-type:nth-child(5n) .feature-img,
-    .feature-cards .feature:nth-child(odd):last-of-type:not(:nth-child(3n)) .feature-img {
+    .feature-cards .feature:nth-child(odd):last-of-type:not(:nth-child(3n)) .feature-img,
+    .feature-cards.has-4-elements .feature:nth-child(1) > div.feature-img,
+    .feature-cards.has-4-elements .feature:nth-child(4) > div.feature-img,
+    .feature-cards .feature:last-of-type:nth-child(3n) > div.feature-img,
+    .feature-cards .feature:last-of-type:nth-child(5n) > div.feature-img,
+    .feature-cards .feature:nth-child(odd):last-of-type:not(:nth-child(3n)) > div.feature-img {
         flex: 0 0 160px;
         height: 160px;
         min-height: 160px;
@@ -902,7 +898,12 @@ section.splitBanner {
 
     .feature .feature-content,
     .feature-cards.has-4-elements .feature:nth-child(1) > .feature-content,
-    .feature-cards.has-4-elements .feature:nth-child(4) > .feature-content {
+    .feature-cards.has-4-elements .feature:nth-child(4) > .feature-content,
+    .feature-cards.has-4-elements .feature:nth-child(1) > div.feature-content,
+    .feature-cards.has-4-elements .feature:nth-child(4) > div.feature-content,
+    .feature-cards .feature:last-of-type:nth-child(3n) > div.feature-content,
+    .feature-cards .feature:last-of-type:nth-child(5n) > div.feature-content,
+    .feature-cards .feature:nth-child(odd):last-of-type:not(:nth-child(3n)) > div.feature-content {
         flex: 1 1 auto;
         width: 100%;
         max-width: 100%;
@@ -910,23 +911,6 @@ section.splitBanner {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-
-    // Gana al `> div { flex: 0 0 50% }` del tema en cards dobles
-    .feature-cards.has-4-elements .feature:nth-child(1) > div.feature-img,
-    .feature-cards.has-4-elements .feature:nth-child(4) > div.feature-img,
-    .feature-cards .feature:last-of-type:nth-child(3n) > div.feature-img,
-    .feature-cards .feature:last-of-type:nth-child(5n) > div.feature-img,
-    .feature-cards .feature:nth-child(odd):last-of-type:not(:nth-child(3n)) > div.feature-img {
-        flex: 0 0 160px;
-    }
-
-    .feature-cards.has-4-elements .feature:nth-child(1) > div.feature-content,
-    .feature-cards.has-4-elements .feature:nth-child(4) > div.feature-content,
-    .feature-cards .feature:last-of-type:nth-child(3n) > div.feature-content,
-    .feature-cards .feature:last-of-type:nth-child(5n) > div.feature-content,
-    .feature-cards .feature:nth-child(odd):last-of-type:not(:nth-child(3n)) > div.feature-content {
-        flex: 1 1 auto;
     }
 
     .feature .feature-text {
@@ -972,10 +956,7 @@ section.splitBanner {
     }
 
     .feature .feature-cta .button.is-primary {
-        border-radius: 2rem;
-        padding: 0.65rem 1.5rem;
-        font-weight: 600;
-        font-size: 0.95rem;
+        @include btn-pill;
     }
 
     // Anula double-width del tema (≥1211px) y variantes 774–1210
