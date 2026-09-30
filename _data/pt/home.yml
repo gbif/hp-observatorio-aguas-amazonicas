@@ -5,22 +5,22 @@ stats:
     - text: Ver painel de números
       href: /pt/occurrence/search?view=dashboard&layout=table_stateProvince_iucn*taxa.rank-SPECIES_gallery*map.h-500_year_occurrenceSummary_institutionCode
   features:
-    - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?publishingOrg=6e3dccea-16ee-4060-a8e9-32e598167a94">164000</span>
+    - title: <span data-ajax-url="https://api.gbif.org/v1/occurrence/search?publishingOrg=6e3dccea-16ee-4060-a8e9-32e598167a94">124000</span>
       description: Registros de peixes
       background: /assets/images/icons/stats_registries_icon.svg
       href: /pt/occurrence/search
       blankTarget: false
-    - title: <span data-facet-url="https://api.gbif.org/v1/occurrence/search?datasetKey=4fc99930-4e36-463a-842e-3ecea273cca6&amp;facet=institutionCode&amp;facetLimit=1000&amp;limit=0">34</span>
+    - title: <span data-facet-url="https://api.gbif.org/v1/occurrence/search?datasetKey=4fc99930-4e36-463a-842e-3ecea273cca6&amp;facet=institutionCode&amp;facetLimit=1000&amp;limit=0">17</span>
       description: Organizações
       background: /assets/images/icons/stats_publishers_icon.svg
       href: /pt/occurrence/search?hasCoordinate=true
       blankTarget: false
-    - title: <span data-facet-url="https://api.gbif.org/v1/occurrence/search?datasetKey=4fc99930-4e36-463a-842e-3ecea273cca6&amp;facet=speciesKey&amp;facetLimit=10000&amp;limit=0">+120</span>
+    - title: <span data-facet-url="https://api.gbif.org/v1/occurrence/search?datasetKey=4fc99930-4e36-463a-842e-3ecea273cca6&amp;facet=speciesKey&amp;facetLimit=10000&amp;limit=0">89</span>
       description: Espécies registradas
       background: /assets/images/icons/stats_species_icon.svg
       href: /pt/dataset/search
       blankTarget: false
-    - title: 153
+    - title: <span data-facet-url="https://api.gbif.org/v1/occurrence/search?datasetKey=4fc99930-4e36-463a-842e-3ecea273cca6&amp;facet=higherGeography&amp;facetLimit=10000&amp;limit=0">90</span>
       description: Sub-bacias com registros
       background: /assets/images/icons/stats_basins_icon.svg
       href: /pt/dataset/search
