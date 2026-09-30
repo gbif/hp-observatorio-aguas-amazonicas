@@ -4,7 +4,7 @@ lang-ref: data-quality
 lang: pt
 title: Qualidade dos dados
 toc: false
-background: /assets/images/pages_bg_wh_w1800px.png
+background: /assets/images/banner-pincipal-1800x441.png
 height: 41vh
 composition: 
   - type: heroImage

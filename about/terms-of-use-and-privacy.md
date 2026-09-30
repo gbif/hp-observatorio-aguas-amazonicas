@@ -4,7 +4,7 @@ lang-ref: terms-of-use
 lang: es
 title: Términos de uso y privacidad
 toc: false
-background: /assets/images/pages_bg_wh_w1800px.png
+background: /assets/images/banner-pirarucu-1800x441.png
 height: 41vh
 composition: 
   - type: heroImage
