@@ -1,18 +1,20 @@
 ##########################################################################
-### Conteúdos das páginas em /pt/taxa, na ordem do menu Consultar.
+### Conteúdos das páginas em /taxa, na ordem em que aparecem
+### no menu de navegação sob Taxa.
 ###
 ### Definidos em _data/pt/taxa.yml
-### Cada seção é nomeada por página e tipo de conteúdo, por exemplo:
+### Cada seção é nomeada por página e tipo de conteúdo.
+### Por exemplo:
 ### para discover.md: discover-intro, discover-cards, etc.
 ### Tipos de conteúdo:
-### -intro: markdown introdutório
-### -cards: features/cartões
-### -links: links/botões
+### -intro: conteúdo introdutório em markdown
+### -cards: conteúdo em features/cartões
+### -links: conteúdo em links/botões
 ##########################################################################
 
 
 ###################################################
-### Discover. Página discover.md
+### Discover. Página pt/taxa/discover.md
 ###################################################
 
 discover-intro:
@@ -24,166 +26,301 @@ discover-intro:
     Nesta seção você pode acessar tanto o conjunto de dados que documenta as fichas desses táxons quanto a lista das fichas e a descrição biológica de cada táxon.
 
 discover-cards:
-  klass: features--explore
+  klass: features
   features:
-    - title: Consultar fichas de táxons # required
+    - title: Família Anostomidae # required
       description: |      # required
-        Cada ficha reúne informação taxonômica, ecológica e de distribuição, complementada com registros biológicos, recursos visuais e outros conteúdos do Observatório. Percorrê-las é uma forma de conhecer distintos níveis da diversidade biológica amazônica e sua importância nos ecossistemas e territórios da bacia.
+        - *Anostomidae* sp.
+        - *Anostomoides atrianalis*
+        - *Leporinus friderici*
+        - *Megaleporinus trifasciatus*
+        - *Serrasalmus geryi*
+        - *Schizodon fasciatus*
+        - *Schizodon vittatus*
       cta:  
-      - text: Ver fichas de peixes
-        href: /pt/taxa/list
+      - text: Ver ficha
+        href: /pt/taxa/anostomidae
+        isPrimary: true      
+      # img required
+      background: /assets/images/taxa/MichaelGoulding_17226-1001portada-1170x585.jpg
+      imageLicense: | 
+        Michael Goulding
+    - title: Família Curimatidae # required
+      description: |      # required
+        - *Curimata inornata*
+        - *Curimata vittata*
+        - *Curimatidae* sp.
+        - *Potamorhina altamazonica*
+        - *Potamorhina latior*
+        - *Potamorhina* sp.
+        - *Psectrogaster amazonica*
+        - *Psectrogaster rutiloides*
+        - *Psectrogaster* sp.
+      cta:  
+      - text: Ver ficha
+        href: /pt/taxa/curimatidae
+        isPrimary: true      
+      # img required
+      background: /assets/images/taxa/MichaelGoulding_13621-1001portada-1170x585.jpg
+      imageLicense: | 
+        <em>Psectrogaster</em> sp. - Michael Goulding
+    - title: Família Loricariidae # required
+      description: |      # required
+        - *Hypostomus* sp.
+        - *Loricariinae* sp.
+        - *Pterygoplichthys pardalis*
+        - *Pterygoplichthys* sp.
+      cta:  
+      - text: Ver ficha
+        href: /pt/taxa/loricariidae
+        isPrimary: true      
+      # img required
+      background: /assets/images/taxa/Carachama2-e1728417923260.avif
+      imageLicense: | 
+        <em>Pterygoplichthys pardalis</em> sp. - Michael Goulding
+    - title: Gênero <em>Anodus</em> # required
+      description: |      # required
+        - *Anodus elongatus*
+        - *Anodus* sp.
+      cta:  
+      - text: Ver ficha
+        href: /pt/taxa/anodus
+        isPrimary: true      
+      # img required
+      background: /assets/images/taxa/MichaelGoulding_16109-1001portada-1170x585.jpg
+      imageLicense: | 
+        <em>Anodus elongatus</em> - Michael Goulding   
+    - title: Gênero <em>Brachyplatystoma</em> # required
+      description: |      # required
+        - *Brachyplatystoma capapretum*
+        - *Brachyplatystoma filamentosum* 
+        - *Brachyplatystoma juruense*
+        - *Brachyplatystoma platynemum*
+        - *Brachyplatystoma rousseauxii*
+        - *Brachyplatystoma tigrinum*
+        - *Brachyplatystoma vaillantii*
+      cta:  
+      - text: Ver ficha
+        href: /pt/taxa/brachyplatystoma
+        isPrimary: true      
+      # img required
+      background: /assets/images/taxa/MichaelGoulding_18576-1001portada-1170x585.jpg
+      imageLicense: | 
+        <em>Brachyplatystoma rousseauxii</em> - Michael Goulding      
+    - title: Gênero <em>Brycon</em> # required
+      description: |      # required
+        - *Brycon amazonicus*
+        - *Brycon melanopterus*
+        - *Brycon* sp.
+      cta:  
+      - text: Ver ficha
+        href: /pt/taxa/brycon
+        isPrimary: true      
+      # img required
+      background: /assets/images/taxa/MichaelGoulding_17808-4001portada-1170x585.jpg
+      imageLicense: | 
+        <em>Brycon amazonicus</em> - Michael Goulding    
+    - title: Gênero <em>Cichla</em> # required
+      description: |      # required
+        - *Cichla monoculus*
+        - *Cichla pleiozona*
+        - *Cichla* sp.
+        - *Cichla temensis*
+      cta:  
+      - text: Ver ficha
+        href: /pt/taxa/cichla
+        isPrimary: true      
+      # img required
+      background: /assets/images/taxa/MichaelGoulding_14179-1001portada-1170x585.jpg
+      imageLicense: | 
+        Michael Goulding 
+    - title: Gênero <em>Hypophthalmus</em> # required
+      description: |      # required
+        - *Hypophthalmus edentatus*
+        - *Hypophthalmus fimbriatus*
+        - *Hypophthalmus marginatus*
+        - *Hypophthalmus* sp.
+      cta:  
+      - text: Ver ficha
+        href: /pt/taxa/hypophthalmus
+        isPrimary: true      
+      # img required
+      background: /assets/images/taxa/MichaelGoulding_17625-4001portada-1170x585.jpg
+      imageLicense: | 
+        <em>Hypophthalmus edentatus</em> - Michael Goulding 
+    - title: Gênero <em>Mylossoma</em> # required
+      description: |      # required
+        - *Mylossoma albiscopum*
+        - *Mylossoma aureum*
+        - *Mylossoma* sp.
+      cta:  
+      - text: Ver ficha
+        href: /pt/taxa/mylossoma
+        isPrimary: true      
+      # img required
+      background: /assets/images/taxa/MichaelGoulding_08808-4001portada-1170x585.jpg
+      imageLicense: | 
+        <em>Mylossoma duriventre</em> - Michael Goulding 
+    - title: Gênero <em>Pimelodus</em> # required
+      description: |      # required
+        - *Pimelodus blochii*
+        - *Pimelodus* sp.
+      cta:  
+      - text: Ver ficha
+        href: /pt/taxa/pimelodus
         isPrimary: true      
       # img required
       background: /assets/images/icons/descubre_fichas_especies.png
+      imageLicense: | 
+        Sin imagen disponible
+    - title: Gênero <em>Pseudoplatystoma</em> # required
+      description: |      # required
+        - *Pseudoplatystoma fasciatum*
+        - *Pseudoplatystoma punctifer*
+        - *Pseudoplatystoma* sp.
+        - *Pseudoplatystoma tigrinum*
+      cta:  
+      - text: Ver ficha
+        href: /pt/taxa/pseudoplatystoma
+        isPrimary: true      
+      # img required
+      background: /assets/images/taxa/MichaelGoulding_02813-1001portada-1170x585.jpg
+      imageLicense: | 
+        <em>Pseudoplatystoma tigrinum</em> - Michael Goulding 
+    - title: Gênero <em>Salminus</em> # required
+      description: |      # required
+        - *Salminus* sp.
+      cta:  
+      - text: Ver ficha
+        href: /pt/taxa/salminus
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/descubre_fichas_especies.png
+      imageLicense: | 
+        Sin imagen disponible
+    - title: Gênero <em>Semaprochilodus</em> # required
+      description: |      # required
+        - *Semaprochilodus insignis*
+        - *Semaprochilodus* sp.
+        - *Semaprochilodus taeniurus*
+      cta:  
+      - text: Ver ficha
+        href: /pt/taxa/semaprochilodus
+        isPrimary: true      
+      # img required
+      background: /assets/images/taxa/MichaelGoulding_03806-1001portada-1170x585.jpg
+      imageLicense: | 
+        <em>Semaprochilodus insignis</em> - Michael Goulding 
+    - title: Gênero <em>Triportheus</em> # required
+      description: |      # required
+        - *Triportheus angulatus*
+        - *Triportheus auritus*
+        - *Triportheus* sp.
+      cta:  
+      - text: Ver ficha
+        href: /pt/taxa/triportheus
+        isPrimary: true      
+      # img required
+      background: /assets/images/taxa/MichaelGoulding_16140-4001portada-1170x585.jpg
+      imageLicense: | 
+        <em>Triportheus albus</em> - Michael Goulding 
+    - title: <em>Arapaima gigas</em> # required
+      description: |      # required
+        - *Arapaima gigas*
+      cta:  
+      - text: Ver ficha
+        href: /pt/taxa/arapaima-gigas
+        isPrimary: true      
+      # img required
+      background: /assets/images/taxa/MichaelGoulding_13860-1001portada-1170x585.jpg
+      imageLicense: | 
+        Michael Goulding 
+    - title: <em>Calophysus macropterus</em> # required
+      description: |      # required
+        - *Calophysus macropterus*
+      cta:  
+      - text: Ver ficha
+        href: /pt/taxa/calophysus-macropterus
+        isPrimary: true      
+      # img required
+      background: /assets/images/taxa/MichaelGoulding_16094-4001portada-1170x585.jpg
+      imageLicense: | 
+        Michael Goulding 
+    - title: <em>Colossoma macropomum</em> # required
+      description: |      # required
+        - *Colossoma macropomum*
+      cta:  
+      - text: Ver ficha
+        href: /pt/taxa/colossoma-macropomum
+        isPrimary: true      
+      # img required
+      background: /assets/images/taxa/MichaelGoulding_06311-1001portada-1170x585.jpg
+      imageLicense: | 
+        Michael Goulding 
+    - title: <em>Phractocephalus hemioliopterus</em> # required
+      description: |      # required
+        - *Phractocephalus hemioliopterus*
+      cta:  
+      - text: Ver ficha
+        href: /pt/taxa/phractocephalus-hemioliopterus
+        isPrimary: true      
+      # img required
+      background: /assets/images/taxa/MichaelGoulding_02724-1001-1024x677.avif
+      imageLicense: | 
+        Michael Goulding 
+    - title: <em>Piaractus brachypomus</em> # required
+      description: |      # required
+        - *Piaractus brachypomus*
+      cta:  
+      - text: Ver ficha
+        href: /pt/taxa/piaractus-brachypomus
+        isPrimary: true      
+      # img required
+      background: /assets/images/taxa/MichaelGoulding_16033-1001portada-1170x585.jpg
+      imageLicense: | 
+        Michael Goulding 
+    - title: <em>Plagioscion squamosissimus</em> # required
+      description: |      # required
+        - *Plagioscion squamosissimus*
+      cta:  
+      - text: Ver ficha
+        href: /pt/taxa/plagioscion-squamosissimus
+        isPrimary: true      
+      # img required
+      background: /assets/images/taxa/MichaelGoulding_08296-4001portada-1170x585.jpg
+      imageLicense: | 
+        Michael Goulding 
+    - title: <em>Prochilodus nigricans</em> # required
+      description: |      # required
+        - *Prochilodus nigricans*
+      cta:  
+      - text: Ver ficha
+        href: /pt/taxa/prochilodus-nigricans
+        isPrimary: true      
+      # img required
+      background: /assets/images/taxa/MichaelGoulding_01563-3001portada-1170x585.jpg
+      imageLicense: | 
+        Michael Goulding 
+    - title: <em>Sorubimichthys planiceps</em> # required
+      description: |      # required
+        - *Sorubimichthys planiceps*
+      cta:  
+      - text: Ver ficha
+        href: /pt/taxa/sorubimichthys-planiceps
+        isPrimary: true      
+      # img required
+      background: /assets/images/icons/descubre_fichas_especies.png
+      imageLicense: | 
+        Sin imagen disponible
+    - title: <em>Zungaro zungaro</em> # required
+      description: |      # required
+        - *Zungaro zungaro*
+      cta:  
+      - text: Ver ficha
+        href: /pt/taxa/zungaro-zungaro
+        isPrimary: true      
+      # img required
+      background: /assets/images/taxa/MichaelGoulding_03996-1001portada-1170x585.jpg
+      imageLicense: | 
+        Michael Goulding 
 
-###################################################
-### List. Página list.md
-###################################################
-
-list-intro:
-  markdownContent: |
-    Cada ficha reúne informação taxonômica, ecológica e de distribuição, complementada com registros biológicos, recursos visuais e outros conteúdos do Observatório. Percorrê-las é uma forma de conhecer distintos níveis da diversidade biológica amazônica e sua importância nos ecossistemas e territórios da bacia.
-
-list-cards:
-  klass: features--explore
-  features:
-    - title: Bagre # required
-      description: |      # required
-        *Sorubim lima*
-      href: /taxa/sorubim-lima
-      cta:  
-      - text: Mais informações
-        href: /taxa/sorubim-lima
-        isPrimary: true      
-      # img required
-      background: /assets/images/icons/descubre_fichas_especies.png
-    - title: Pacú # required
-      description: |      # required
-        *Colossoma macropomum*
-      href: /taxa/colossoma-macropomum
-      cta:
-      - text: Mais informações
-        href: /taxa/colossoma-macropomum
-        isPrimary: true  
-      background: /assets/images/icons/descubre_fichas_especies.png
-    - title: Dorado / Plateado # required
-      description: |      # required
-        *Brachyplatystoma rousseauxi*
-      href: /taxa/brachyplatystoma-roussouxi
-      cta:
-      - text: Mais informações
-        href: /taxa/brachyplatystoma-roussouxi
-        isPrimary: true  
-      background: /assets/images/icons/descubre_fichas_especies.png
-    - title: Dorado / Plateado # required
-      description: |      # required
-        *Brachyplatystoma rousseauxi*
-      href: /taxa/brachyplatystoma-roussouxi
-      cta:  
-      - text: Mais informações
-        href: /taxa/brachyplatystoma-roussouxi
-        isPrimary: true      
-      # img required
-      background: /assets/images/icons/descubre_fichas_especies.png
-    - title: Pacú # required
-      description: |      # required
-        *Colossoma macropomum*
-      href: /taxa/colossoma-macropomum
-      cta:
-      - text: Mais informações
-        href: /taxa/colossoma-macropomum
-        isPrimary: true  
-      background: /assets/images/icons/descubre_fichas_especies.png
-    - title: Dorado / Plateado # required
-      description: |      # required
-        *Brachyplatystoma rousseauxi*
-      href: /taxa/brachyplatystoma-roussouxi
-      cta:
-      - text: Mais informações
-        href: /taxa/brachyplatystoma-roussouxi
-        isPrimary: true  
-      background: /assets/images/icons/descubre_fichas_especies.png
-    - title: Dorado / Plateado # required
-      description: |      # required
-        *Brachyplatystoma rousseauxi*
-      href: /taxa/brachyplatystoma-roussouxi
-      cta:  
-      - text: Mais informações
-        href: /taxa/brachyplatystoma-roussouxi
-        isPrimary: true      
-      # img required
-      background: /assets/images/icons/descubre_fichas_especies.png
-    - title: Pacú # required
-      description: |      # required
-        *Colossoma macropomum*
-      href: /taxa/colossoma-macropomum
-      cta:
-      - text: Mais informações
-        href: /taxa/colossoma-macropomum
-        isPrimary: true  
-      background: /assets/images/icons/descubre_fichas_especies.png
-    - title: Dorado / Plateado # required
-      description: |      # required
-        *Brachyplatystoma rousseauxi*
-      href: /taxa/brachyplatystoma-roussouxi
-      cta:
-      - text: Mais informações
-        href: /taxa/brachyplatystoma-roussouxi
-        isPrimary: true  
-      background: /assets/images/icons/descubre_fichas_especies.png
-    - title: Dorado / Plateado # required
-      description: |      # required
-        *Brachyplatystoma rousseauxi*
-      href: /taxa/brachyplatystoma-roussouxi
-      cta:  
-      - text: Mais informações
-        href: /taxa/brachyplatystoma-roussouxi
-        isPrimary: true      
-      # img required
-      background: /assets/images/icons/descubre_fichas_especies.png
-    - title: Pacú # required
-      description: |      # required
-        *Colossoma macropomum*
-      href: /taxa/colossoma-macropomum
-      cta:
-      - text: Mais informações
-        href: /taxa/colossoma-macropomum
-        isPrimary: true  
-      background: /assets/images/icons/descubre_fichas_especies.png
-    - title: Dorado / Plateado # required
-      description: |      # required
-        *Brachyplatystoma rousseauxi*
-      href: /taxa/brachyplatystoma-roussouxi
-      cta:
-      - text: Mais informações
-        href: /taxa/brachyplatystoma-roussouxi
-        isPrimary: true  
-      background: /assets/images/icons/descubre_fichas_especies.png
-    - title: Dorado / Plateado # required
-      description: |      # required
-        *Brachyplatystoma rousseauxi*
-      href: /taxa/brachyplatystoma-roussouxi
-      cta:  
-      - text: Mais informações
-        href: /taxa/brachyplatystoma-roussouxi
-        isPrimary: true      
-      # img required
-      background: /assets/images/icons/descubre_fichas_especies.png
-    - title: Pacú # required
-      description: |      # required
-        *Colossoma macropomum*
-      href: /taxa/colossoma-macropomum
-      cta:
-      - text: Mais informações
-        href: /taxa/colossoma-macropomum
-        isPrimary: true  
-      background: /assets/images/icons/descubre_fichas_especies.png
-    - title: Dorado / Plateado # required
-      description: |      # required
-        *Brachyplatystoma rousseauxi*
-      href: /taxa/brachyplatystoma-roussouxi
-      cta:
-      - text: Mais informações
-        href: /taxa/brachyplatystoma-roussouxi
-        isPrimary: true  
-      background: /assets/images/icons/descubre_fichas_especies.png

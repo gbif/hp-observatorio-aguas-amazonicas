@@ -48,7 +48,7 @@ Grupo de peces de importancia alimentaria que incluye varios géneros y especies
 - Clase: Teleostei
 - Orden: Siluriformes
 - Familia: Loricariidae
-- Género: *Loricariidae*
+- Categoría del taxón: Familia
 
 ## Distribución
 
