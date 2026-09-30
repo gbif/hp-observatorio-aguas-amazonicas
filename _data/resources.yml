@@ -48,6 +48,16 @@ use-guide-cards:
         blankTarget: true
       # img required
       background: /assets/images/icons/icono_api.png
+    - title: Logos del observatorio # required
+      description: |      # required
+        Los logos del Observatorio son la imagen visual de la Alianza y se utilizan en diferentes piezas y medios. Están disponibles en formato PNG.
+      cta:  
+      - text: Descargar logos
+        href: https://drive.google.com/uc?export=download&id=1memM6lfdKve6GY_L_GhH8be83fBl9Ka6
+        isPrimary: true
+        blankTarget: true
+      # img required
+      background: /assets/images/icons/estandar_plic.png
 
 ###################################################
 ### Publicación de datos. Página publishing-guide.md
