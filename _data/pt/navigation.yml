@@ -7,7 +7,7 @@
   - text: Painel de números
     href: /pt/occurrence/search?view=dashboard&layout=table_stateProvince_iucn*taxa.rank-SPECIES_gallery*map.h-500_year_occurrenceSummary_institutionCode
   - text: Mapa da bacia hidrográfica
-    href: /pt/occurrence/search?view=dashboard&layout=map_table
+    href: /pt/occurrence/search?view=dashboard&layout=map_table*higherGeography.v-TABLE
   - text: Fichas de peixes
     href: /pt/taxa/discover
   - text: Conjuntos de dados
