@@ -69,7 +69,8 @@ governance-cards:
       cta:  
       - text: Download policy
         href: /en/resources/use-guide
-        isPrimary: true      
+        isPrimary: true   
+        blankTarget: true      
       # img required
       background: /assets/images/icons/citacion.png
 
@@ -90,7 +91,8 @@ terms-of-use-and-privacy-cards:
       cta:  
       - text: View terms
         href: /en/resources/use-guide
-        isPrimary: true      
+        isPrimary: true 
+        blankTarget: true      
       # img required
       background: /assets/images/icons/citacion.png
     - title: ICTIO system privacy policy # required
@@ -99,7 +101,8 @@ terms-of-use-and-privacy-cards:
       cta:  
       - text: View policy
         href: /en/resources/use-guide
-        isPrimary: true      
+        isPrimary: true 
+        blankTarget: true      
       # img required
       background: /assets/images/icons/uso_privacidad.png
 

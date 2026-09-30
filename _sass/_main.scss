@@ -688,6 +688,11 @@ section.features, section.splitBanner, section.product, section.textBanner
     border-bottom: none;
 }
 
+// CTAs markdown sueltos (párrafo con un solo botón; no aplica al footer)
+p:has(> a.button.is-primary:only-child:not(.footer-cta)) {
+    text-align: center;
+}
+
 // CTA del split (welcome): mismo formato pill
 section.splitBanner {
     a.button {
