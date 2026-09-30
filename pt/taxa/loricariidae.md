@@ -15,7 +15,7 @@ composition:
 # Família Loricariidae
 
 <div class="taxa-figure">
-  <img class="center" src="/assets/images/taxa/Carachama2-e1728417923260.avif" alt="Loricariidae">
+  <img class="center" src="/assets/images/taxa/Carachama2-e1728417923260.jpg" alt="Loricariidae">
   <p class="taxa-figure-license"><em>Pterygoplichthys pardalis</em> sp. - Michael Goulding</p>
 </div>
 

@@ -75,7 +75,7 @@ discover-cards:
         href: /taxa/loricariidae
         isPrimary: true      
       # img required
-      background: /assets/images/taxa/Carachama2-e1728417923260.avif
+      background: /assets/images/taxa/Carachama2-e1728417923260.jpg
       imageLicense: | 
         <em>Pterygoplichthys pardalis</em> sp. - Michael Goulding
     - title: Género <em>Anodus</em> # required
@@ -265,7 +265,7 @@ discover-cards:
         href: /taxa/phractocephalus-hemioliopterus
         isPrimary: true      
       # img required
-      background: /assets/images/taxa/MichaelGoulding_02724-1001-1024x677.avif
+      background: /assets/images/taxa/MichaelGoulding_02724-1001-1024x677.jpg
       imageLicense: | 
         Michael Goulding 
     - title: <em>Piaractus brachypomus</em> # required

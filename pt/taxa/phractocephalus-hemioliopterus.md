@@ -15,7 +15,7 @@ composition:
 # *Phractocephalus hemioliopterus* (Bloch & Schneider, 1801)
 
 <div class="taxa-figure">
-  <img class="center" src="/assets/images/taxa/MichaelGoulding_02724-1001-1024x677.avif" alt="Phractocephalus hemioliopterus">
+  <img class="center" src="/assets/images/taxa/MichaelGoulding_02724-1001-1024x677.jpg" alt="Phractocephalus hemioliopterus">
   <p class="taxa-figure-license">Michael Goulding</p>
 </div>
 
