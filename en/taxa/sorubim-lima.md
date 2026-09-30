@@ -18,6 +18,8 @@ composition:
 
 [Ver registros en el observatorio](/occurrence/search?verbatimScientificName=sorubim+lima){:.button}
 
+[Ver imágenes en el observatorio](/occurrence/search?verbatimScientificName=sorubim+lima&view=gallery){:.button}
+
 ## Nombres comunes
 
 - Español: Bagre, Blanquillo, Cucharita, Cucharón, Cucharo, Paleta

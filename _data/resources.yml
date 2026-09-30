@@ -230,7 +230,7 @@ data-quality-standards-cards:
       cta:
       - text: Más información
         href: https://dwc.tdwg.org/es/
-        isPrimary: true   
+        isPrimary: true      
         blankTarget: true      
       # img required
       background: /assets/images/icons/estandar_dwc.png
