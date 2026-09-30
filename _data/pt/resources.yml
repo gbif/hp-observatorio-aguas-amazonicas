@@ -112,7 +112,8 @@ publishing-guide-files-cards:
       cta:  
       - text: Baixar
         href: https://drive.google.com/uc?export=download&id=120snIlwX_gJrIdVGLe_3ykEluOe0VuHQ
-        isPrimary: true      
+        isPrimary: true
+        blankTarget: true      
       # img required
       background: /assets/images/icons/publicacion_plantilla.png
     - title: Planilha de metadados # required
@@ -122,9 +123,19 @@ publishing-guide-files-cards:
       - text: Baixar
         href: https://drive.google.com/uc?export=download&id=1P0V93LhRofPZXL6aNmyGPmLZ6etn2r3J
         isPrimary: true      
+        blankTarget: true      
       # img required
       background: /assets/images/icons/publicacion_metadatos.png
-
+    - title: Formulário de envio # required
+      description: |      # required
+        Formulário para submeter o conjunto de dados ao sistema ICTIO.
+      cta:  
+      - text: Formulário de envio
+        href: https://forms.gle/zBebu9AxMLkxJ1Gm7
+        isPrimary: true
+        blankTarget: true      
+      # img required
+      background: /assets/images/icons/publicacion_upload.png
 ###################################################
 ### Guia de citação. Página citation.md
 ###################################################
@@ -216,7 +227,8 @@ data-quality-standards-cards:
       cta:
       - text: Mais informações
         href: https://dwc.tdwg.org/
-        isPrimary: true      
+        isPrimary: true
+        blankTarget: true
       # img required
       background: /assets/images/icons/estandar_dwc.png
     - title: Ecological Metadata Language (EML) # required
@@ -225,7 +237,8 @@ data-quality-standards-cards:
       cta:
       - text: Mais informações
         href: https://eml.ecoinformatics.org/
-        isPrimary: true  
+        isPrimary: true
+        blankTarget: true
       background: /assets/images/icons/estandar_eml.png
     - title: Plinian Core (PliC) # required
       description: |      # required
@@ -233,7 +246,8 @@ data-quality-standards-cards:
       cta:
       - text: Mais informações
         href: https://www.tdwg.org/community/species/plinian-core/
-        isPrimary: true  
+        isPrimary: true
+        blankTarget: true
       background: /assets/images/icons/estandar_plic.png
 
 ###################################################
@@ -292,9 +306,10 @@ sensitive-information-cards:
       description: |      # required
         Modelo completo de níveis de acesso, armazenamento e licenciamento, com as transições permitidas entre níveis.   
       cta:
-      - text: Ver
+      - text: Baixar
         href: https://drive.google.com/file/d/1HSJO-xewnXEIf7xCMMok7xXv-e0vmc1K/view
         isPrimary: true  
+        blankTarget: true      
       background: /assets/images/icons/uso_privacidad.png
 
 sensitive-information-howto:
@@ -317,6 +332,7 @@ sensitive-information-howto-cards:
       - text: Baixar
         href: /pt/resources/use-guide
         isPrimary: true  
+        blankTarget: true      
       background: /assets/images/icons/protocolo_p76.png  
 
 ###################################################
@@ -343,6 +359,7 @@ ictio-reports-cards:
       - text: Ver relatórios
         href: https://pt.aguasamazonicas.org/relatorio-ictio
         isPrimary: true  
+        blankTarget: true      
       background: /assets/images/icons/descubre_conjunto_datos.png
 
 ###################################################
@@ -375,7 +392,7 @@ resources-list-intro:
 
     **Guias**
     - [Guia de uso do Observatório](https://drive.google.com/file/d/1gXeb8mTYHLoqznr3ZBVe7QO2Nq0f_1vi/view)
-    - [Guia de estilo visual](https://drive.google.com/file/d/1USW0iMn_wa69sa_x4RaPu0aRquK2CizC/view)
+    - [Guia de identidade visual](https://drive.google.com/file/d/1USW0iMn_wa69sa_x4RaPu0aRquK2CizC/view)
     - [Guia de interoperabilidade](https://drive.google.com/file/d/1DLUyBLAFsUnfi8f6_C6zhdy2FyohZTPM/view)
     - [Guia de citação, atribuição e reconhecimento](https://drive.google.com/file/d/11GLuuW1eJLsD8jIUovcVH1_caOqSD9c7/view)
 
