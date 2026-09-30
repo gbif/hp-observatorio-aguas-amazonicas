@@ -956,7 +956,11 @@ section.splitBanner {
     }
 
     .feature .feature-cta .button.is-primary {
-        @include btn-pill;
+        // Mantiene color primary del tema; solo ajusta forma
+        border-radius: 2rem;
+        padding: 0.65rem 1.5rem;
+        font-weight: 600;
+        font-size: 0.95rem;
     }
 
     // Anula double-width del tema (≥1211px) y variantes 774–1210
