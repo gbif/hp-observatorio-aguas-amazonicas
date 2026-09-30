@@ -533,6 +533,14 @@ $footer-wave-image: url("/assets/images/placeholders/ondas.svg");
     border: 1px solid $search-glass-border;
     box-shadow: 0 8px 32px $search-glass-shadow;
     color: $text-color;
+
+    .searchFilterLabel {
+        margin: 0 0 0.75rem;
+        text-align: center;
+        color: $white-color;
+        font-size: 0.95rem;
+        font-weight: 600;
+    }
 }
 
 .tab {

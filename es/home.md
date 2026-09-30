@@ -8,11 +8,12 @@ description: |
 
   <div class="heroSearchBlock">
     <div class="searchWrapper">
+      <p class="searchFilterLabel">Filtrar por</p>
       <div class="tab">
-        <button type="button" class="tablinks active" onclick="openTab(event, 'searchTab_name')">Todos los campos</button>
-        <button type="button" class="tablinks" onclick="openTab(event, 'searchTab_scientificName')">Nombre científico</button>
+        <button type="button" class="tablinks active" onclick="openTab(event, 'searchTab_scientificName')">Nombre científico</button>
         <button type="button" class="tablinks" onclick="openTab(event, 'searchTab_basin')">Subcuencas</button>
         <button type="button" class="tablinks" onclick="openTab(event, 'searchTab_publisher')">Socios</button>
+        <button type="button" class="tablinks" onclick="openTab(event, 'searchTab_name')">Todos los campos</button>
       </div>
 
       <div id="searchTab_scientificName" class="tabcontent">
@@ -39,7 +40,7 @@ description: |
 
       <div id="searchTab_basin" class="tabcontent">
         <form action="/occurrence/search" method="GET">
-          <input id="basin" name="basin" class="input searchInput" type="text" placeholder="Busca por subcuenca">
+          <input id="basin" name="higherGeography" class="input searchInput" type="text" placeholder="Busca por subcuenca">
           <button type="submit" class="searchSubmit" aria-label="Buscar">
             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
               <path fill="none" d="M0 0h24v24H0z"></path><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
@@ -50,7 +51,7 @@ description: |
 
       <div id="searchTab_publisher" class="tabcontent">
         <form action="/occurrence/search" method="GET">
-          <input id="publisher" name="publisher" class="input searchInput" type="text" placeholder="Busca por socio">
+          <input id="publisher" name="institutionCode" class="input searchInput" type="text" placeholder="Busca por socio">
           <button type="submit" class="searchSubmit" aria-label="Buscar">
             <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
               <path fill="none" d="M0 0h24v24H0z"></path><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path>
