@@ -508,15 +508,34 @@ $footer-wave-image: url("/assets/images/placeholders/ondas.svg");
     font-size: 1.2rem;
 }
 
-// CTA con flecha → (explícito vía klass: button--arrow)
-.button.button--arrow {
+// CTA flecha explore: ícono PNG (solo vía klass: button--arrow)
+.button.button--arrow,
+.feature-cta .button.button--arrow.is-primary {
     display: inline-flex !important;
     justify-content: flex-end !important;
     align-items: center;
     min-width: 10rem;
-    font-size: 1.5rem;
-    font-weight: 700;
+    min-height: 2.75rem;
+    padding-right: 1.25rem;
     line-height: 1;
+    font-size: 0 !important; // oculta el → del YAML (también contra .feature-cta)
+    color: transparent !important;
+
+    &:hover,
+    &:focus,
+    &:focus-visible,
+    &:active {
+        font-size: 0 !important;
+        color: transparent !important;
+    }
+
+    &::after {
+        content: "";
+        display: block;
+        width: 1.75rem;
+        height: 1.75rem;
+        background: url("/assets/images/icons/right-arrow.png") center / contain no-repeat;
+    }
 }
 
 .margin-top-30 {
