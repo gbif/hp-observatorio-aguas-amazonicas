@@ -97,7 +97,7 @@ publishing-guide-share:
     Alliance partner organizations share their data with the ICTIO system through the Technical Secretariat. The process has four steps:
 
     1. Data preparation. The organization fills in the biological records template, which follows the Darwin Core standard, and the metadata template, which describes who generated the data, how, where, when, and under what terms of use.
-    2. Submission through the single channel. Both files are attached via the [Observatory upload mechanism](https://forms.gle/zBebu9AxMLkxJ1Gm7). Each submission corresponds to a single dataset with a single metadata and terms declaration; distinct campaigns or methodologies are submitted separately.
+    2. Submission through the single channel. Both files are attached via the [Observatory upload mechanism](https://forms.gle/zBebu9AxMLkxJ1Gm7){:target="_blank"}. Each submission corresponds to a single dataset with a single metadata and terms declaration; distinct campaigns or methodologies are submitted separately.
     3. Receipt confirmation. The Technical Secretariat acknowledges receipt and checks that the documentation is complete and the structure is valid.
     4. Verification outcome. The contribution may be accepted, accepted with observations, or returned with concrete instructions for correction. Returns are framed as support, not as rejection.
 
@@ -171,7 +171,7 @@ citation-guide-datause:
 
     The Alliance invites notification when articles, reports, maps, visualizations, educational materials, software, or other products based on Observatory data are published. Knowing how the data are used allows the Alliance to return results to the communities and organizations that made them possible.
 
-    Notifications are sent to [observatorio@aguasamazonicas.org](mailto:observatorio@aguasamazonicas.org) with the following information:
+    Notifications are sent to [observatorio@aguasamazonicas.org](mailto:observatorio@aguasamazonicas.org){:target="_blank"} with the following information:
 
     - title, product type, public link, and DOI, if available;
     - authorship, responsible organization, and contact;
@@ -202,14 +202,14 @@ data-quality-intro:
 
     **For those who use the data.** Before analysis, it is advisable to review the dataset metadata and the quality flags GBIF assigns to each record. These flags indicate, for example, names that do not match the taxonomic catalog or inconsistent coordinates, and allow records to be filtered according to the purpose of the analysis.
 
-    - [GBIF data quality requirements](https://www.gbif.org/data-quality-requirements): what is expected of a published occurrence dataset.
-    - [GBIF species name lookup](https://www.gbif.org/tools/species-lookup): checks scientific names against the taxonomic catalog.
+    - [GBIF data quality requirements](https://www.gbif.org/data-quality-requirements){:target="_blank"}: what is expected of a published occurrence dataset.
+    - [GBIF species name lookup](https://www.gbif.org/tools/species-lookup){:target="_blank"}: checks scientific names against the taxonomic catalog.
 
     **For those who generate or publish data.** These free tools help review data before sending them to the Technical Secretariat:
     
-    - [GBIF data validator](https://tools.gbif.org/tools/data-validator): checks Darwin Core structure and detects issues before publishing.
-    - [openRefine](https://openrefine.org/): checks the structure and content of EML files.
-    - [Alliance interoperability guide](https://drive.google.com/file/d/1DLUyBLAFsUnfi8f6_C6zhdy2FyohZTPM/view) (see section 2.2): describes the controls applied to each contribution.
+    - [GBIF data validator](https://tools.gbif.org/tools/data-validator){:target="_blank"}: checks Darwin Core structure and detects issues before publishing.
+    - [openRefine](https://openrefine.org/){:target="_blank"}: checks the structure and content of EML files.
+    - [Alliance interoperability guide](https://drive.google.com/file/d/1DLUyBLAFsUnfi8f6_C6zhdy2FyohZTPM/view){:target="_blank"} (see section 2.2): describes the controls applied to each contribution.
 
     [More quality tools](https://biodiversidad.co/recursos/calidad-de-datos/){:.button .is-primary target="_blank"}
 
@@ -288,7 +288,7 @@ protocols-cards:
 
 protocols-files-link:
   markdownContent: |
-    [View protocols](https://aguasamazonicas.org){:.button .is-primary target="_blank"}
+    [View protocols](/en/unavailable){:.button .is-primary target="_blank"}
 
 ###################################################
 ### Sensitive data access. Page /en/resources/sensitive-information.md
@@ -317,11 +317,11 @@ sensitive-information-howto:
   markdownContent: |
     ## How to access sensitive ICTIO system data?
 
-    When research, a conservation project, or a technical analysis requires more detail than is publicly available, it is possible to request access to level 2, that is, the dataset with record coordinates. Interested people or organizations must send a formal request to the Amazon Waters Alliance Technical Secretariat at [observatorio@aguasamazonicas.org](mailto:observatorio@aguasamazonicas.org), using the [Data sharing agreement](/en/resources/use-guide) form.
+    When research, a conservation project, or a technical analysis requires more detail than is publicly available, it is possible to request access to level 2, that is, the dataset with record coordinates. Interested people or organizations must send a formal request to the Amazon Waters Alliance Technical Secretariat at [observatorio@aguasamazonicas.org](mailto:observatorio@aguasamazonicas.org){:target="_blank"}, using the [Data sharing agreement](/en/unavailable){:target="_blank"} form.
 
     The Technical Secretariat reviews each request together with the data custodian when appropriate. If approved, access is formalized with an agreement that defines purpose, scope, duration, security measures, and redistribution restrictions. If it cannot be approved, the decision is communicated with reasons.
 
-    Accessing level 2 data carries the same recognition commitments as any use of the Observatory, and some additional ones. Before submitting a request, it is recommended to review [section 2.3 of the Citation guide / Data use](https://drive.google.com/file/d/1DLUyBLAFsUnfi8f6_C6zhdy2FyohZTPM/view), which explains how to cite the dataset and its DOI, how to recognize the organizations and communities that generated the information, and how to notify use and reuse of the resulting products.
+    Accessing level 2 data carries the same recognition commitments as any use of the Observatory, and some additional ones. Before submitting a request, it is recommended to review [section 2.3 of the Citation guide / Data use](https://drive.google.com/file/d/1DLUyBLAFsUnfi8f6_C6zhdy2FyohZTPM/view){:target="_blank"}, which explains how to cite the dataset and its DOI, how to recognize the organizations and communities that generated the information, and how to notify use and reuse of the resulting products.
  
 sensitive-information-howto-cards:
   klass: features--explore
@@ -331,7 +331,7 @@ sensitive-information-howto-cards:
         Form to request and formalize access to controlled-access data.   
       cta:
       - text: Download
-        href: /en/resources/usage-guide
+        href: /en/unavailable
         blankTarget: true      
         isPrimary: true  
       background: /assets/images/icons/protocolo_p76.png  
@@ -386,24 +386,24 @@ resources-list-intro:
     This section brings together in one place the Observatory’s policies, guides, templates, and instruments published across the site’s sections, to make them easier to consult and download.
 
     **Policies and terms of use**
-    - [Data ethics and governance policy](/en/resources/usage-guide)
-    - [ICTIO system privacy policy](/en/resources/sensitive-information)
-    - [ICTIO system terms of use](/en/resources/api-access)
-    - [ICTIO system data access levels](https://drive.google.com/file/d/1HSJO-xewnXEIf7xCMMok7xXv-e0vmc1K/view)
+    - [Data ethics and governance policy](/en/unavailable){:target="_blank"}
+    - [ICTIO system privacy policy](/en/unavailable){:target="_blank"}
+    - [ICTIO system terms of use](/en/unavailable){:target="_blank"}
+    - [ICTIO system data access levels](https://drive.google.com/file/d/1HSJO-xewnXEIf7xCMMok7xXv-e0vmc1K/view){:target="_blank"}
 
     **Guides**
-    - [Observatory user guide](https://drive.google.com/file/d/1gXeb8mTYHLoqznr3ZBVe7QO2Nq0f_1vi/view)
-    - [Visual identity guide](https://drive.google.com/file/d/1USW0iMn_wa69sa_x4RaPu0aRquK2CizC/view)
-    - [Interoperability guide](https://drive.google.com/file/d/1DLUyBLAFsUnfi8f6_C6zhdy2FyohZTPM/view)
-    - [Citation, attribution, and recognition guide](https://drive.google.com/file/d/11GLuuW1eJLsD8jIUovcVH1_caOqSD9c7/view)
+    - [Observatory user guide](https://drive.google.com/file/d/1gXeb8mTYHLoqznr3ZBVe7QO2Nq0f_1vi/view){:target="_blank"}
+    - [Visual identity guide](https://drive.google.com/file/d/1USW0iMn_wa69sa_x4RaPu0aRquK2CizC/view){:target="_blank"}
+    - [Interoperability guide](https://drive.google.com/file/d/1DLUyBLAFsUnfi8f6_C6zhdy2FyohZTPM/view){:target="_blank"}
+    - [Citation, attribution, and recognition guide](https://drive.google.com/file/d/11GLuuW1eJLsD8jIUovcVH1_caOqSD9c7/view){:target="_blank"}
 
     **Templates and checklists**
-    - [Biological records template](https://drive.google.com/uc?export=download&id=120snIlwX_gJrIdVGLe_3ykEluOe0VuHQ)
-    - [Metadata template](https://drive.google.com/uc?export=download&id=1P0V93LhRofPZXL6aNmyGPmLZ6etn2r3J)
-    - [Checklist: Integrating data from source initiatives and partner organizations into the ICTIO system](https://drive.google.com/file/d/1QgBNQlGJ3a2Vzufkjw1nxkq3gxVjt98o/view)
+    - [Biological records template](https://drive.google.com/uc?export=download&id=120snIlwX_gJrIdVGLe_3ykEluOe0VuHQ){:target="_blank"}
+    - [Metadata template](https://drive.google.com/uc?export=download&id=1P0V93LhRofPZXL6aNmyGPmLZ6etn2r3J){:target="_blank"}
+    - [Checklist: Integrating data from source initiatives and partner organizations into the ICTIO system](https://drive.google.com/file/d/1QgBNQlGJ3a2Vzufkjw1nxkq3gxVjt98o/view){:target="_blank"}
 
     **Data ethics and governance**
-    - [Data sharing agreement at initiative or organization level](/en/resources/usage-guide)
-    - [Informed consent](/en/resources/sensitive-information)
-    - [Project information sheet](/en/resources/api-access)
-    - [Data management plan](/en/resources/usage-guide)
+    - [Data sharing agreement at initiative or organization level](/en/unavailable){:target="_blank"}
+    - [Informed consent](/en/unavailable){:target="_blank"}
+    - [Project information sheet](/en/unavailable){:target="_blank"}
+    - [Data management plan](/en/unavailable){:target="_blank"}

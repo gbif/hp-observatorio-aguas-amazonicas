@@ -68,7 +68,7 @@ governance-cards:
         Princípios, compromissos e responsabilidades para a gestão da informação da Aliança ao longo de seu ciclo de vida.
       cta:  
       - text: Baixar política
-        href: /pt/resources/usage-guide
+        href: /pt/unavailable
         isPrimary: true 
         blankTarget: true      
       # img required
@@ -90,7 +90,7 @@ terms-of-use-and-privacy-cards:
         Condições para consultar, baixar, reutilizar e atribuir os dados do sistema ICTIO.
       cta:  
       - text: Ver termos
-        href: /pt/resources/usage-guide
+        href: /pt/unavailable
         isPrimary: true 
         blankTarget: true      
       # img required
@@ -100,7 +100,7 @@ terms-of-use-and-privacy-cards:
         Como são tratados e protegidos os dados das pessoas vinculadas à geração e gestão de informação no ICTIO.
       cta:  
       - text: Ver política
-        href: /pt/resources/usage-guide
+        href: /pt/unavailable
         isPrimary: true 
         blankTarget: true      
       # img required
@@ -136,7 +136,7 @@ faq-intro:
 
     ## De onde vem a informação geográfica sobre as bacias?
 
-    A divisão em sub-bacias usada pelo Observatório baseia-se na classificação geográfica desenvolvida pela Aliança Águas Amazônicas. As principais bacias são descritas no [site da Aliança](https://pt.aguasamazonicas.org/bacia).
+    A divisão em sub-bacias usada pelo Observatório baseia-se na classificação geográfica desenvolvida pela Aliança Águas Amazônicas. As principais bacias são descritas no [site da Aliança](https://pt.aguasamazonicas.org/bacia){:target="_blank"}.
 
     ## Os dados do monitoramento participativo são confiáveis?
 
@@ -148,7 +148,7 @@ faq-intro:
 
     ## É possível baixar os dados?
 
-    Sim. Os downloads são feitos por meio do GBIF, com uma [conta gratuita](https://www.gbif.org/user/login). Nas páginas de registros, a opção «Baixar» redireciona para o GBIF.org e mantém os filtros aplicados no Observatório.
+    Sim. Os downloads são feitos por meio do GBIF, com uma [conta gratuita](https://www.gbif.org/user/login){:target="_blank"}. Nas páginas de registros, a opção «Baixar» redireciona para o GBIF.org e mantém os filtros aplicados no Observatório.
 
     ## Como os dados são citados?
 
@@ -156,15 +156,15 @@ faq-intro:
 
     ## É necessário notificar o uso dos dados?
 
-    A Aliança convida a fazê-lo. O link e o DOI do produto são enviados a [observatorio@aguasamazonicas.org](mailto:observatorio@aguasamazonicas.org), o que permite devolver os resultados a quem gerou a informação.
+    A Aliança convida a fazê-lo. O link e o DOI do produto são enviados a [observatorio@aguasamazonicas.org](mailto:observatorio@aguasamazonicas.org){:target="_blank"}, o que permite devolver os resultados a quem gerou a informação.
 
     ## Por que os números dos Relatórios ICTIO não coincidem com os do Observatório?
 
-    Os relatórios têm seu próprio nível de agregação e, em alguns casos, incorporam fontes complementares. Ambos os produtos são válidos e se complementam. Mais detalhes em [Relatórios ICTIO](/pt/resources/ictio-reports).
+    Os relatórios têm seu próprio nível de agregação e, em alguns casos, incorporam fontes complementares. Ambos os produtos são válidos e se complementam. Mais detalhes em [Relatórios ICTIO](/pt/resources/ictio-reports){:target="_blank"}.
 
     ## Como uma organização pode compartilhar dados?
 
-    As organizações parceiras da Aliança preenchem os modelos de registros biológicos e de metadados e os enviam à Secretaria Técnica. O passo a passo está na Guia de publicação. Organizações que não são parceiras e desejam contribuir com dados podem escrever a [observatorio@aguasamazonicas.org](mailto:observatorio@aguasamazonicas.org).
+    As organizações parceiras da Aliança preenchem os modelos de registros biológicos e de metadados e os enviam à Secretaria Técnica. O passo a passo está na Guia de publicação. Organizações que não são parceiras e desejam contribuir com dados podem escrever a [observatorio@aguasamazonicas.org](mailto:observatorio@aguasamazonicas.org){:target="_blank"}.
 
     ## O que são os protocolos P76, P77, P78 e P79?
 
@@ -172,12 +172,12 @@ faq-intro:
 
     ## É possível integrar os dados em outros sistemas?
 
-    Sim, por meio da [API para desenvolvedores](/pt/resources/api-access), que permite consultar os dados publicados de forma automática.
+    Sim, por meio da [API para desenvolvedores](/pt/resources/api-access){:target="_blank"}, que permite consultar os dados publicados de forma automática.
 
     ## Como se reporta um erro ou se faz uma consulta?
 
-    Os relatos e consultas são recebidos em [observatorio@aguasamazonicas.org](mailto:observatorio@aguasamazonicas.org). Cada erro reportado contribui para melhorar a informação.
+    Os relatos e consultas são recebidos em [observatorio@aguasamazonicas.org](mailto:observatorio@aguasamazonicas.org){:target="_blank"}. Cada erro reportado contribui para melhorar a informação.
 
     ## Onde encontrar mais informação sobre a Aliança Águas Amazônicas?
 
-    Em [aguasamazonicas.org](https://pt.aguasamazonicas.org/) apresentam-se sua estratégia, seus programas, seus parceiros e o Programa de Ciência Cidadã.
+    Em [aguasamazonicas.org](https://pt.aguasamazonicas.org/){:target="_blank"} apresentam-se sua estratégia, seus programas, seus parceiros e o Programa de Ciência Cidadã.

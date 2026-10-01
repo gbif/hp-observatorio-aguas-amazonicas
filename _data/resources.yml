@@ -99,7 +99,7 @@ publishing-guide-share:
     Las organizaciones socias de la Alianza comparten sus datos con el sistema ICTIO a través de la Secretaría Técnica. El proceso tiene cuatro momentos:
 
     1. Preparación de los datos. La organización diligencia la plantilla de registros biológicos, que sigue el estándar Darwin Core, y la plantilla de metadatos, que describe quién generó los datos, cómo, dónde, cuándo y bajo qué condiciones de uso.
-    2. Envío por el canal único. Ambos archivos se adjuntan en el [mecanismo de carga del Observatorio](https://forms.gle/zBebu9AxMLkxJ1Gm7). Cada envío corresponde a un solo conjunto de datos con una sola declaración de metadatos y condiciones; las campañas o metodologías distintas se envían por separado.
+    2. Envío por el canal único. Ambos archivos se adjuntan en el [mecanismo de carga del Observatorio](https://forms.gle/zBebu9AxMLkxJ1Gm7){:target="_blank"}. Cada envío corresponde a un solo conjunto de datos con una sola declaración de metadatos y condiciones; las campañas o metodologías distintas se envían por separado.
     3. Confirmación de recepción. La Secretaría Técnica acusa recibo y verifica que la documentación esté completa y que la estructura sea válida.
     4. Resultado de la verificación. El aporte puede ser aceptado, aceptado con observaciones o devuelto con indicaciones concretas para su corrección. Las devoluciones se plantean como apoyo, no como rechazo.
 
@@ -173,7 +173,7 @@ citation-guide-datause:
 
     La Alianza invita a notificar la publicación de artículos, informes, mapas, visualizaciones, materiales educativos, software u otros productos basados en datos del Observatorio. Conocer cómo se usan los datos permite a la Alianza devolver los resultados a las comunidades y organizaciones que los hicieron posibles.
 
-    La notificación se envía a [observatorio@aguasamazonicas.org](mailto:observatorio@aguasamazonicas.org) con la siguiente información:
+    La notificación se envía a [observatorio@aguasamazonicas.org](mailto:observatorio@aguasamazonicas.org){:target="_blank"} con la siguiente información:
 
     - título, tipo de producto, enlace público y DOI, si existe;
     - autoría, organización responsable y contacto;
@@ -204,14 +204,14 @@ data-quality-intro:
 
     **Para quienes usan los datos.** Antes del análisis, es recomendable revisar los metadatos del conjunto y las marcas de calidad que GBIF asigna a cada registro. Estas marcas señalan, por ejemplo, nombres que no coinciden con el catálogo taxonómico o coordenadas inconsistentes, y permiten filtrar los registros según el propósito del análisis.
 
-    - [Requisitos de calidad de datos de GBIF](https://www.gbif.org/es/data-quality-requirements): qué se espera de un conjunto de ocurrencias publicado.
-    - [Buscador de nombres de especies de GBIF](https://www.gbif.org/es/tools/species-lookup): verifica nombres científicos contra el catálogo taxonómico.
+    - [Requisitos de calidad de datos de GBIF](https://www.gbif.org/es/data-quality-requirements){:target="_blank"}: qué se espera de un conjunto de ocurrencias publicado.
+    - [Buscador de nombres de especies de GBIF](https://www.gbif.org/es/tools/species-lookup){:target="_blank"}: verifica nombres científicos contra el catálogo taxonómico.
 
     **Para quienes generan o publican datos.** Estas herramientas libres ayudan a revisar los datos antes de enviarlos a la Secretaría Técnica:
     
-    - [Validador de datos de GBIF](https://tools.gbif.org/es/tools/data-validator): revisa la estructura Darwin Core y detecta problemas antes de publicar.
-    - [openRefine](https://openrefine.org/): verifica la estructura y contenido de los archivos EML.
-    - [Guía de interoperabilidad de la Alianza](https://drive.google.com/file/d/1DLUyBLAFsUnfi8f6_C6zhdy2FyohZTPM/view) (ver sección 2.2): describe los controles que se aplican a cada aporte.
+    - [Validador de datos de GBIF](https://tools.gbif.org/es/tools/data-validator){:target="_blank"}: revisa la estructura Darwin Core y detecta problemas antes de publicar.
+    - [openRefine](https://openrefine.org/){:target="_blank"}: verifica la estructura y contenido de los archivos EML.
+    - [Guía de interoperabilidad de la Alianza](https://drive.google.com/file/d/1DLUyBLAFsUnfi8f6_C6zhdy2FyohZTPM/view){:target="_blank"} (ver sección 2.2): describe los controles que se aplican a cada aporte.
 
     [Más herramientas de calidad](https://biodiversidad.co/recursos/calidad-de-datos/){:.button .is-primary target="_blank"}
 
@@ -290,7 +290,7 @@ protocols-cards:
 
 protocols-files-link:
   markdownContent: |
-    [Ver protocolos](https://drive.google.com/file/d/1HSJO-xewnXEIf7xCMMok7xXv-e0vmc1K/view){:.button .is-primary target="_blank"}
+    [Ver protocolos](/unavailable){:.button .is-primary target="_blank"}
 
 ###################################################
 ### Acceso a datos sensibles. Página sensitive-information.md
@@ -319,11 +319,11 @@ sensitive-information-howto:
   markdownContent: |
     ## ¿Cómo acceder a datos sensibles del sistema ICTIO?
 
-    Cuando una investigación, un proyecto de conservación o un análisis técnico requiere más detalle del disponible públicamente, es posible solicitar acceso al nivel 2, es decir al conjunto de datos con las coordenadas de los registros. Las personas u organizaciones interesadas deben enviar una solicitud formal a la Secretaría Técnica de la Alianza Aguas Amazónicas al correo [observatorio@aguasamazonicas.org](mailto:observatorio@aguasamazonicas.org), usando el formato del [Acuerdo para compartir datos](/resources/usage-guide).
+    Cuando una investigación, un proyecto de conservación o un análisis técnico requiere más detalle del disponible públicamente, es posible solicitar acceso al nivel 2, es decir al conjunto de datos con las coordenadas de los registros. Las personas u organizaciones interesadas deben enviar una solicitud formal a la Secretaría Técnica de la Alianza Aguas Amazónicas al correo [observatorio@aguasamazonicas.org](mailto:observatorio@aguasamazonicas.org){:target="_blank"}, usando el formato del [Acuerdo para compartir datos](/unavailable){:target="_blank"}.
 
     La Secretaría Técnica revisa cada solicitud junto con el custodio de los datos cuando corresponde. Si se aprueba, el acceso se formaliza con un acuerdo que define la finalidad, el alcance, el plazo, las medidas de seguridad y las restricciones de redistribución. Si no puede aprobarse, la decisión se comunica de forma motivada.
 
-    Acceder a datos de nivel 2 conlleva los mismos compromisos de reconocimiento que cualquier uso del Observatorio, y algunos más. Antes de enviar la solicitud, se recomienda revisar la [sección 2.3 de la Guía de citación / Uso de datos](https://drive.google.com/file/d/1DLUyBLAFsUnfi8f6_C6zhdy2FyohZTPM/view), donde se explica cómo citar el conjunto y su DOI, cómo reconocer a las organizaciones y comunidades que generaron la información, y cómo notificar el uso y reúso de los productos obtenidos.
+    Acceder a datos de nivel 2 conlleva los mismos compromisos de reconocimiento que cualquier uso del Observatorio, y algunos más. Antes de enviar la solicitud, se recomienda revisar la [sección 2.3 de la Guía de citación / Uso de datos](https://drive.google.com/file/d/1DLUyBLAFsUnfi8f6_C6zhdy2FyohZTPM/view){:target="_blank"}, donde se explica cómo citar el conjunto y su DOI, cómo reconocer a las organizaciones y comunidades que generaron la información, y cómo notificar el uso y reúso de los productos obtenidos.
  
 sensitive-information-howto-cards:
   klass: features--explore
@@ -333,7 +333,7 @@ sensitive-information-howto-cards:
         Formato para solicitar y formalizar el acceso a datos de acceso controlado.   
       cta:
       - text: Descargar
-        href: /resources/usage-guide
+        href: /unavailable
         isPrimary: true  
         blankTarget: true      
       background: /assets/images/icons/protocolo_p76.png  
@@ -388,24 +388,24 @@ resources-list-intro:
     Esta sección reúne en un solo lugar las políticas, guías, plantillas e instrumentos del Observatorio, publicados en las distintas secciones del sitio, para facilitar su consulta y descarga.
 
     **Políticas y términos de uso**
-    - [Política de ética y gobernanza de datos](/resources/usage-guide)
-    - [Política de privacidad del sistema ICTIO](/resources/sensitive-information)
-    - [Términos de uso del sistema ICTIO](/resources/api-access)
-    - [Niveles de acceso de los datos del sistema ICTIO](https://drive.google.com/file/d/1HSJO-xewnXEIf7xCMMok7xXv-e0vmc1K/view)
+    - [Política de ética y gobernanza de datos](/unavailable){:target="_blank"}
+    - [Política de privacidad del sistema ICTIO](/unavailable){:target="_blank"}
+    - [Términos de uso del sistema ICTIO](/unavailable){:target="_blank"}
+    - [Niveles de acceso de los datos del sistema ICTIO](https://drive.google.com/file/d/1HSJO-xewnXEIf7xCMMok7xXv-e0vmc1K/view){:target="_blank"}
 
     **Guías**
-    - [Guía de uso del Observatorio](https://drive.google.com/file/d/1gXeb8mTYHLoqznr3ZBVe7QO2Nq0f_1vi/view)
-    - [Guía de identidad visual](https://drive.google.com/file/d/1USW0iMn_wa69sa_x4RaPu0aRquK2CizC/view)
-    - [Guía de interoperabilidad](https://drive.google.com/file/d/1DLUyBLAFsUnfi8f6_C6zhdy2FyohZTPM/view)
-    - [Guía de citación, atribución y reconocimiento](https://drive.google.com/file/d/11GLuuW1eJLsD8jIUovcVH1_caOqSD9c7/view)
+    - [Guía de uso del Observatorio](https://drive.google.com/file/d/1gXeb8mTYHLoqznr3ZBVe7QO2Nq0f_1vi/view){:target="_blank"}
+    - [Guía de identidad visual](https://drive.google.com/file/d/1USW0iMn_wa69sa_x4RaPu0aRquK2CizC/view){:target="_blank"}
+    - [Guía de interoperabilidad](https://drive.google.com/file/d/1DLUyBLAFsUnfi8f6_C6zhdy2FyohZTPM/view){:target="_blank"}
+    - [Guía de citación, atribución y reconocimiento](https://drive.google.com/file/d/11GLuuW1eJLsD8jIUovcVH1_caOqSD9c7/view){:target="_blank"}
 
     **Plantillas y listas de chequeo**
-    - [Plantilla de registros biológicos](https://drive.google.com/uc?export=download&id=120snIlwX_gJrIdVGLe_3ykEluOe0VuHQ)
-    - [Plantilla de metadatos](https://drive.google.com/uc?export=download&id=1P0V93LhRofPZXL6aNmyGPmLZ6etn2r3J)
-    - [Lista de chequeo: Integración de datos desde iniciativas de origen y organizaciones socias en el sistema ICTIO](https://drive.google.com/file/d/1QgBNQlGJ3a2Vzufkjw1nxkq3gxVjt98o/view)
+    - [Plantilla de registros biológicos](https://drive.google.com/uc?export=download&id=120snIlwX_gJrIdVGLe_3ykEluOe0VuHQ){:target="_blank"}
+    - [Plantilla de metadatos](https://drive.google.com/uc?export=download&id=1P0V93LhRofPZXL6aNmyGPmLZ6etn2r3J){:target="_blank"}
+    - [Lista de chequeo: Integración de datos desde iniciativas de origen y organizaciones socias en el sistema ICTIO](https://drive.google.com/file/d/1QgBNQlGJ3a2Vzufkjw1nxkq3gxVjt98o/view){:target="_blank"}
 
     **Ética y gobernanza de datos**
-    - [Acuerdo para compartir datos a nivel de iniciativa u organización](/resources/usage-guide)
-    - [Consentimiento informado](/resources/sensitive-information)
-    - [Hoja de información del proyecto](/resources/api-access)
-    - [Plan de gestión de datos](/resources/usage-guide)
+    - [Acuerdo para compartir datos a nivel de iniciativa u organización](/unavailable){:target="_blank"}
+    - [Consentimiento informado](/unavailable){:target="_blank"}
+    - [Hoja de información del proyecto](/unavailable){:target="_blank"}
+    - [Plan de gestión de datos](/unavailable){:target="_blank"}
