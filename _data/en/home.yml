@@ -15,10 +15,11 @@ stats:
       background: /assets/images/icons/stats_publishers_icon.svg
       href: /en/occurrence/search?hasCoordinate=true&view=dashboard&layout=institutionCode.v-TABLE*institutionCode.v-MAP
       blankTarget: false
-    - title: <span data-facet-url="https://api.gbif.org/v1/occurrence/search?datasetKey=4fc99930-4e36-463a-842e-3ecea273cca6&amp;facet=speciesKey&amp;facetLimit=10000&amp;limit=0">89</span>
+    #- title: <span data-facet-url="https://api.gbif.org/v1/occurrence/search?datasetKey=4fc99930-4e36-463a-842e-3ecea273cca6&amp;facet=speciesKey&amp;facetLimit=10000&amp;limit=0">89</span>
+    - title: 90
       description: Registered species
       background: /assets/images/icons/stats_species_icon.svg
-      href: /en/occurrence/search
+      href: /en/occurrence/search?taxonKey=2355577&taxonKey=2408215&taxonKey=5208316&taxonKey=2344519&taxonKey=5204563&taxonKey=5212877&taxonKey=2370240&taxonKey=2370243&taxonKey=2344578&taxonKey=2338830&taxonKey=2338822&taxonKey=2338844&taxonKey=2338818&taxonKey=2338831&taxonKey=2338835&taxonKey=2338837&taxonKey=2353493&taxonKey=2353460&taxonKey=2338711&taxonKey=5208154&taxonKey=5208157&taxonKey=5208147&taxonKey=2353152&taxonKey=2371010&taxonKey=2354949&taxonKey=2354962&taxonKey=5204135&taxonKey=2352207&taxonKey=5208426&taxonKey=2338702&taxonKey=5208365&taxonKey=2352216&taxonKey=2352230&taxonKey=2342499&taxonKey=2352289&taxonKey=2352282&taxonKey=5201977&taxonKey=5201980&taxonKey=5201979&taxonKey=2338858&taxonKey=2338694&taxonKey=2355324&taxonKey=2355376&taxonKey=2343841&taxonKey=2338938&taxonKey=2353434&taxonKey=2353404&taxonKey=2354460&taxonKey=9660952&taxonKey=2352725&taxonKey=7812454&taxonKey=2343905&taxonKey=2354787&taxonKey=2413586&taxonKey=2413584&taxonKey=2338793&taxonKey=2353225&taxonKey=2338806&taxonKey=2338881&taxonKey=2338952&taxonKey=2399821&taxonKey=2338809&taxonKey=2338737&taxonKey=2354972&taxonKey=2354970&taxonKey=2369077&taxonKey=2352160&taxonKey=2355300&taxonKey=2355291&taxonKey=2338673&taxonKey=7879329&taxonKey=2338667&taxonKey=2343967&taxonKey=2339971&taxonKey=2352479&taxonKey=5204138&taxonKey=5208447&taxonKey=5204599&taxonKey=5204583&taxonKey=2352126&taxonKey=2352134&taxonKey=2354124&taxonKey=2354120&taxonKey=2338692&taxonKey=2338684&taxonKey=2338869&taxonKey=2344685&taxonKey=2353244&taxonKey=2353242&taxonKey=2338770
       blankTarget: false
     - title: <span data-facet-url="https://api.gbif.org/v1/occurrence/search?datasetKey=4fc99930-4e36-463a-842e-3ecea273cca6&amp;facet=higherGeography&amp;facetLimit=10000&amp;limit=0">90</span>
       description: Subbasins with records
