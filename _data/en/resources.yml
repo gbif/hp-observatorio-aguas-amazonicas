@@ -31,7 +31,7 @@ use-guide-cards:
         Explains how to navigate the Observatory, use the search tool and filters, explore data dashboards, and download information.
       cta:  
       - text: Download guide
-        href: https://drive.google.com/file/d/1gXeb8mTYHLoqznr3ZBVe7QO2Nq0f_1vi/view
+        href: https://drive.google.com/file/d/1AhU4oc18FqkLmP-fN1FMejRneGalSL0q/view
         isPrimary: true 
         blankTarget: true     
       # img required
@@ -41,7 +41,7 @@ use-guide-cards:
         Brings together guidance for correctly using the Observatory’s visual identity: identifiers, colors, typography, graphic assets, and application criteria across different materials and media.
       cta:  
       - text: Download guide
-        href: https://drive.google.com/file/d/1USW0iMn_wa69sa_x4RaPu0aRquK2CizC/view
+        href: https://drive.google.com/file/d/1T57MHk1vOl0hbC5OYTTq0I7QdgbqXx_o/view
         isPrimary: true 
         blankTarget: true     
       # img required
@@ -392,8 +392,8 @@ resources-list-intro:
     - [ICTIO system data access levels](https://drive.google.com/file/d/1HSJO-xewnXEIf7xCMMok7xXv-e0vmc1K/view){:target="_blank"}
 
     **Guides**
-    - [Observatory user guide](https://drive.google.com/file/d/1gXeb8mTYHLoqznr3ZBVe7QO2Nq0f_1vi/view){:target="_blank"}
-    - [Visual identity guide](https://drive.google.com/file/d/1USW0iMn_wa69sa_x4RaPu0aRquK2CizC/view){:target="_blank"}
+    - [Observatory user guide](https://drive.google.com/file/d/1AhU4oc18FqkLmP-fN1FMejRneGalSL0q/view){:target="_blank"}
+    - [Visual identity guide](https://drive.google.com/file/d/1T57MHk1vOl0hbC5OYTTq0I7QdgbqXx_o/view){:target="_blank"}
     - [Interoperability guide](https://drive.google.com/file/d/1DLUyBLAFsUnfi8f6_C6zhdy2FyohZTPM/view){:target="_blank"}
     - [Citation, attribution, and recognition guide](https://drive.google.com/file/d/11GLuuW1eJLsD8jIUovcVH1_caOqSD9c7/view){:target="_blank"}
 
