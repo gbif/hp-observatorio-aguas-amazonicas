@@ -19,7 +19,7 @@ composition:
   <p class="taxa-figure-license"><em>Semaprochilodus insignis</em> - Michael Goulding</p>
 </div>
 
-[Ver registros en el observatorio](/occurrence/search?verbatimScientificName=semaprochilodus){:.button .button--pill} [Ver imágenes en el observatorio](/occurrence/search?verbatimScientificName=semaprochilodus&view=gallery){:.button .button--pill}
+[Ver registros en el observatorio](/occurrence/search?taxonKey=2352125){:.button .button--pill target="_blank"} [Ver imágenes en el observatorio](/occurrence/search?taxonKey=2352125&view=gallery){:.button .button--pill target="_blank"}
 {:.taxa-actions}
 
 ## Especies

@@ -19,7 +19,7 @@ composition:
   <p class="taxa-figure-license">Michael Goulding</p>
 </div>
 
-[Ver registros no observatório](/pt/occurrence/search?verbatimScientificName=cichla){:.button .button--pill} [Ver imagens no observatório](/pt/occurrence/search?verbatimScientificName=cichla&view=gallery){:.button .button--pill}
+[Ver registros no observatório](/pt/occurrence/search?taxonKey=2369467){:.button .button--pill target="_blank"} [Ver imagens no observatório](/pt/occurrence/search?taxonKey=2369467&view=gallery){:.button .button--pill target="_blank"}
 {:.taxa-actions}
 
 ## Espécies

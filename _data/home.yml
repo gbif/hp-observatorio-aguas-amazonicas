@@ -13,17 +13,17 @@ stats:
     - title: <span data-facet-url="https://api.gbif.org/v1/occurrence/search?datasetKey=4fc99930-4e36-463a-842e-3ecea273cca6&amp;facet=institutionCode&amp;facetLimit=1000&amp;limit=0">17</span>
       description: Organizaciones
       background: /assets/images/icons/stats_publishers_icon.svg
-      href: /occurrence/search?hasCoordinate=true
+      href: /occurrence/search?hasCoordinate=true&view=dashboard&layout=institutionCode.v-TABLE*institutionCode.v-MAP
       blankTarget: false
     - title: <span data-facet-url="https://api.gbif.org/v1/occurrence/search?datasetKey=4fc99930-4e36-463a-842e-3ecea273cca6&amp;facet=speciesKey&amp;facetLimit=10000&amp;limit=0">89</span>
       description: Especies registradas
       background: /assets/images/icons/stats_species_icon.svg
-      href: /dataset/search
+      href: /occurrence/search
       blankTarget: false
     - title: <span data-facet-url="https://api.gbif.org/v1/occurrence/search?datasetKey=4fc99930-4e36-463a-842e-3ecea273cca6&amp;facet=higherGeography&amp;facetLimit=10000&amp;limit=0">90</span>
       description: Subcuencas con registros
       background: /assets/images/icons/stats_basins_icon.svg
-      href: /dataset/search
+      href: /occurrence/search?view=dashboard&layout=map_table*higherGeography.v-TABLE
       blankTarget: false
 
 welcome:

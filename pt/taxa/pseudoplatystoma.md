@@ -19,7 +19,7 @@ composition:
   <p class="taxa-figure-license"><em>Pseudoplatystoma tigrinum</em> - Michael Goulding</p>
 </div>
 
-[Ver registros no observatório](/pt/occurrence/search?verbatimScientificName=pseudoplatystoma){:.button .button--pill} [Ver imagens no observatório](/pt/occurrence/search?verbatimScientificName=pseudoplatystoma&view=gallery){:.button .button--pill}
+[Ver registros no observatório](/pt/occurrence/search?taxonKey=2338658){:.button .button--pill target="_blank"} [Ver imagens no observatório](/pt/occurrence/search?taxonKey=2338658&view=gallery){:.button .button--pill target="_blank"}
 {:.taxa-actions}
 
 ## Espécies

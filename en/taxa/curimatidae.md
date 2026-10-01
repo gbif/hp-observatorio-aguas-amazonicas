@@ -19,7 +19,7 @@ composition:
   <p class="taxa-figure-license"><em>Psectrogaster</em> sp. - Michael Goulding</p>
 </div>
 
-[View records in the observatory](/en/occurrence/search?verbatimScientificName=curimatidae){:.button .button--pill} [View images in the observatory](/en/occurrence/search?verbatimScientificName=curimatidae&view=gallery){:.button .button--pill}
+[View records in the observatory](/en/occurrence/search?taxonKey=7204){:.button .button--pill target="_blank"} [View images in the observatory](/en/occurrence/search?taxonKey=7204&view=gallery){:.button .button--pill target="_blank"}
 {:.taxa-actions}
 
 ## Species

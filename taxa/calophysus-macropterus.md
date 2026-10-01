@@ -19,7 +19,7 @@ composition:
   <p class="taxa-figure-license">Michael Goulding</p>
 </div>
 
-[Ver registros en el observatorio](/occurrence/search?verbatimScientificName=calophysus+macropterus){:.button .button--pill} [Ver imágenes en el observatorio](/occurrence/search?verbatimScientificName=calophysus+macropterus&view=gallery){:.button .button--pill}
+[Ver registros en el observatorio](/occurrence/search?taxonKey=2338711){:.button .button--pill target="_blank"} [Ver imágenes en el observatorio](/occurrence/search?taxonKey=2338711&view=gallery){:.button .button--pill target="_blank"}
 {:.taxa-actions}
 
 ## Nombres comunes

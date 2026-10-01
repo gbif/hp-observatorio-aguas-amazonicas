@@ -19,7 +19,7 @@ composition:
   <p class="taxa-figure-license">Michael Goulding</p>
 </div>
 
-[Ver registros no observatório](/pt/occurrence/search?verbatimScientificName=zungaro+zungaro){:.button .button--pill} [Ver imagens no observatório](/pt/occurrence/search?verbatimScientificName=zungaro+zungaro&view=gallery){:.button .button--pill}
+[Ver registros no observatório](/pt/occurrence/search?taxonKey=2338770){:.button .button--pill target="_blank"} [Ver imagens no observatório](/pt/occurrence/search?taxonKey=2338770&view=gallery){:.button .button--pill target="_blank"}
 {:.taxa-actions}
 
 ## Nomes comuns

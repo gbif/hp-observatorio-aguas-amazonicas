@@ -19,7 +19,7 @@ composition:
   <p class="taxa-figure-license"><em>Triportheus albus</em> - Michael Goulding</p>
 </div>
 
-[Ver registros en el observatorio](/occurrence/search?verbatimScientificName=triportheus){:.button .button--pill} [Ver imágenes en el observatorio](/occurrence/search?verbatimScientificName=triportheus&view=gallery){:.button .button--pill}
+[Ver registros en el observatorio](/occurrence/search?taxonKey=2353238){:.button .button--pill target="_blank"} [Ver imágenes en el observatorio](/occurrence/search?taxonKey=2353238&view=gallery){:.button .button--pill target="_blank"}
 {:.taxa-actions}
 
 ## Especies

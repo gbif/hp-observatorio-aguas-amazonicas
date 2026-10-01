@@ -19,7 +19,7 @@ composition:
   <p class="taxa-figure-license">Sem imagem disponível</p>
 </div>
 
-[Ver registros no observatório](/pt/occurrence/search?verbatimScientificName=salminus){:.button .button--pill} [Ver imagens no observatório](/pt/occurrence/search?verbatimScientificName=salminus&view=gallery){:.button .button--pill}
+[Ver registros no observatório](/pt/occurrence/search?taxonKey=2354767){:.button .button--pill target="_blank"} [Ver imagens no observatório](/pt/occurrence/search?taxonKey=2354767&view=gallery){:.button .button--pill target="_blank"}
 {:.taxa-actions}
 
 ## Espécies

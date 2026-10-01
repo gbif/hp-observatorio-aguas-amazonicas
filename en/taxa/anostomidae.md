@@ -19,7 +19,7 @@ composition:
   <p class="taxa-figure-license">Michael Goulding</p>
 </div>
 
-[View records in the observatory](/en/occurrence/search?verbatimScientificName=anostomidae){:.button .button--pill} [View images in the observatory](/en/occurrence/search?verbatimScientificName=anostomidae&view=gallery){:.button .button--pill}
+[View records in the observatory](/en/occurrence/search?taxonKey=7200){:.button .button--pill target="_blank"} [View images in the observatory](/en/occurrence/search?taxonKey=7200&view=gallery){:.button .button--pill target="_blank"}
 {:.taxa-actions}
 
 ## Species

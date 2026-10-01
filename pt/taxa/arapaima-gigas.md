@@ -19,7 +19,7 @@ composition:
   <p class="taxa-figure-license">Michael Goulding</p>
 </div>
 
-[Ver registros no observatório](/pt/occurrence/search?verbatimScientificName=arapaima+gigas){:.button .button--pill} [Ver imagens no observatório](/pt/occurrence/search?verbatimScientificName=arapaima+gigas&view=gallery){:.button .button--pill}
+[Ver registros no observatório](/pt/occurrence/search?taxonKey=5212877){:.button .button--pill target="_blank"} [Ver imagens no observatório](/pt/occurrence/search?taxonKey=5212877&view=gallery){:.button .button--pill target="_blank"}
 {:.taxa-actions}
 
 ## Nomes comuns

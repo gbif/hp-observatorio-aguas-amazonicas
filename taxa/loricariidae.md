@@ -19,7 +19,7 @@ composition:
   <p class="taxa-figure-license"><em>Pterygoplichthys pardalis</em> sp. - Michael Goulding</p>
 </div>
 
-[Ver registros en el observatorio](/occurrence/search?verbatimScientificName=loricariidae){:.button .button--pill} [Ver imágenes en el observatorio](/occurrence/search?verbatimScientificName=loricariidae&view=gallery){:.button .button--pill}
+[Ver registros en el observatorio](/occurrence/search?taxonKey=5158){:.button .button--pill target="_blank"} [Ver imágenes en el observatorio](/occurrence/search?taxonKey=5158&view=gallery){:.button .button--pill target="_blank"}
 {:.taxa-actions}
 
 ## Especies

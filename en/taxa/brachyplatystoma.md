@@ -19,7 +19,7 @@ composition:
   <p class="taxa-figure-license"><em>Brachyplatystoma rousseauxii</em> - Michael Goulding</p>
 </div>
 
-[View records in the observatory](/en/occurrence/search?verbatimScientificName=brachyplatystoma){:.button .button--pill} [View images in the observatory](/en/occurrence/search?verbatimScientificName=brachyplatystoma&view=gallery){:.button .button--pill}
+[View records in the observatory](/en/occurrence/search?taxonKey=2338817){:.button .button--pill target="_blank"} [View images in the observatory](/en/occurrence/search?taxonKey=2338817&view=gallery){:.button .button--pill target="_blank"}
 {:.taxa-actions}
 
 ## Species

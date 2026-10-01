@@ -19,7 +19,7 @@ composition:
   <p class="taxa-figure-license"><em>Anodus elongatus</em> - Michael Goulding</p>
 </div>
 
-[Ver registros no observatório](/pt/occurrence/search?verbatimScientificName=anodus){:.button .button--pill} [Ver imagens no observatório](/pt/occurrence/search?verbatimScientificName=anodus&view=gallery){:.button .button--pill}
+[Ver registros no observatório](/pt/occurrence/search?taxonKey=2354924){:.button .button--pill target="_blank"} [Ver imagens no observatório](/pt/occurrence/search?taxonKey=2354924&view=gallery){:.button .button--pill target="_blank"}
 {:.taxa-actions}
 
 ## Espécies

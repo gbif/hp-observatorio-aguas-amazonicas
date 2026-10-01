@@ -19,7 +19,7 @@ composition:
   <p class="taxa-figure-license">Sin imagen disponible</p>
 </div>
 
-[Ver registros en el observatorio](/occurrence/search?verbatimScientificName=pimelodus){:.button .button--pill} [Ver imágenes en el observatorio](/occurrence/search?verbatimScientificName=pimelodus&view=gallery){:.button .button--pill}
+[Ver registros en el observatorio](/occurrence/search?taxonKey=2337547){:.button .button--pill target="_blank"} [Ver imágenes en el observatorio](/occurrence/search?taxonKey=2337547&view=gallery){:.button .button--pill target="_blank"}
 {:.taxa-actions}
 
 ## Especies
