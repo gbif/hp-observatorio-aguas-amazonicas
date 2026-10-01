@@ -116,7 +116,7 @@ var siteConfig = {
       "year",
       "recordedBy",
       "institutionCode",
-      "identifiedBy",
+      "higherGeography",
       "datasetKey"
     ],
     "excludedFilters": [
@@ -137,7 +137,7 @@ var siteConfig = {
       "year",
       "recordedBy",
       "institutionCode",
-      "identifiedBy",
+      "higherGeography",
       "datasetKey"
     ],
     "tabs": [
